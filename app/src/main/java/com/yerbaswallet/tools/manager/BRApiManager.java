@@ -203,8 +203,8 @@ public class BRApiManager {
                     JSONObject yerb_usd_obj = (JSONObject) new JSONTokener(yerb_usd_jsonString).nextValue();
                     String name = "US Dollar";
                     String code = "USD";
-                    usdRate = Double.parseDouble(yerb_usd_obj.getString("lastTradeRate"));
-                    btcRate = Double.parseDouble(yerb_btc_obj.getString("lastTradeRate"));
+                    usdRate = Double.parseDouble(yerb_usd_obj.getString("last_price"));
+                    btcRate = Double.parseDouble(yerb_btc_obj.getString("last_price"));
                     yerb_obj.put("code", code);
                     yerb_obj.put("name", name);
                     yerb_obj.put("rate", usdRate);
