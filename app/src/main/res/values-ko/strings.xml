@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <!-- App name -->
+    <!-- About screen blog label -->
+  <string name="About.blog">블로그</string>
+  <!-- About screen footer -->
+  <string name="About.footer">글로벌 YERB 팀 제작. 버전 %1$s</string>
+  <!-- Privay Policy button label -->
+  <string name="About.privacy">개인정보 보호정책</string>
+  <!-- About screen reddit label -->
+  <string name="About.reddit">레딧</string>
+  <!-- Terms of Use button label -->
+    <!-- About screen title -->
+  <string name="About.title">관련 사항</string>
+  <!-- About screen twitter label -->
+  <string name="About.twitter">트위터</string>
+  <!-- Close modal button accessibility label -->
+  <string name="AccessibilityLabels.close">닫기</string>
+  <!-- Support center accessibiliy label -->
+    <!-- Loading Wallet Message -->
+    <!-- Default wallet name -->
+    <!-- Third party keyboard warning -->
+  <string name="Alert.customKeyboard.android">제3자가 제공한 키보드를 사용하고 계신 것 같습니다, 귀하의 입력을 기록하고 귀하의 페이퍼 키가 도난 당할 수 있습니다. 추가적인 보호를 위해 기본 안드로이드 키보드로 전환해 주세요.</string>
+  <!-- Error alert title -->
+  <string name="Alert.error">오류</string>
+  <!-- Keystore error -->
+  <string name="Alert.keystore.generic.android">귀하의 안드로이드 OS 키스토어에 문제가 있습니다, support@yerbas.org로 연락해 주세요</string>
+  <!-- KeyStore error, keys are invalidated -->
+  <string name="Alert.keystore.invalidated.android">귀하의 안드로이드 잠금 화면이 꺼져서 귀하의 암호화 된 데이터가 최근 무효화 되었습니다.</string>
+  <!-- Keystore error title -->
+  <string name="Alert.keystore.title.android">안드로이드 키스토어 오류</string>
+  <!-- No internet alert message -->
+    <!-- Warning alert title -->
+    <!-- 'the addresses were copied'' Alert title -->
+    <!-- Addresses Copied Alert sub header -->
+    <!-- Alert Header Label (the paper key was set) -->
+  <string name="Alerts.paperKeySet">종이 열쇠 준비</string>
+  <!-- Alert Subheader label (playfully positive) -->
+  <string name="Alerts.paperKeySetSubheader">굉장해요!</string>
+  <!-- Alert Header label (the PIN was set) -->
+  <string name="Alerts.pinSet">PIN 준비</string>
+  <!-- Send failure alert header label (the send failed to happen) -->
+  <string name="Alerts.sendFailure">보내기 실패함</string>
+  <!-- Send success alert header label (confirmation that the send happened) -->
+  <string name="Alerts.sendSuccess">보내기 확인</string>
+  <!-- Send success alert subheader label (e.g. the money was sent) -->
+  <string name="Alerts.sendSuccessSubheader">돈을 보냈어요!</string>
+  <!-- Fingerprint was recognized by the scanner -->
+  <string name="Alerts.touchIdSucceeded.android">지문 인식됨</string>
+  <!-- JSON Serialization error message -->
+    <!-- Wallet not ready error message -->
+    <!-- API Token error message -->
+    <!-- Approve button label -->
+    <!-- <sitename> is requesting authentication using your bitcoin wallet -->
+    <!-- Deny button label -->
+    <!-- BitID error alert title -->
+    <!-- BitID error alert messaage (The payment service you are trying to use isn't working. Please contact them, as you may need to try again) -->
+    <!-- BitID success alert title -->
+    <!-- BitID Authentication Request alert view title -->
+    <!-- Cancel button label -->
+  <string name="Button.cancel">취소</string>
+  <!-- Ignore button label -->
+    <!-- menu button -->
+    <!-- No button -->
+    <!-- OK button label -->
+  <string name="Button.ok">오케이</string>
+  <!-- receive button -->
+    <!-- send button -->
+    <!-- Settings button label -->
+    <!-- Settings button label -->
+  <string name="Button.submit">전송</string>
+  <!-- Yes button -->
+    <!-- Camera plugin instruction -->
+    <!-- Amount to Send: ($1.00) -->
+  <string name="Confirmation.amountLabel">보낼 금액:</string>
+  <!-- Network Fee: ($1.00) -->
+  <string name="Confirmation.feeLabel">네트워크 수수료:</string>
+  <!-- eg. Processing time: This transaction is predicted to complete in [10-60 minutes]. -->
+    <!-- Label for "send" button on final confirmation screen -->
+    <!-- Confirmation Screen title -->
+    <!-- To: (address) -->
+    <!-- Total Cost: ($5.00) -->
+  <string name="Confirmation.totalLabel">총 금액:</string>
+  <!-- Confirm paper phrase view label. -->
+  <string name="ConfirmPaperPhrase.label">모든 것이 정확하게 적혀 있는지 확인하기 위해, 귀하의 종이 열쇠로부터 다음의 단어들을 입력해 주세요.</string>
+  <!-- Word label eg. Word #1, Word #2 -->
+  <string name="ConfirmPaperPhrase.word">단어 #%1$s</string>
+  <!-- Bitcoin denomination picker label -->
+  <string name="DefaultCurrency.bitcoinLabel">Bitcoin Display Unit</string>
+  <!-- Exchange rate label -->
+  <string name="DefaultCurrency.rateLabel">환율</string>
+  <!-- Email unavailable alert title -->
+    <!-- Email unavailable alert title -->
+    <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
+  <string name="ErrorMessages.loopingLockScreen.android">현재 이용 중인 안드로이드 버전의 버그로 인해 YERB가 인증될 수 없습니다. [Please tap here for more information.]</string>
+  <!-- Messaging unavailable alert title -->
+    <!-- Messaging unavailable alert title -->
+    <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
+  <string name="ErrorMessages.touchIdFailed.android">지문 인식되지 않음. 다시 시도해 주세요.</string>
+  <!-- Economy fee -->
+  <string name="FeeSelector.economy">경제</string>
+  <!-- E.g. [This transaction is predicted to complete in] 1-24 hours -->
+  <string name="FeeSelector.economyTime">1~24시간</string>
+  <!-- Warning message for economy fee -->
+  <string name="FeeSelector.economyWarning">이 옵션은 시간에 민감한 거래에는 추천하지 않습니다.</string>
+  <!-- E.g. Estimated delivery: 10-60 minutes -->
+  <string name="FeeSelector.estimatedDeliver">예상 배송 시간: %1$s</string>
+  <!-- Regular fee -->
+  <string name="FeeSelector.regular">일반</string>
+  <!-- E.g. [This transaction is predicted to complete in] 10-60 minutes -->
+  <string name="FeeSelector.regularTime">10~60분</string>
+  <!-- Fee Selector title -->
+  <string name="FeeSelector.title">처리 속도</string>
+  <!-- Checking private key balance progress view text -->
+  <string name="Import.checking">개인 열쇠 잔고 확인 중...</string>
+  <!-- Sweep private key confirmation message -->
+  <string name="Import.confirm">이 개인 열쇠로부터 귀하의 지갑으로 %1$s 를 보낼까요? 비트코인 네트워크가 %2$s의 수수료를 받게 됩니다.</string>
+  <!-- Duplicate key error message -->
+    <!-- empty private key error message -->
+  <string name="Import.Error.empty">이 개인 열쇠는 비어 있습니다.</string>
+  <!-- High fees error message -->
+    <!-- Not a valid private key error message -->
+  <string name="Import.Error.notValid">유효하지 않은 개인 열쇠입니다</string>
+  <!-- Import signing error message -->
+    <!-- Import button label -->
+    <!-- Importing wallet progress view label -->
+    <!-- Caption for graphics -->
+    <!-- Import wallet intro screen message -->
+  <string name="Import.message">지갑 불러오기는 단일 거래를 사용하여 귀하의 다른 지갑으로부터 귀하의 YERB 지갑으로 모든 돈을 송금합니다.</string>
+  <!-- Enter password alert view title -->
+  <string name="Import.password">이 개인 열쇠는 비밀번호로 보호됩니다.</string>
+  <!-- password textfield placeholder -->
+    <!-- Caption for graphics -->
+    <!-- Scan Private key button label -->
+  <string name="Import.scan">개인 열쇠 스캔</string>
+  <!-- Import wallet success alert title -->
+    <!-- Successfully imported wallet message body -->
+    <!-- Import Wallet screen title -->
+    <!-- Unlocking Private key activity view message. -->
+    <!-- Import wallet intro warning message -->
+  <string name="Import.warning">지갑 불러오기는 거래 기록 혹은 다른 세부사항을 포함하지 않습니다.</string>
+  <!-- Wrong password alert message -->
+    <!-- Close app button -->
+  <string name="JailbreakWarnings.close">닫기</string>
+  <!-- Ignore jailbreak warning button -->
+  <string name="JailbreakWarnings.ignore">무시</string>
+  <!-- Jailbreak warning message -->
+    <!-- Jailbreak warning message -->
+    <!-- Jailbreak warning title -->
+  <string name="JailbreakWarnings.title">경고</string>
+  <!-- Wipe wallet button -->
+    <!-- Location services disabled error -->
+    <!-- No permissions for location services -->
+    <!-- Wallet creation date prefix -->
+    <!-- Manage wallet description text -->
+    <!-- Change Wallet name textfield label -->
+    <!-- Manage wallet modal title -->
+    <!-- Buy bitcoin title -->
+    <!-- Menu button title -->
+  <string name="MenuButton.lock">지갑 잠그기</string>
+  <!-- Menu button title -->
+  <string name="MenuButton.security">보안 센터</string>
+  <!-- Menu button title -->
+  <string name="MenuButton.settings">설정</string>
+  <!-- Menu button title -->
+  <string name="MenuButton.support">고객지원</string>
+  <!-- button label -->
+  <string name="MenuViewController.createButton">새 지갑 만들기</string>
+  <!-- Menu modal title -->
+  <string name="MenuViewController.modalTitle">메뉴</string>
+  <!-- button label -->
+  <string name="MenuViewController.recoverButton">지갑 복구하기</string>
+  <!-- Switch to automatic mode button label -->
+  <string name="NodeSelector.automaticButton">자동 모드로 전환</string>
+  <!-- Node is connected label -->
+  <string name="NodeSelector.connected">연결됨</string>
+  <!-- Enter node ip address view body -->
+  <string name="NodeSelector.enterBody">노드 IP 주소와 포트를 입력하십시오(선택)</string>
+  <!-- Enter Node ip address view title -->
+  <string name="NodeSelector.enterTitle">노드를 입력하십시오</string>
+  <!-- Switch to manual mode button label -->
+  <string name="NodeSelector.manualButton">수동 모드로 전환</string>
+  <!-- Node address label -->
+  <string name="NodeSelector.nodeLabel">현재 주요 모드</string>
+  <!-- Node is not connected label -->
+  <string name="NodeSelector.notConnected">연결되지 않음</string>
+  <!-- Node status label -->
+  <string name="NodeSelector.statusLabel">노드 연결 상태</string>
+  <!-- Node Selector view title -->
+  <string name="YerbNodeSelector.title">비트코인 노드</string>
+  <!-- Bad Payment request alert title -->
+  <string name="PaymentProtocol.Errors.badPaymentRequest">틀린 결제 요청</string>
+  <!-- Error opening payment protocol file message -->
+  <string name="PaymentProtocol.Errors.corruptedDocument">지원되지 않거나 망가진 문서</string>
+  <!-- Missing certificate payment protocol error message -->
+    <!-- Request expired payment protocol error message -->
+  <string name="PaymentProtocol.Errors.requestExpired">요청 만료됨</string>
+  <!-- Payment too small alert title -->
+    <!-- Amount too small error message -->
+  <string name="PaymentProtocol.Errors.smallPayment">비트코인 결제는 %1$s 보다 작을 수 없습니다.</string>
+  <!-- Output too small error message. -->
+  <string name="PaymentProtocol.Errors.smallTransaction">비트코인 거래 출력들은 %1$s보다 작을 수 없습니다.</string>
+  <!-- Unsupported signature type payment protocol error message -->
+    <!-- Untrusted certificate payment protocol error message -->
+  <string name="PaymentProtocol.Errors.untrustedCertificate">신용할 수 없는 증명서</string>
+  <!-- No passcode set warning body -->
+    <!-- No Passcode set warning title -->
+    <!-- Instruction how to enable device encryption -->
+  <string name="Prompts.NoScreenLock.body.android">귀하의 지갑을 보호하시려면 장치 화면 잠금이 필요합니다. 계속하시려면 \"설정\" &gt; \"보안\" &gt; \"화면 잠금\"가셔서 켜 주세요.</string>
+  <!-- Device encryption prompt title -->
+    <!-- Warning about paper key. -->
+  <string name="Prompts.PaperKey.body">귀하의 종이 열쇠는 귀하의 핸드폰일 잃어버리거나 바꿀 경우에 대비해 저장되어야만 합니다. 계속하시려면 여기를 탭 하세요.</string>
+  <!-- An action is required (You must do this action). -->
+  <string name="Prompts.PaperKey.title">조치 필요함</string>
+  <!-- Transaction rejected prompt body -->
+  <string name="Prompts.RecommendRescan.body">귀하의 지갑이 동기화 되어 있지 않을 수 있습니다. 블록체인을 재스캔하면 대부분 고쳐집니다.</string>
+  <!-- Transaction rejected prompt title -->
+  <string name="Prompts.RecommendRescan.title">거래 거절됨</string>
+  <!-- Share data prompt body -->
+  <string name="Prompts.ShareData.body">YERB가 발전할 수 있도록 익명 데이터를 공유해주십시오</string>
+  <!-- Share data prompt title -->
+  <string name="Prompts.ShareData.title">익명 데이터 공유</string>
+  <!-- Enable touch ID prompt body -->
+    <!-- Enable Fingerprint prompt body -->
+  <string name="Prompts.TouchId.body.android">지문 본인확인을 켜시려면 여기를 탭 하세요</string>
+  <!-- Enable touch ID prompt title -->
+    <!-- Enable Fingerprint prompt title -->
+  <string name="Prompts.TouchId.title.android">지문 본인확인 켜기</string>
+  <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
+  <string name="Prompts.TouchId.usePin.android">PIN</string>
+  <!-- Upgrade PIN prompt body. -->
+  <string name="Prompts.UpgradePin.body">6자리 PIN을 사용하도록 브레드가 업그레이드되었습니다. 업그레이드하려면 여기를 탭하세요.</string>
+  <!-- Upgrade PIN prompt title. -->
+  <string name="Prompts.UpgradePin.title">PIN 업그레이드</string>
+  <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
+  <string name="PushNotifications.body">알림을 켜두시면, 향후 브레드의 특별 메시지를 수신할 수 있습니다.</string>
+  <!-- Push notifications toggle switch label -->
+  <string name="PushNotifications.label">푸시 알림</string>
+  <!-- Push notifications are off label -->
+    <!-- Push notifications are on label -->
+    <!-- Push notifications settings view title label -->
+  <string name="PushNotifications.title">알림</string>
+  <!-- Address copied message. -->
+  <string name="Receive.copied">클립보드에 복사되었습니다.</string>
+  <!-- Share via email button label -->
+  <string name="Receive.emailButton">이메일</string>
+  <!-- Request button label -->
+  <string name="Receive.request">금액 요청</string>
+  <!-- Share button label -->
+  <string name="Receive.share">공유</string>
+  <!-- Share via text message (SMS) -->
+  <string name="Receive.textButton">문자 메시지</string>
+  <!-- Receive modal title -->
+  <string name="Receive.title">수신</string>
+  <!-- Done button text -->
+  <string name="RecoverWallet.done">완료</string>
+  <!-- Recover wallet header -->
+  <string name="RecoverWallet.header">지갑 복구하기</string>
+  <!-- Reset PIN with paper key: header -->
+  <string name="RecoverWallet.header_reset_pin">PIN 재설정</string>
+  <!-- Enter paper key instruction -->
+  <string name="RecoverWallet.instruction">페이퍼 키 입력</string>
+  <!-- Recover wallet intro -->
+  <string name="RecoverWallet.intro">페이퍼 키를 사용해 브레드를 복구해 주세요.</string>
+  <!-- Invalid paper key message -->
+  <string name="RecoverWallet.invalid">올바르지 않은 페이퍼 키를 입력하셨습니다. 각 단어를 재확인한 후 다시 시도해 주세요.</string>
+  <!-- Previous button accessibility label -->
+    <!-- Next button label -->
+  <string name="RecoverWallet.next">다음</string>
+  <!-- Reset PIN with paper key: more information button. -->
+    <!-- Next button accessibility label -->
+    <!-- Recover wallet sub-header -->
+  <string name="RecoverWallet.subheader">복구하려는 지갑의 페이퍼 키를 입력해 주세요.</string>
+  <!-- Reset PIN with paper key: sub-header -->
+  <string name="RecoverWallet.subheader_reset_pin">PIN을 재설정하려면, 페이퍼 키의 단어들을 아래 상자에 입력해 주세요.</string>
+  <!-- No amount entered error message. -->
+    <!-- Request a specific amount of bitcoin -->
+    <!-- Alert action button label -->
+  <string name="ReScan.alertAction">동기화</string>
+  <!-- Alert message body -->
+    <!-- Alert message title -->
+  <string name="ReScan.alertTitle">블록체인과 동기화하겠습니까?</string>
+  <!-- extimated time -->
+  <string name="ReScan.body1">20-45분</string>
+  <!-- Syncing explanation -->
+  <string name="ReScan.body2">거래가 비트코인 네트워크에는 완료된 것으로 표시되지만, 브레드에는 표시되지 않는 경우.</string>
+  <!-- Syncing explanation -->
+  <string name="ReScan.body3">거래가 거절되었음을 알리는 오류 메시지가 반복적으로 나타납니다.</string>
+  <!-- Start Sync button label -->
+  <string name="ReScan.buttonTitle">동기화 시작</string>
+  <!-- Sync blockchain view footer -->
+  <string name="ReScan.footer">블록체인과 동기화하는 동안에는 송금할 수 없습니다.</string>
+  <!-- Sync Blockchain view header -->
+    <!-- Subheader label -->
+  <string name="ReScan.subheader1">예상 시간</string>
+  <!-- Subheader label -->
+  <string name="ReScan.subheader2">동기화는 언제 해야 합니까?</string>
+  <!-- Scan bitcoin address camera flash toggle -->
+    <!-- Complete filter label -->
+  <string name="Search.complete">완료</string>
+  <!-- Pending filter label -->
+  <string name="Search.pending">대기 중</string>
+  <!-- Received filter label -->
+  <string name="Search.received">수신</string>
+  <!-- Sent filter label -->
+  <string name="Search.sent">송금</string>
+  <!-- Security Center Info -->
+  <string name="SecurityCenter.info">최대한의 보호를 위해 모든 보안 기능을 사용하시기 바랍니다.</string>
+  <!-- Paper Key button description -->
+  <string name="SecurityCenter.paperKeyDescription">전화를 분실하거나 업그레이드하는 경우, 비트코인에 액세스할 수 있는 유일한 방법입니다.</string>
+  <!-- Paper Key button title -->
+  <string name="SecurityCenter.paperKeyTitle">페이퍼 키</string>
+  <!-- PIN button description -->
+  <string name="SecurityCenter.pinDescription">허가받지 않은 사용자로부터 브레드를 보호하세요.</string>
+  <!-- PIN button title -->
+  <string name="SecurityCenter.pinTitle">6자리 PIN</string>
+  <!-- Security Center Title -->
+  <string name="SecurityCenter.title">보안 센터</string>
+  <!-- Touch ID button description -->
+  <string name="SecurityCenter.touchIdDescription">편리하게 브레드의 잠금을 해제하고 최대한도까지 송금해 보세요.</string>
+  <!-- Touch ID button title -->
+    <!-- Security center fingerprint authentication button -->
+  <string name="SecurityCenter.touchIdTitle.android">지문 본인확인</string>
+  <!-- Send money amount label -->
+  <string name="Send.amountLabel">금액</string>
+  <!-- Balance: $4.00 -->
+  <string name="Send.balance">잔액: %1$s</string>
+  <!-- Instructions how to allow the camera access for the app -->
+  <string name="Send.cameraUnavailabeMessage.android">\"설정\" &gt; \"앱\" &gt; \"YERB\" &gt; \"허용\"에서 카메라 접속을 허용해 주세요</string>
+  <!-- Permission required to access camera -->
+  <string name="Send.cameraUnavailabeTitle.android">YERB의 카메라 접속이 허용되지 않았습니다</string>
+  <!-- Camera not allowed message -->
+    <!-- Camera not allowed alert title -->
+    <!-- Warning when sending to self. -->
+  <string name="Send.containsAddress">여러분의 주소를 입력해 주세요. 본인에게 전송할 수 없습니다.</string>
+  <!-- Could not create transaction alert title -->
+    <!-- Description for sending money label -->
+    <!-- Emtpy pasteboard error message -->
+  <string name="Send.emptyPasteboard">클립보드가 비어 있습니다</string>
+  <!-- Network Fee: $0.01 -->
+  <string name="Send.fee">네트워크 비용: %1$s</string>
+  <!-- Payee identity not certified alert title. -->
+    <!-- Invalid address alert message -->
+  <string name="Send.invalidAddressMessage">해당 수취인 주소는 비트코인에서 유효하지 않은 주소입니다.</string>
+  <!-- Invalid address on pasteboard message -->
+    <!-- Invalid address alert title -->
+  <string name="Send.invalidAddressTitle">유효하지 않은 주소입니다</string>
+  <!-- Is rescanning error message -->
+  <string name="Send.isRescanning">전체 재검색 중에는 송금이 비활성화됩니다.</string>
+  <!-- We are loading the request (now) -->
+    <!-- Empty address alert message -->
+  <string name="Send.noAddress">수신인의 주소를 입력하세요.</string>
+  <!-- Emtpy amount alert message -->
+    <!-- Paste button label -->
+    <!-- Could not publish transaction alert title -->
+    <!-- Could not load remote request error message -->
+  <string name="Send.remoteRequestError">결제 요청을 불러올 수 없었습니다</string>
+  <!-- Scan button label -->
+    <!-- Send button label (the action, "press here to send") -->
+  <string name="Send.sendLabel">보내기</string>
+  <!-- Send screen title (as in "this is the screen for sending money") -->
+  <string name="Send.title">보내기</string>
+  <!-- Send money to label -->
+  <string name="Send.toLabel">수취인</string>
+  <!-- Adress already used alert message - first part -->
+    <!-- Adress already used alert message - second part -->
+  <string name="Send.UsedAddress.secondLIne">주소를 재사용할 경우 귀하와 받는 사람 모두의 개인 정보 보호가 약해지며, 받는 사람이 직접 주소를 관리하지 않을 경우 분실을 초래할 수 있습니다.</string>
+  <!-- Adress already used alert title -->
+    <!-- About label -->
+    <!-- Advanced Settings title -->
+  <string name="Settings.advancedTitle">고급 설정</string>
+  <!-- i.e. the currency which will be displayed -->
+  <string name="Settings.currency">통화 보기</string>
+  <!-- Join Early access label -->
+    <!-- Are you enjoying bread alert message body -->
+    <!-- Import wallet label -->
+  <string name="Settings.importTitle">지갑 내보내기</string>
+  <!-- Manage settings section header -->
+    <!-- Notifications label -->
+    <!-- Leave review button label -->
+  <string name="Settings.review">후기를 남겨주세요</string>
+  <!-- Share anonymous data label -->
+  <string name="Settings.shareData">익명 데이터 공유</string>
+  <!-- Sync blockchain label -->
+  <string name="Settings.sync">블록체인 동기화</string>
+  <!-- Settings title -->
+    <!-- Touch ID spending limit label -->
+    <!-- The fingerprint spending limit -->
+    <!-- Wallet Settings section header -->
+  <string name="Settings.wallet">지갑</string>
+  <!-- Start or recover another wallet menu label. -->
+  <string name="Settings.wipe">다른 월렛을 시작/복원</string>
+  <!-- Share data view body -->
+  <string name="ShareData.body">브레드 기능 향상을 위해 여러분의 익명 데이터를 공유해 주세요. 금융 정보는 포함되지 않습니다. 여러분의 금융 관련 개인정보는 안전하게 보호됩니다.</string>
+  <!-- Share data header -->
+  <string name="ShareData.header">데이터를 공유하시겠습니까?</string>
+  <!-- Share data switch label. -->
+  <string name="ShareData.toggleLabel">익명 데이터를 공유하시겠습니까?</string>
+  <!-- button label -->
+    <!-- Paper key explanation text. -->
+  <string name="StartPaperPhrase.body">페이퍼 키는 핸드폰을 분실하거나, 도난당하거나, 망가지거나, 업그레이드한 경우 브레드를 다시 살릴 수 있는 유일한 방법입니다.\n\n저희가 제시하는 단어 목록을 잘 적어서 안전하게 보관해 주세요.</string>
+  <!-- button label -->
+  <string name="StartPaperPhrase.buttonTitle">페이퍼 키 작성하기</string>
+  <!-- Argument is date -->
+    <!-- Start view message -->
+  <string name="StartViewController.message">비트코인을 사용하는 가장 안정되고 안전한 방법.</string>
+  <!-- Syncing view connectiong state header text -->
+    <!-- Syncing view header text -->
+    <!-- Retry button label -->
+    <!-- Syncing view syncing state header text -->
+    <!-- 6 d (6 days) -->
+    <!-- 6 h (6 hours) -->
+    <!-- 6 m (6 minutes) -->
+    <!-- 6 s (6 seconds) -->
+    <!-- You can customize your Touch ID Spending Limit from the [TouchIdSettings.linkText gets added here as a button] -->
+    <!-- Fingerprint enabling description body -->
+  <string name="TouchIdSettings.customizeText.android">지문 본인확인 시간 제한 화면에서 귀하의 지문 본인확인 사용 한계를 설정하실 수 있습니다</string>
+  <!-- Instruction for the fingerprint setup -->
+  <string name="TouchIdSettings.disabledWarning.body.android">귀하께서는 이 장치에 지문 본인확인 기능을 켜지 않으셨습니다. 설정 -&gt; 보안으로 가셔서 지문 본인확인을 설정하세요.</string>
+  <!-- Fingerprint Is Not Setup -->
+  <string name="TouchIdSettings.disabledWarning.title.android">지문 본인확인이 켜지지 않음</string>
+  <!-- Touch Id screen label -->
+  <string name="TouchIdSettings.label">지문을 사용하여 브레드의 보안을 해제하고 설정된 금액으로 송금할 수 있습니다.</string>
+  <!-- Link Text (see TouchIdSettings.customizeText) -->
+    <!-- Spending Limit: b100,000 ($100) -->
+  <string name="TouchIdSettings.spendingLimit">지불 한도: %1$s (%2$s)</string>
+  <!-- Touch id switch label. -->
+    <!-- Enable fingerprint for this wallet called YERB -->
+  <string name="TouchIdSettings.switchLabel.android">지문 본인확인 켜기</string>
+  <!-- Touch ID settings view title -->
+    <!-- Fingerprint authentication label -->
+  <string name="TouchIdSettings.title.android">지문 본인확인</string>
+  <!-- Touch ID unavailable alert message -->
+    <!-- Touch ID unavailable alert title -->
+    <!-- Always require passcode option -->
+  <string name="TouchIdSpendingLimit">항상 비밀번호 요구</string>
+  <!-- Touch ID spending limit screen body -->
+  <string name="TouchIdSpendingLimit.body">지출 한도를 넘는 트랜잭션을 보내실 경우, 그리고 마지막으로 6자리 PIN 코드를 입력하시고 48시간이 경과한 경우에는 6자리 PIN 코드를 입력하셔야 합니다.</string>
+  <!-- Touch Id spending limit screen title -->
+    <!-- name of spending limit when using fingerprint authorization -->
+  <string name="TouchIdSpendingLimit.title.android">지문 본인확인 사용 한계</string>
+  <!-- Availability status text -->
+    <!-- Transaction complete label -->
+    <!-- eg. Ending balance: $50.00 -->
+    <!-- Exchange rate on date header -->
+    <!-- Exchange rate on date header -->
+    <!-- (b600 fee) -->
+    <!-- Invalid transaction -->
+    <!-- Timestamp label for event that just happened -->
+    <!-- Receive status text: 'In progress: 20%' -->
+    <!-- Send status text: 'In progress: 20%' -->
+    <!-- eg. Starting balance: $50.00 -->
+    <!-- Waiting to be confirmed string -->
+    <!-- e.g. I received money from an account. -->
+    <!-- Amount section header -->
+    <!-- Block height label -->
+    <!-- Memo section header -->
+    <!-- Empty transaction list message. -->
+    <!-- "Received [$5] at [which of my addresses]" => This is the "at [which of my addresses]" part. -->
+    <!-- More button title -->
+    <!-- Moved $5.00 (as in "I moved $5 to another location") -->
+    <!-- Moved $5.00 -->
+    <!-- eg. Confirmed in Block: Not Confirmed -->
+    <!-- "Received [$5] at [which of my addresses]" => This is the "Received [$5]" part. -->
+  <string name="TransactionDetails.received">%1$s 받음</string>
+  <!-- Received $5.00 -->
+    <!-- "Sent [$5] to [address]" => This is the "Sent [$5]" part. -->
+    <!-- Sent $5.00 -->
+    <!-- Status section header -->
+    <!-- Transaction Details Title -->
+    <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
+    <!-- Transaction ID header -->
+    <!-- (this transaction was) Received at this address: -->
+    <!-- (this transaction was) Sent to this address: -->
+    <!-- Disabled until date -->
+    <!-- My Address button title -->
+  <string name="UnlockScreen.myAddress">내 주소</string>
+  <!-- Reset PIN with Paper Key button label. -->
+  <string name="UnlockScreen.resetPin">PIN 재설정</string>
+  <!-- Scan button title -->
+  <string name="UnlockScreen.scan">스캔</string>
+  <!-- Unlock Screen sub-header -->
+  <string name="UnlockScreen.subheader">PIN 입력</string>
+  <!-- Instruction to touch the sensor for fingerprint authentication -->
+  <string name="UnlockScreen.touchIdInstructions.android">터치 센서</string>
+  <!-- TouchID prompt text -->
+    <!-- Device authentication body -->
+  <string name="UnlockScreen.touchIdPrompt.android">계속하시려면 귀하의 안드로이드 장치 잠금을 해제해 주세요.</string>
+  <!-- Unlock with TouchID accessibility label -->
+    <!-- Device authentication title -->
+  <string name="UnlockScreen.touchIdTitle.android">본인확인 필요</string>
+  <!-- Wallet unlocked message -->
+  <string name="UnlockScreen.unlocked">월렛의 잠금이 해제됨</string>
+  <!-- Update PIN caption text -->
+  <string name="UpdatePin.caption">이 PIN 코드를 기억하세요. PIN 코드를 잊어버리면 자신의 비트코인을 사용할 수 없게 됩니다.</string>
+  <!-- PIN creation info. -->
+  <string name="UpdatePin.createInstruction">귀하의 PIN 코드는 YERB의 잠금을 해제하고 돈을 송금하는 데 사용됩니다.</string>
+  <!-- Update PIN title -->
+  <string name="UpdatePin.createTitle">PIN 설정</string>
+  <!-- Update PIN title -->
+  <string name="UpdatePin.createTitleConfirm">PIN 코드를 다시 입력</string>
+  <!-- Enter current PIN instruction -->
+  <string name="UpdatePin.enterCurrent">현재의 PIN 코드를 입력하세요.</string>
+  <!-- Enter new PIN instruction -->
+  <string name="UpdatePin.enterNew">새 PIN 코드를 입력하세요.</string>
+  <!-- Re-Enter new PIN instruction -->
+  <string name="UpdatePin.reEnterNew">새 PIN 코드를 다시 입력하세요.</string>
+  <!-- Update PIN failure error message. -->
+    <!-- Update PIN failure alert view title -->
+    <!-- Update PIN title -->
+  <string name="UpdatePin.updateTitle">PIN 코드 업데이트</string>
+  <!-- Authorize to copy wallet addresses alert message -->
+    <!-- Authorize to copy wallet address PIN view prompt. -->
+    <!-- Authorize to copy wallet address alert title -->
+    <!-- Copy wallet addresses alert button label -->
+    <!-- Verify PIN for transaction view body -->
+  <string name="VerifyPin.authorize">PIN을 입력하여 이 거래를 승인하십시오.</string>
+  <!-- Verify PIN view body -->
+  <string name="VerifyPin.continueBody">계속하려면 PIN 코드를 입력해 주세요.</string>
+  <!-- Verify PIN view title -->
+  <string name="VerifyPin.title">PIN 코드 입력 필수</string>
+  <!-- Authorize transaction with touch id message -->
+    <!-- 'No wallet' warning for watch app -->
+    <!-- Dismiss button label -->
+    <!-- Webview loading error message -->
+    <!-- Updating webview message -->
+  <string name="Webview.updating">업데이트 중...</string>
+  <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
+    <!-- Top title of welcome screen -->
+    <!-- Wipe wallet alert message -->
+  <string name="WipeWallet.alertMessage">정말 이 월렛을 삭제할까요?</string>
+  <!-- Wipe wallet alert title -->
+  <string name="WipeWallet.alertTitle">월렛을 초기화할까요?</string>
+  <!-- Failed wipe wallet alert message -->
+    <!-- Failed wipe wallet alert title -->
+    <!-- Enter phrase to wipe wallet instruction. -->
+  <string name="WipeWallet.instruction">월렛을 초기화하고 다른 월렛을 시작하거나 복원하려면 이 월렛의 초기화 문구를 입력해 주세요. 현재 잔액은 이 문구에 그대로 보관됩니다.</string>
+  <!-- Start wipe wallet view message -->
+  <string name="WipeWallet.startMessage">다른 지갑을 만들거나 복구하면 이 장치에서 다른 YERB 지갑을 이용하고 관리할 수 있습니다.</string>
+  <!-- Start wipe wallet view warning -->
+  <string name="WipeWallet.startWarning">이장치에서 현재 YERB 지갑을 더는 이용할 수 없게 됩니다. 잔고는 남아 있게 됩니다.</string>
+  <!-- Wipe wallet navigation item title. -->
+    <!-- Wipe wallet button title -->
+  <string name="WipeWallet.wipe">초기화</string>
+  <!-- Wiping activity message -->
+    <!-- Paper key instructions. -->
+  <string name="WritePaperPhrase.instruction">각 단어를 순서대로 적어 놓고, 안전한 곳에 보관하세요.</string>
+  <!-- button label -->
+    <!-- button label -->
+  <string name="WritePaperPhrase.previous">이전</string>
+  <!-- 1 of 3 -->
+  <string name="WritePaperPhrase.step">%2$d의 %1$d</string>
+    <string name="Send.generateAddressLabel">Generate Address</string>
+</resources>

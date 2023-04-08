@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.yerbaswallet">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <!--<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>-->
+    <!--<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>-->
+
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions"/>
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+
+    <!--<uses-feature-->
+        <!--android:name="android.hardware.location.gps"-->
+        <!--android:required="false"/>-->
+    <!--<uses-feature-->
+        <!--android:name="android.hardware.location.network"-->
+        <!--android:required="false"/>-->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true"/>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+
+    <application
+        android:name="com.yerbaswallet.YerbasApp"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:launchMode="singleTask"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateVisible|adjustResize"
+        android:usesCleartextTraffic="true">
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.yerbaswallet"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <activity
+            android:name=".presenter.activities.intro.IntroActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presenter.activities.WalletActivity"
+            android:label="@string/app_name"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="yerbas"/>
+                <data android:scheme="bread"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.SetPinActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.intro.RecoverActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.UnlinkActivity"
+            android:launchMode="singleTask"
+
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.ImportActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.ReEnterPinActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.UpdatePinActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.SettingsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.NotificationActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.SyncBlockchainActivity"
+            android:launchMode="singleTask"
+
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.DisplayCurrencyActivity"
+            android:launchMode="singleTask"
+
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.IPFSGatewayActivity"
+            android:launchMode="singleTask"
+
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.AboutActivity"
+            android:launchMode="singleTask"
+
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.SecurityCenterActivity"
+            android:launchMode="singleTask"
+
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.AddressBookActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.UserAddressesActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.ShareDataActivity"
+            android:launchMode="singleTask"
+
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.intro.WriteDownActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.PaperKeyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.SpendLimitActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.PaperKeyProveActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.InputWordsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.camera.ScanQRActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <!--Use launchMode="standard for WebViewActivity in order to be able to have multiple instances"-->
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.WebViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.DisabledActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.FingerprintActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.AdvancedActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.NodesActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.camera.CameraActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.settings.TestActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.HomeActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.CurrencySettingsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.yerbaswallet.presenter.activities.settings.SupportWebViewActivity" />
+
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.ManageAssetsActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.yerbaswallet.presenter.activities.TermsAndConditionsActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.yerbaswallet.presenter.newTutorial.TutorialActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:screenOrientation="portrait" />
+        <service
+            android:name="com.yerbaswallet.tools.services.SyncService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.yerbaswallet.tools.listeners.SyncReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:label="SyncReceiver"/>
+
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="false" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="dbf6fef7bb2fb1c0c7ce1def9fb3db9e942fedf2"
+            />
+    </application>
+
+</manifest>

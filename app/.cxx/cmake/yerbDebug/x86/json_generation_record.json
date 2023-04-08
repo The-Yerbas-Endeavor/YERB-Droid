@@ -1,0 +1,23 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 24 min SDK version: x86",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbDebug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\.cxx\\cmake\\yerbDebug\\x86\\android_gradle_build.json\u0027 was up-to-date",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbDebug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbDebug|x86",
+    "diagnosticCode": "UNKNOWN"
+  }
+]

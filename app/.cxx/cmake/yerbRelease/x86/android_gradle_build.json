@@ -1,0 +1,42 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\anno\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\.cxx\\cmake\\yerbRelease\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\anno\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\.cxx\\cmake\\yerbRelease\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "core-Release-x86": {
+      "buildCommandComponents": [
+        "C:\\Users\\anno\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\.cxx\\cmake\\yerbRelease\\x86",
+        "core"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "core",
+      "output": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\build\\intermediates\\cmake\\yerbRelease\\obj\\x86\\libcore.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

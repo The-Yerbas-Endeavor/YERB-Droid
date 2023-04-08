@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/extra_light_blue_background"
+    android:layout_height="match_parent"
+    tools:context="com.yerbaswallet.presenter.activities.SetPinActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/back_button"
+                android:src="@drawable/ic_chevron_left"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_height="wrap_content" />
+
+
+            <com.yerbaswallet.presenter.customviews.BRText
+                android:text="Home"
+                app:customTFont="CircularPro-Bold.otf"
+                android:textSize="16sp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.yerbaswallet.presenter.customviews.BRText
+        app:customTFont="CircularPro-Bold.otf"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_below="@id/toolbar"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/total_assets_usd_color"
+        android:textSize="28sp"
+        android:layout_margin="@dimen/bread_margin"/>
+
+    <ListView
+        android:id="@+id/settings_list"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:background="@color/extra_light_blue_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/title" />
+
+</RelativeLayout>

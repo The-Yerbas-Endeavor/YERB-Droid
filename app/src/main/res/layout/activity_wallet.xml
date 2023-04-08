@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/extra_light_blue_background"
+    android:clipToPadding="false"
+    android:descendantFocusability="beforeDescendants"
+    android:filterTouchesWhenObscured="true"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.yerbaswallet.presenter.activities.WalletActivity">
+
+    <LinearLayout
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:animateLayoutChanges="true"
+        android:elevation="8dp"
+        android:orientation="vertical">
+
+
+        <ViewFlipper
+            android:id="@+id/tool_bar_flipper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            tools:context="com.yerbaswallet.presenter.activities.CurrencyActivity">
+
+
+            <androidx.appcompat.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/wallet_bar"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/gradient_blue"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:contentInsetStart="0dp"
+                android:contentInsetLeft="0dp"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/bread_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:animateLayoutChanges="true"
+                    android:clipChildren="false"
+                    android:clipToPadding="false">
+
+                    <ImageView
+                        android:id="@+id/currency_image"
+                        android:layout_width="262dp"
+                        android:layout_height="29dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_yerbas_title_white"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageButton
+                        android:id="@+id/back_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_chevron_left_white_24dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.yerbaswallet.presenter.customviews.BRText
+                        android:id="@+id/currency_usd_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$16,904.34 per BTC"
+                        android:textColor="@color/trans_white"
+                        android:textSize="@dimen/sub_header"
+                        app:customTFont="CircularPro-Book.otf"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/currency_image" />
+
+
+                    <com.yerbaswallet.presenter.customviews.BRText
+                        android:id="@+id/balance_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="54dp"
+                        android:text="@string/CurrencyBalance"
+                        android:textColor="@color/trans_white"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:customTFont="CircularPro-Book.otf"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintRight_toRightOf="parent" />
+
+              <!--      <yerbaswalletet.presenter.customviews.BRText
+                        android:id="@+id/syncing_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="Syncing"
+                        android:textColor="@color/trans_white"
+                        android:textSize="10sp"
+                        android:visibility="gone"
+                        app:customTFont="CircularPro-Book.otf"
+                        app:layout_constraintBottom_toBottomOf="@+id/sync_progress"
+                        app:layout_constraintEnd_toStartOf="@+id/sync_progress"
+                        app:layout_constraintTop_toTopOf="@+id/sync_progress" />
+
+                    <ProgressBar
+                        android:id="@+id/sync_progress"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="30dp"
+                        android:layout_height="3dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="62dp"
+                        android:indeterminate="false"
+                        android:keepScreenOn="true"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressBackgroundTint="#88ffffff"
+                        android:progressDrawable="@drawable/wallet_sync_progress_bar"
+                        android:progressTint="#ffffff"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+-->
+
+                    <com.yerbaswallet.presenter.customviews.BRText
+                        android:id="@+id/balance_primary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:paddingBottom="16dp"
+                        tools:text="$26,495.69"
+                        android:textColor="@color/white"
+                        android:textSize="28sp"
+                        app:customTFont="CircularPro-Bold.otf"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintVertical_bias="0.492" />
+
+
+                    <ImageButton
+                        android:id="@+id/swap"
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="23dp"
+                        android:background="@drawable/ic_swap_horizontal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toLeftOf="@id/balance_primary"
+                        app:layout_constraintVertical_bias="0.492" />
+
+                    <com.yerbaswallet.presenter.customviews.BRText
+                        android:id="@+id/balance_secondary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginEnd="8dp"
+                        android:paddingTop="18dp"
+                        android:paddingBottom="20dp"
+                        tools:text="1.56739 BTC"
+                        android:textColor="@color/trans_white"
+                        android:textSize="16sp"
+                        app:customTFont="CircularPro-Book.otf"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/swap"
+                        app:layout_constraintRight_toLeftOf="@id/swap"
+                        app:layout_constraintVertical_bias="0.492" />
+
+
+                    <ImageButton
+                        android:id="@+id/search_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:paddingStart="20dp"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:paddingEnd="5dp"
+                        android:src="@drawable/ic_search_white_24dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <com.yerbaswallet.presenter.customviews.BRSearchBar xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/gradient_blue"
+                android:contentInsetStart="0dp"
+                android:contentInsetLeft="0dp"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp" />
+
+            <com.yerbaswallet.presenter.customviews.BRNotificationBar xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/notification_bar"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/gradient_blue"
+                android:contentInsetStart="0dp"
+                android:contentInsetLeft="0dp"
+                android:visibility="visible"
+                app:breadText="No internet connection found.\nCheck your connection and try again."
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp" />
+
+
+        </ViewFlipper>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_toolbar_layout1"
+        android:layout_below="@+id/toolbar_layout"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/progress_layout"
+            layout="@layout/syncing_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ListView
+            android:id="@+id/tx_list"
+            android:layout_below="@+id/progress_layout"
+            android:visibility="visible"
+            tools:visibility="gone"
+            android:fadingEdge="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false" />
+
+        <ImageView
+              android:id="@+id/empty_list"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:layout_gravity="center"
+              android:src="@drawable/empty_list_tx"
+              android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0px"
+        android:layout_above="@id/bottom_toolbar_layout1"
+        android:background="@color/light_gray" />
+
+    <LinearLayout
+        android:id="@+id/bottom_toolbar_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/extra_light_blue_background"
+        android:elevation="0dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <com.yerbaswallet.presenter.customviews.BRButton
+            android:id="@+id/send_button"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:text="@string/CurrencySend"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:buttonType="4"
+            app:customTFont="CircularPro-Bold.otf"
+            app:hasShadow="false"
+            app:isBreadButton="true" />
+
+
+        <com.yerbaswallet.presenter.customviews.BRButton
+            android:id="@+id/receive_button"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:text="@string/CurrencyReceive"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:buttonType="4"
+            app:customTFont="CircularPro-Bold.otf"
+            app:hasShadow="false"
+            app:isBreadButton="true" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\anno\\Documents\\Code\\YERB-Droid\\app\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\anno\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\anno\\Documents\\Code\\YERB-Droid\\app\\.cxx\\Debug\\4y212j5u\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\anno\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\anno\\Documents\\Code\\YERB-Droid\\app\\.cxx\\Debug\\4y212j5u\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "core::@6890427a1f51a3e7e1df": {
+      "artifactName": "core",
+      "abi": "x86",
+      "output": "C:\\Users\\anno\\Documents\\Code\\YERB-Droid\\app\\build\\intermediates\\cxx\\Debug\\4y212j5u\\obj\\x86\\libcore.so",
+      "runtimeFiles": []
+    }
+  }
+}

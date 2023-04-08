@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <!-- App name -->
+    <!-- About screen blog label -->
+  <string name="About.blog">Blog</string>
+  <!-- About screen footer -->
+  <string name="About.footer">Lavet af det globale YERB hold. Version %1$s</string>
+  <!-- Privay Policy button label -->
+  <string name="About.privacy">Privatlivspolitik</string>
+  <!-- About screen reddit label -->
+  <string name="About.reddit">Reddit</string>
+  <!-- Terms of Use button label -->
+    <!-- About screen title -->
+  <string name="About.title">Om</string>
+  <!-- About screen twitter label -->
+  <string name="About.twitter">Twitter</string>
+  <!-- Close modal button accessibility label -->
+  <string name="AccessibilityLabels.close">Luk</string>
+  <!-- Support center accessibiliy label -->
+    <!-- Loading Wallet Message -->
+    <!-- Default wallet name -->
+    <!-- Third party keyboard warning -->
+  <string name="Alert.customKeyboard.android">Det ser ud til at du bruger et tastatur fra en tredjepart, som kan optage det du skriver og stjæle din Paper Key. Skift til standard Android-tastaturet for ekstra beskyttelse.</string>
+  <!-- Error alert title -->
+  <string name="Alert.error">Fejl</string>
+  <!-- Keystore error -->
+  <string name="Alert.keystore.generic.android">Der er et problem med din Android OS keystore, kontakt venligst support@yerbas.org</string>
+  <!-- KeyStore error, keys are invalidated -->
+  <string name="Alert.keystore.invalidated.android">Dine YERB-krypterede data blev for nyligt ugyldiggjort, eftersom din Android skærmlås blev deaktiveret.</string>
+  <!-- Keystore error title -->
+  <string name="Alert.keystore.title.android">Android KeyStore fejl</string>
+  <!-- No internet alert message -->
+    <!-- Warning alert title -->
+    <!-- 'the addresses were copied'' Alert title -->
+    <!-- Addresses Copied Alert sub header -->
+    <!-- Alert Header Label (the paper key was set) -->
+  <string name="Alerts.paperKeySet">Paper key indstillet</string>
+  <!-- Alert Subheader label (playfully positive) -->
+  <string name="Alerts.paperKeySetSubheader">Fedt!</string>
+  <!-- Alert Header label (the PIN was set) -->
+  <string name="Alerts.pinSet">PIN indstillet</string>
+  <!-- Send failure alert header label (the send failed to happen) -->
+  <string name="Alerts.sendFailure">Afsendelse mislykkedes</string>
+  <!-- Send success alert header label (confirmation that the send happened) -->
+  <string name="Alerts.sendSuccess">Send bekræftelse</string>
+  <!-- Send success alert subheader label (e.g. the money was sent) -->
+  <string name="Alerts.sendSuccessSubheader">Pengene blev sendt!</string>
+  <!-- Fingerprint was recognized by the scanner -->
+  <string name="Alerts.touchIdSucceeded.android">Fingeraftryk genkendt</string>
+  <!-- JSON Serialization error message -->
+    <!-- Wallet not ready error message -->
+    <!-- API Token error message -->
+    <!-- Send BCH view body. -->
+    <!-- Confirm sending <$5.00> to <address>? -->
+    <!-- Confirmation alert title -->
+    <!-- Generic bch erorr message -->
+    <!-- Transaction ID copied message -->
+    <!-- No address error message -->
+    <!-- Attempted to scan unsupported qr code error message. -->
+    <!-- BCH successfully sent alert message -->
+    <!-- Widthdraw BCH view title -->
+    <!-- Tx Hash button header -->
+    <!-- Approve button label -->
+    <!-- <sitename> is requesting authentication using your bitcoin wallet -->
+    <!-- Deny button label -->
+    <!-- BitID error alert title -->
+    <!-- BitID error alert messaage (The payment service you are trying to use isn't working. Please contact them, as you may need to try again) -->
+    <!-- BitID success alert title -->
+    <!-- BitID Authentication Request alert view title -->
+    <!-- Cancel button label -->
+  <string name="Button.cancel">Annuller</string>
+  <!-- Ignore button label -->
+    <!-- menu button -->
+    <!-- No button -->
+    <!-- OK button label -->
+  <string name="Button.ok">OK</string>
+  <!-- receive button -->
+    <!-- send button -->
+    <!-- Settings button label -->
+    <!-- Settings button label -->
+  <string name="Button.submit">Send</string>
+  <!-- Yes button -->
+    <!-- Camera plugin instruction -->
+    <!-- Amount to Send: ($1.00) -->
+  <string name="Confirmation.amountLabel">Beløb der skal sendes:</string>
+  <!-- Network Fee: ($1.00) -->
+  <string name="Confirmation.feeLabel">Netværksgebyr:</string>
+  <!-- eg. Processing time: This transaction is predicted to complete in [10-60 minutes]. -->
+    <!-- Label for "send" button on final confirmation screen -->
+    <!-- Confirmation Screen title -->
+    <!-- To: (address) -->
+    <!-- Total Cost: ($5.00) -->
+  <string name="Confirmation.totalLabel">Samlede omkostninger:</string>
+  <!-- Confirm paper phrase view label. -->
+  <string name="ConfirmPaperPhrase.label">For at sørge for, at alt blev skrevet korrekt, bedes du indtaste følgende ord fra din paper key.</string>
+  <!-- Word label eg. Word #1, Word #2 -->
+  <string name="ConfirmPaperPhrase.word">Ord #%1$s</string>
+  <!-- Bitcoin denomination picker label -->
+  <string name="DefaultCurrency.bitcoinLabel">Bitcoin visningsenhed</string>
+  <!-- Exchange rate label -->
+  <string name="DefaultCurrency.rateLabel">Valutakurs</string>
+  <!-- Email unavailable alert title -->
+    <!-- Email unavailable alert title -->
+    <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
+  <string name="ErrorMessages.loopingLockScreen.android">YERB kan ikke godkendes grundet en fejl i din version af Android. [Tryk her for flere oplysninger.]</string>
+  <!-- Messaging unavailable alert title -->
+    <!-- Messaging unavailable alert title -->
+    <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
+  <string name="ErrorMessages.touchIdFailed.android">Fingeraftryk ikke genkendt. Prøv igen.</string>
+  <!-- Economy fee -->
+  <string name="FeeSelector.economy">Økonomi</string>
+  <!-- E.g. [This transaction is predicted to complete in] 1-24 hours -->
+  <string name="FeeSelector.economyTime">1-24 timer</string>
+  <!-- Warning message for economy fee -->
+  <string name="FeeSelector.economyWarning">Denne mulighed er ikke anbefalet for tidsfølsomme transaktioner.</string>
+  <!-- E.g. Estimated delivery: 10-60 minutes -->
+  <string name="FeeSelector.estimatedDeliver">Forventet levering: %1$s</string>
+  <!-- Regular fee -->
+  <string name="FeeSelector.regular">Almindelig</string>
+  <!-- E.g. [This transaction is predicted to complete in] 10-60 minutes -->
+  <string name="FeeSelector.regularTime">10-60 minutter</string>
+  <!-- Fee Selector title -->
+  <string name="FeeSelector.title">Behandlingshastighed</string>
+  <!-- Checking private key balance progress view text -->
+  <string name="Import.checking">Tjekker beløb på privat nøgle...</string>
+  <!-- Sweep private key confirmation message -->
+  <string name="Import.confirm">Send %1$s fra denne private nøgle til din pung? Bitcoin netværket vil modtage et gebyr på %2$s.</string>
+  <!-- Duplicate key error message -->
+    <!-- empty private key error message -->
+  <string name="Import.Error.empty">Denne private nøgle er tom.</string>
+  <!-- High fees error message -->
+    <!-- Not a valid private key error message -->
+  <string name="Import.Error.notValid">Ikke en gyldig privat nøgle</string>
+  <!-- Import signing error message -->
+    <!-- Import button label -->
+    <!-- Importing wallet progress view label -->
+    <!-- Caption for graphics -->
+    <!-- Import wallet intro screen message -->
+  <string name="Import.message">Import af en pung overfører alle pengene fra din anden pung til din YERB pung, via en enkelt overførsel.</string>
+  <!-- Enter password alert view title -->
+  <string name="Import.password">Denne private nøgle er beskyttet med et kodeord.</string>
+  <!-- password textfield placeholder -->
+    <!-- Caption for graphics -->
+    <!-- Scan Private key button label -->
+  <string name="Import.scan">Scan privat nøgle</string>
+  <!-- Import wallet success alert title -->
+    <!-- Successfully imported wallet message body -->
+    <!-- Import Wallet screen title -->
+    <!-- Unlocking Private key activity view message. -->
+    <!-- Import wallet intro warning message -->
+  <string name="Import.warning">Import af en pung inkluderer ikke transaktionshistorik eller andre oplysninger.</string>
+  <!-- Wrong password alert message -->
+    <!-- Close app button -->
+  <string name="JailbreakWarnings.close">Luk</string>
+  <!-- Ignore jailbreak warning button -->
+  <string name="JailbreakWarnings.ignore">Ignorer</string>
+  <!-- Jailbreak warning message -->
+    <!-- Jailbreak warning message -->
+    <!-- Jailbreak warning title -->
+  <string name="JailbreakWarnings.title">ADVARSEL</string>
+  <!-- Wipe wallet button -->
+    <!-- Location services disabled error -->
+    <!-- No permissions for location services -->
+    <!-- Wallet creation date prefix -->
+    <!-- Manage wallet description text -->
+    <!-- Change Wallet name textfield label -->
+    <!-- Manage wallet modal title -->
+    <!-- Buy bitcoin title -->
+    <!-- Menu button title -->
+  <string name="MenuButton.lock">Lås pung</string>
+  <!-- Menu button title -->
+  <string name="MenuButton.security">Sikkerhedscenter</string>
+  <!-- Menu button title -->
+  <string name="MenuButton.settings">Indstillinger</string>
+  <!-- Menu button title -->
+  <string name="MenuButton.support">Support</string>
+  <!-- button label -->
+  <string name="MenuViewController.createButton">Opret ny pung</string>
+  <!-- Menu modal title -->
+  <string name="MenuViewController.modalTitle">Menu</string>
+  <!-- button label -->
+  <string name="MenuViewController.recoverButton">Gendan pung</string>
+  <!-- Switch to automatic mode button label -->
+  <string name="NodeSelector.automaticButton">Skift til automatisk tilstand</string>
+  <!-- Node is connected label -->
+  <string name="NodeSelector.connected">Forbundet</string>
+  <!-- Enter node ip address view body -->
+  <string name="NodeSelector.enterBody">Indtast node-IP-adresse og port (valgfrit)</string>
+  <!-- Enter Node ip address view title -->
+  <string name="NodeSelector.enterTitle">Indtast node</string>
+  <!-- Switch to manual mode button label -->
+  <string name="NodeSelector.manualButton">Skift til manuel tilstand</string>
+  <!-- Node address label -->
+  <string name="NodeSelector.nodeLabel">Nuværende primære node</string>
+  <!-- Node is not connected label -->
+  <string name="NodeSelector.notConnected">Ikke forbundet</string>
+  <!-- Node status label -->
+  <string name="NodeSelector.statusLabel">Node forbindelsesstatus</string>
+  <!-- Node Selector view title -->
+  <string name="YerbNodeSelector.title">Yerbas-nodes</string>
+  <!-- Bad Payment request alert title -->
+  <string name="PaymentProtocol.Errors.badPaymentRequest">Dårlig betalingsanmodning</string>
+  <!-- Error opening payment protocol file message -->
+  <string name="PaymentProtocol.Errors.corruptedDocument">Ikke understøttet eller beskadiget dokument</string>
+  <!-- Missing certificate payment protocol error message -->
+    <!-- Request expired payment protocol error message -->
+  <string name="PaymentProtocol.Errors.requestExpired">anmodning udløbet</string>
+  <!-- Payment too small alert title -->
+    <!-- Amount too small error message -->
+  <string name="PaymentProtocol.Errors.smallPayment">Bitcoin betalinger kan ikke være mindre end %1$s.</string>
+  <!-- Output too small error message. -->
+  <string name="PaymentProtocol.Errors.smallTransaction">Bitcoin transaktionsoutput kan ikke være mindre end %1$s.</string>
+  <!-- Unsupported signature type payment protocol error message -->
+    <!-- Untrusted certificate payment protocol error message -->
+  <string name="PaymentProtocol.Errors.untrustedCertificate">certifikat der ikke er tillid til</string>
+  <!-- No passcode set warning body -->
+    <!-- No Passcode set warning title -->
+    <!-- Instruction how to enable device encryption -->
+  <string name="Prompts.NoScreenLock.body.android">Der skal en skærmlås til på enheden, for at beskytte din pung. Gå til \"Indstillinger\" &gt; \"Sikkerhed\" &gt; \"Skærmlås\" og aktiver for at fortsætte.</string>
+  <!-- Device encryption prompt title -->
+    <!-- Warning about paper key. -->
+  <string name="Prompts.PaperKey.body">Din Papirnøgle skal gemmes i tilfælde af du nogensinde mister eller skifter telefon. Tryk her for at fortsætte.</string>
+  <!-- An action is required (You must do this action). -->
+  <string name="Prompts.PaperKey.title">Handling påkrævet</string>
+  <!-- Transaction rejected prompt body -->
+  <string name="Prompts.RecommendRescan.body">Din pung er muligvis ikke synkroniseret. Dette kan ofte løses ved at genskanne blokkæden.</string>
+  <!-- Transaction rejected prompt title -->
+  <string name="Prompts.RecommendRescan.title">Transaktion afvist</string>
+  <!-- Share data prompt body -->
+  <string name="Prompts.ShareData.body">Hjælp med at forbedre YERB ved at dele dine anonyme data med os</string>
+  <!-- Share data prompt title -->
+  <string name="Prompts.ShareData.title">Del anonyme data</string>
+  <!-- Enable touch ID prompt body -->
+    <!-- Enable Fingerprint prompt body -->
+  <string name="Prompts.TouchId.body.android">Tryk her for at aktivere autentificering via fingeraftryk</string>
+  <!-- Enable touch ID prompt title -->
+    <!-- Enable Fingerprint prompt title -->
+  <string name="Prompts.TouchId.title.android">Aktiver autentificering via fingeraftryk</string>
+  <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
+  <string name="Prompts.TouchId.usePin.android">PIN</string>
+  <!-- Upgrade PIN prompt body. -->
+  <string name="Prompts.UpgradePin.body">YERB er blevet opgraderet til at bruge en 6-cifret PIN. Tryk her for at opgradere.</string>
+  <!-- Upgrade PIN prompt title. -->
+  <string name="Prompts.UpgradePin.title">Opgader PIN</string>
+  <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
+  <string name="PushNotifications.body">Slå notifikationer til for at modtage særlige meddelelser fra YERB i fremtiden.</string>
+  <!-- Push notifications toggle switch label -->
+  <string name="PushNotifications.label">Push notifikationer</string>
+  <!-- Push notifications are off label -->
+    <!-- Push notifications are on label -->
+    <!-- Push notifications settings view title label -->
+  <string name="PushNotifications.title">Notifikationer</string>
+  <!-- Address copied message. -->
+  <string name="Receive.copied">Kopieret til udklipsholder.</string>
+  <!-- Share via email button label -->
+  <string name="Receive.emailButton">E-mail</string>
+  <!-- Request button label -->
+  <string name="Receive.request">Anmod om et beløb</string>
+  <!-- Share button label -->
+  <string name="Receive.share">Del</string>
+  <!-- Share via text message (SMS) -->
+  <string name="Receive.textButton">SMS</string>
+  <!-- Receive modal title -->
+  <string name="Receive.title">Modtag</string>
+  <!-- Done button text -->
+  <string name="RecoverWallet.done">Færdig</string>
+  <!-- Recover wallet header -->
+  <string name="RecoverWallet.header">Gendan pung</string>
+  <!-- Reset PIN with paper key: header -->
+  <string name="RecoverWallet.header_reset_pin">Nulstil PIN</string>
+  <!-- Enter paper key instruction -->
+  <string name="RecoverWallet.instruction">Indtast paper key</string>
+  <!-- Recover wallet intro -->
+  <string name="RecoverWallet.intro">Gendan dit YERB med din paper key.</string>
+  <!-- Invalid paper key message -->
+  <string name="RecoverWallet.invalid">Den paper key du indtastede er ugyldig. Dobbelttjek hvert ord og prøv igen.</string>
+  <!-- Previous button accessibility label -->
+    <!-- Next button label -->
+  <string name="RecoverWallet.next">Næste</string>
+  <!-- Reset PIN with paper key: more information button. -->
+    <!-- Next button accessibility label -->
+    <!-- Recover wallet sub-header -->
+  <string name="RecoverWallet.subheader">Indtast paper key til pungen du vil gendanne.</string>
+  <!-- Reset PIN with paper key: sub-header -->
+  <string name="RecoverWallet.subheader_reset_pin">For at nulstille din PIN, skal du indtaste ordene fra din paper key i boksene nedenfor.</string>
+  <!-- No amount entered error message. -->
+    <!-- Request a specific amount of bitcoin -->
+    <!-- Alert action button label -->
+  <string name="ReScan.alertAction">Synkroniser</string>
+  <!-- Alert message body -->
+    <!-- Alert message title -->
+  <string name="ReScan.alertTitle">Synkroniser med blokkæde?</string>
+  <!-- extimated time -->
+  <string name="ReScan.body1">20-45 minutter</string>
+  <!-- Syncing explanation -->
+  <string name="ReScan.body2">Hvis en transaktion vises som gennemført i bitcoin netværket, men ikke i dit YERB.</string>
+  <!-- Syncing explanation -->
+  <string name="ReScan.body3">Du modtager gentagne gange en fejlmeddelelse om at din transaktion er blevet afvist.</string>
+  <!-- Start Sync button label -->
+  <string name="ReScan.buttonTitle">Start synkronisering</string>
+  <!-- Sync blockchain view footer -->
+  <string name="ReScan.footer">Du vil ikke kunne bruge penge, når du synkroniserer med blokkæden.</string>
+  <!-- Sync Blockchain view header -->
+    <!-- Subheader label -->
+  <string name="ReScan.subheader1">Anslået tid</string>
+  <!-- Subheader label -->
+  <string name="ReScan.subheader2">Hvornår skal der synkroniseres?</string>
+  <!-- Scan bitcoin address camera flash toggle -->
+    <!-- Complete filter label -->
+  <string name="Search.complete">færdig</string>
+  <!-- Pending filter label -->
+  <string name="Search.pending">afventer</string>
+  <!-- Received filter label -->
+  <string name="Search.received">modtaget</string>
+  <!-- Sent filter label -->
+  <string name="Search.sent">sendt</string>
+  <!-- Security Center Info -->
+  <string name="SecurityCenter.info">Aktiver alle sikkerhedsfunktioner for maksimal beskyttelse.</string>
+  <!-- Paper Key button description -->
+  <string name="SecurityCenter.paperKeyDescription">Den eneste måde at få adgang til dine bitcoin på, hvis du mister eller opgraderer din telefon.</string>
+  <!-- Paper Key button title -->
+  <string name="SecurityCenter.paperKeyTitle">Paper key</string>
+  <!-- PIN button description -->
+  <string name="SecurityCenter.pinDescription">Beskytter dit YERB mod uberettigede brugere.</string>
+  <!-- PIN button title -->
+  <string name="SecurityCenter.pinTitle">6-cifret PIN</string>
+  <!-- Security Center Title -->
+  <string name="SecurityCenter.title">Sikkerhedscenter</string>
+  <!-- Touch ID button description -->
+  <string name="SecurityCenter.touchIdDescription">Lås dit Break op og send penge op til en vis grænse.</string>
+  <!-- Touch ID button title -->
+    <!-- Security center fingerprint authentication button -->
+  <string name="SecurityCenter.touchIdTitle.android">Autentificering via fingeraftryk</string>
+  <!-- Send money amount label -->
+  <string name="Send.amountLabel">Beløb</string>
+  <!-- Balance: $4.00 -->
+  <string name="Send.balance">Balance: %1$s</string>
+  <!-- Instructions how to allow the camera access for the app -->
+  <string name="Send.cameraUnavailabeMessage.android">Tillad adgang under \"Indstillinger\" &gt; \"Apps\" &gt; \"YERB\" &gt; \"Tilladelser\"</string>
+  <!-- Permission required to access camera -->
+  <string name="Send.cameraUnavailabeTitle.android">YERB har ikke tilladelse til at få adgang til kameraet</string>
+  <!-- Camera not allowed message -->
+    <!-- Camera not allowed alert title -->
+    <!-- Warning when sending to self. -->
+  <string name="Send.containsAddress">Destinationen er din egen adresse. Du kan ikke sende til dig selv.</string>
+  <!-- Could not create transaction alert title -->
+    <!-- Description for sending money label -->
+    <!-- Emtpy pasteboard error message -->
+  <string name="Send.emptyPasteboard">Tegnebord er tomt</string>
+  <!-- Network Fee: $0.01 -->
+  <string name="Send.fee">Netværksafgift: %1$s</string>
+  <!-- Payee identity not certified alert title. -->
+    <!-- Invalid address alert message -->
+  <string name="Send.invalidAddressMessage">Modtageradressen er ikke en gyldig bitcoin-adresse.</string>
+  <!-- Invalid address on pasteboard message -->
+    <!-- Invalid address alert title -->
+  <string name="Send.invalidAddressTitle">Ugyldig adresse</string>
+  <!-- Is rescanning error message -->
+  <string name="Send.isRescanning">Afsendelse er deaktiveret under en ny scanning.</string>
+  <!-- We are loading the request (now) -->
+    <!-- Empty address alert message -->
+  <string name="Send.noAddress">Indtast modtagerens adresse.</string>
+  <!-- Emtpy amount alert message -->
+    <!-- Paste button label -->
+    <!-- Could not publish transaction alert title -->
+    <!-- Could not load remote request error message -->
+  <string name="Send.remoteRequestError">Kunne ikke behandle betalingsanmodning</string>
+  <!-- Scan button label -->
+    <!-- Send button label (the action, "press here to send") -->
+  <string name="Send.sendLabel">Send</string>
+  <!-- Send screen title (as in "this is the screen for sending money") -->
+  <string name="Send.title">Send penge</string>
+  <!-- Send money to label -->
+  <string name="Send.toLabel">Til</string>
+  <!-- Adress already used alert message - first part -->
+    <!-- Adress already used alert message - second part -->
+  <string name="Send.UsedAddress.secondLIne">Genbrug reducerer privatliv for både dig og modtageren og kan resultere i tab, hvis modtageren ikke har direkte kontrol over adressen.</string>
+  <!-- Adress already used alert title -->
+    <!-- About label -->
+    <!-- Advanced Settings title -->
+  <string name="Settings.advancedTitle">Avancerede indstillinger</string>
+  <!-- i.e. the currency which will be displayed -->
+  <string name="Settings.currency">Vis valuta</string>
+  <!-- Join Early access label -->
+    <!-- Are you enjoying bread alert message body -->
+    <!-- Import wallet label -->
+  <string name="Settings.importTitle">Importer pung</string>
+  <!-- Manage settings section header -->
+    <!-- Notifications label -->
+    <!-- Leave review button label -->
+  <string name="Settings.review">Giv os en anmeldelse</string>
+  <!-- Share anonymous data label -->
+  <string name="Settings.shareData">Del anonyme data</string>
+  <!-- Sync blockchain label -->
+  <string name="Settings.sync">Synkroniser blokkæde</string>
+  <!-- Settings title -->
+    <!-- Touch ID spending limit label -->
+    <!-- The fingerprint spending limit -->
+    <!-- Wallet Settings section header -->
+  <string name="Settings.wallet">Wallet</string>
+  <!-- Start or recover another wallet menu label. -->
+  <string name="Settings.wipe">Start/gendan en anden wallet</string>
+  <!-- Share data view body -->
+  <string name="ShareData.body">Hjælp med at forbedre YERB ved at dele dine anonyme data med os. Dette inkluderer ikke finansielle oplysninger. Vi respekterer dit finansielle privatliv.</string>
+  <!-- Share data header -->
+  <string name="ShareData.header">Del data?</string>
+  <!-- Share data switch label. -->
+  <string name="ShareData.toggleLabel">Del anonyme data?</string>
+  <!-- button label -->
+    <!-- Paper key explanation text. -->
+  <string name="StartPaperPhrase.body">Din paper key er den eneste måde at gendanne dit YERB på, hvis din telefon mistes, stjæles, går i stykker eller opgraderes.\n\nVi viser dig en liste over word du skal skrive ned på et papir, og holde sikkert.</string>
+  <!-- button label -->
+  <string name="StartPaperPhrase.buttonTitle">Skriv paper key ned</string>
+  <!-- Argument is date -->
+    <!-- Start view message -->
+  <string name="StartViewController.message">Den mest sikre og trygge måde at bruge bitcoins på.</string>
+  <!-- Syncing view connectiong state header text -->
+    <!-- Syncing view header text -->
+    <!-- Retry button label -->
+    <!-- Syncing view syncing state header text -->
+    <!-- 6 d (6 days) -->
+    <!-- 6 h (6 hours) -->
+    <!-- 6 m (6 minutes) -->
+    <!-- 6 s (6 seconds) -->
+    <!-- You can customize your Touch ID Spending Limit from the [TouchIdSettings.linkText gets added here as a button] -->
+    <!-- Fingerprint enabling description body -->
+  <string name="TouchIdSettings.customizeText.android">Du kan tilpasse din brugsgrænse for autentificering via fingeraftryk fra skærmen Brugsgrænse for autentificering via fingeraftryk</string>
+  <!-- Instruction for the fingerprint setup -->
+  <string name="TouchIdSettings.disabledWarning.body.android">Du har ikke aktiveret autentificering via fingeraftryk på denne enhed. Gå til Indstillinger -&gt; Sikkerhed for at konfigurere autentificering via fingeraftryk.</string>
+  <!-- Fingerprint Is Not Setup -->
+  <string name="TouchIdSettings.disabledWarning.title.android">Autentificering via fingeraftryk ikke aktiveret</string>
+  <!-- Touch Id screen label -->
+  <string name="TouchIdSettings.label">Brug dit fingeraftryk til at låse op for dit YERB og sende penge op til en vis grænse.</string>
+  <!-- Link Text (see TouchIdSettings.customizeText) -->
+    <!-- Spending Limit: b100,000 ($100) -->
+  <string name="TouchIdSettings.spendingLimit">Brugsgrænse: %1$s (%2$s)</string>
+  <!-- Touch id switch label. -->
+    <!-- Enable fingerprint for this wallet called YERB -->
+  <string name="TouchIdSettings.switchLabel.android">Aktiver autentificering via fingeraftryk</string>
+  <!-- Touch ID settings view title -->
+    <!-- Fingerprint authentication label -->
+  <string name="TouchIdSettings.title.android">Autentificering via fingeraftryk</string>
+  <!-- Touch ID unavailable alert message -->
+    <!-- Touch ID unavailable alert title -->
+    <!-- Always require passcode option -->
+  <string name="TouchIdSpendingLimit">Kræv altid adgangskode</string>
+  <!-- Touch ID spending limit screen body -->
+  <string name="TouchIdSpendingLimit.body">Du bliver bedt om at indtaste din 6-cifrede PIN for at sende en transaktion over din brugsgrænse, og hver 48 timer siden du sidst indtastede din 6-cifrede PIN.</string>
+  <!-- Touch Id spending limit screen title -->
+    <!-- name of spending limit when using fingerprint authorization -->
+  <string name="TouchIdSpendingLimit.title.android">Brugsgrænse for autentificering via fingeraftryk</string>
+  <!-- Availability status text -->
+    <!-- Transaction complete label -->
+    <!-- eg. Ending balance: $50.00 -->
+    <!-- Exchange rate on date header -->
+    <!-- Exchange rate on date header -->
+    <!-- (b600 fee) -->
+    <!-- Invalid transaction -->
+    <!-- Timestamp label for event that just happened -->
+    <!-- Receive status text: 'In progress: 20%' -->
+    <!-- Send status text: 'In progress: 20%' -->
+    <!-- eg. Starting balance: $50.00 -->
+    <!-- Waiting to be confirmed string -->
+    <!-- e.g. I received money from an account. -->
+    <!-- Amount section header -->
+    <!-- Block height label -->
+    <!-- Memo section header -->
+    <!-- Empty transaction list message. -->
+    <!-- "Received [$5] at [which of my addresses]" => This is the "at [which of my addresses]" part. -->
+    <!-- More button title -->
+    <!-- Moved $5.00 (as in "I moved $5 to another location") -->
+    <!-- Moved $5.00 -->
+    <!-- eg. Confirmed in Block: Not Confirmed -->
+    <!-- "Received [$5] at [which of my addresses]" => This is the "Received [$5]" part. -->
+  <string name="TransactionDetails.received">Modtaget %1$s</string>
+  <!-- Received $5.00 -->
+    <!-- "Sent [$5] to [address]" => This is the "Sent [$5]" part. -->
+    <!-- Sent $5.00 -->
+    <!-- Status section header -->
+    <!-- Transaction Details Title -->
+    <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
+    <!-- Transaction ID header -->
+    <!-- (this transaction was) Received at this address: -->
+    <!-- (this transaction was) Sent to this address: -->
+    <!-- Disabled until date -->
+    <!-- My Address button title -->
+  <string name="UnlockScreen.myAddress">Min adresse</string>
+  <!-- Reset PIN with Paper Key button label. -->
+  <string name="UnlockScreen.resetPin">Nulstil PIN</string>
+  <!-- Scan button title -->
+  <string name="UnlockScreen.scan">Scan</string>
+  <!-- Unlock Screen sub-header -->
+  <string name="UnlockScreen.subheader">Indtast PIN</string>
+  <!-- Instruction to touch the sensor for fingerprint authentication -->
+  <string name="UnlockScreen.touchIdInstructions.android">Touch sensor</string>
+  <!-- TouchID prompt text -->
+    <!-- Device authentication body -->
+  <string name="UnlockScreen.touchIdPrompt.android">Lås op for din Android enhed for at fortsætte</string>
+  <!-- Unlock with TouchID accessibility label -->
+    <!-- Device authentication title -->
+  <string name="UnlockScreen.touchIdTitle.android">Autentificering påkrævet</string>
+  <!-- Wallet unlocked message -->
+  <string name="UnlockScreen.unlocked">Pung låst op</string>
+  <!-- Update PIN caption text -->
+  <string name="UpdatePin.caption">Husk denne PIN. Hvis du glemmer den, vil du ikke kunne få adgang til dine bitcoin.</string>
+  <!-- PIN creation info. -->
+  <string name="UpdatePin.createInstruction">Din PIN bliver brugt til at låse op for dit YERB og sende penge.</string>
+  <!-- Update PIN title -->
+  <string name="UpdatePin.createTitle">Indstil PIN</string>
+  <!-- Update PIN title -->
+  <string name="UpdatePin.createTitleConfirm">Genindtast PIN</string>
+  <!-- Enter current PIN instruction -->
+  <string name="UpdatePin.enterCurrent">Indtast din nuværende PIN.</string>
+  <!-- Enter new PIN instruction -->
+  <string name="UpdatePin.enterNew">Indtast din nye PIN.</string>
+  <!-- Re-Enter new PIN instruction -->
+  <string name="UpdatePin.reEnterNew">Genindtast din nye PIN.</string>
+  <!-- Update PIN failure error message. -->
+    <!-- Update PIN failure alert view title -->
+    <!-- Update PIN title -->
+  <string name="UpdatePin.updateTitle">Opdater PIN</string>
+  <!-- Authorize to copy wallet addresses alert message -->
+    <!-- Authorize to copy wallet address PIN view prompt. -->
+    <!-- Authorize to copy wallet address alert title -->
+    <!-- Copy wallet addresses alert button label -->
+    <!-- Verify PIN for transaction view body -->
+  <string name="VerifyPin.authorize">Indtast venligst din PIN for at godkende denne transaktion.</string>
+  <!-- Verify PIN view body -->
+  <string name="VerifyPin.continueBody">Indtast din PIN for at fortsætte.</string>
+  <!-- Verify PIN view title -->
+  <string name="VerifyPin.title">PIN påkrævet</string>
+  <!-- Authorize transaction with touch id message -->
+    <!-- 'No wallet' warning for watch app -->
+    <!-- Dismiss button label -->
+    <!-- Webview loading error message -->
+    <!-- Updating webview message -->
+  <string name="Webview.updating">Opdaterer...</string>
+  <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
+    <!-- Top title of welcome screen -->
+    <!-- Wipe wallet alert message -->
+  <string name="WipeWallet.alertMessage">Er du sikker på at du vil slette denne wallet?</string>
+  <!-- Wipe wallet alert title -->
+  <string name="WipeWallet.alertTitle">Slet wallet?</string>
+  <!-- Failed wipe wallet alert message -->
+    <!-- Failed wipe wallet alert title -->
+    <!-- Enter phrase to wipe wallet instruction. -->
+  <string name="WipeWallet.instruction">Indtast denne wallets gendannelsessætning for at slette den og starte eller gendanne en anden. Din nuværende saldo forbliver med denne sætning.</string>
+  <!-- Start wipe wallet view message -->
+  <string name="WipeWallet.startMessage">Påbegyndelse eller gendannelse af en anden tegnebog giver mulighed for at få adgang samt administrere en YERB tegnebog på denne enhed.</string>
+  <!-- Start wipe wallet view warning -->
+  <string name="WipeWallet.startWarning">Du vil ikke længere være i stand til at få adgang til din nuværende YERB tegnebog fra denne enhed. Saldoen vil forblive på frasen.</string>
+  <!-- Wipe wallet navigation item title. -->
+    <!-- Wipe wallet button title -->
+  <string name="WipeWallet.wipe">Slet</string>
+  <!-- Wiping activity message -->
+    <!-- Paper key instructions. -->
+  <string name="WritePaperPhrase.instruction">Skriv hvert ord ned i rækkefølge og opbevar den et sikkert sted.</string>
+  <!-- button label -->
+    <!-- button label -->
+  <string name="WritePaperPhrase.previous">Forrige</string>
+  <!-- 1 of 3 -->
+  <string name="WritePaperPhrase.step">%1$d af %2$d</string>
+    <string name="Send.generateAddressLabel">Generate Address</string>
+</resources>

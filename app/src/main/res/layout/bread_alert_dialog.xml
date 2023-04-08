@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:filterTouchesWhenObscured="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/bread_dialog_rounded"
+        android:filterTouchesWhenObscured="true"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/dialog_header"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/gradient_blue"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <ImageButton
+                android:layout_width="120.0dp"
+                android:layout_height="40.0dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/brd_logo_white" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/help_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_help_circle"
+            android:visibility="visible"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dialog_header" />
+
+        <com.yerbaswallet.presenter.customviews.BRText
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:filterTouchesWhenObscured="true"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="20sp"
+            tools:visibility="gone"
+            app:customTFont="CircularPro-Bold.otf"
+            android:text="Yerbas alert title" />
+
+        <com.yerbaswallet.presenter.customviews.BRText
+            android:id="@+id/dialog_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:layout_below="@+id/dialog_title"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            tools:text="Yerbas alert Content" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_text"
+            android:filterTouchesWhenObscured="true"
+            android:gravity="end"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp">
+            <androidx.legacy.widget.Space
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="1dp" />
+            <com.yerbaswallet.presenter.customviews.BRButton
+                android:id="@+id/neg_button"
+                style="?android:attr/buttonBarNegativeButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:filterTouchesWhenObscured="true"
+                tools:text="@string/Button.cancel" />
+
+            <com.yerbaswallet.presenter.customviews.BRButton
+                android:id="@+id/pos_button"
+                style="?android:attr/buttonBarPositiveButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:filterTouchesWhenObscured="true"
+                android:visibility="visible"
+                tools:text="@string/Button.ok" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

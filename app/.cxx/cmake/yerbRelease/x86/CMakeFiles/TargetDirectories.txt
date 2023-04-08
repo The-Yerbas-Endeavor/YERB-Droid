@@ -1,0 +1,3 @@
+C:/Users/anno/Documents/Code/yerb-droid/app/.cxx/cmake/yerbRelease/x86/CMakeFiles/core.dir
+C:/Users/anno/Documents/Code/yerb-droid/app/.cxx/cmake/yerbRelease/x86/CMakeFiles/edit_cache.dir
+C:/Users/anno/Documents/Code/yerb-droid/app/.cxx/cmake/yerbRelease/x86/CMakeFiles/rebuild_cache.dir

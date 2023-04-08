@@ -1,0 +1,7 @@
+Executable : C:\Users\anno\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+C:\Users\anno\Documents\Code\yerb-droid\app\.cxx\cmake\yerbDebug\x86_64
+core
+jvmArgs : 
+

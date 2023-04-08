@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- App name -->
+    <!-- About screen blog label -->
+    <string name="About.blog">Blog</string>
+    <!-- About screen footer -->
+    <string name="About.footer">Made by the global YERB team. Version %1$s</string>
+    <!-- Privay Policy button label -->
+    <string name="About.privacy">Privacy Policy</string>
+    <!-- About screen reddit label -->
+    <string name="About.reddit">Reddit</string>
+    <!-- About screen wiki label -->
+    <string name="About.wiki">Wiki</string>
+    <!-- About screen wiki label -->
+    <string name="About.site">Yerbas Website</string>
+    <!-- Terms of Use button label -->
+    <!-- About screen title -->
+    <string name="About.title">About</string>
+    <!-- About screen twitter label -->
+    <string name="About.twitter">Twitter</string>
+    <!-- Close modal button accessibility label -->
+    <string name="AccessibilityLabels.close">Close</string>ƒ
+    <!-- Support center accessibiliy label -->
+    <!-- Loading Wallet Message -->
+    <!-- Default wallet name -->
+    <!-- Third party keyboard warning -->
+    <string name="Alert.customKeyboard.android">It looks like you are using a third-party keyboard, which can record what you type and steal your Paper Key. Please switch to the default Android keyboard for extra protection.</string>
+    <!-- Error alert title -->
+    <string name="Alert.error">Error</string>
+    <!-- Keystore error -->
+    <string name="Alert.keystore.generic.android">There is a problem with your Android OS keystore, please contact support@yerbas.org</string>
+    <!-- KeyStore error, keys are invalidated -->
+    <string name="Alert.keystore.invalidated.android">Your Yerbas Wallet encrypted data was recently invalidated because your Android lock screen was disabled.</string>
+    <!-- Keystore error title -->
+    <string name="Alert.keystore.title.android">Android KeyStore Error</string>
+    <!-- No internet alert message -->
+    <!-- Warning alert title -->
+    <!-- 'the addresses were copied'' Alert title -->
+    <!-- Addresses Copied Alert sub header -->
+    <!-- Alert Header Label (the paper key was set) -->
+    <string name="Alerts.paperKeySet">Paper Key Set</string>
+    <!-- Alert Subheader label (playfully positive) -->
+    <string name="Alerts.paperKeySetSubheader">Awesome!</string>
+    <!-- Alert Header label (the PIN was set) -->
+    <string name="Alerts.pinSet">PIN Set</string>
+    <!-- Send failure alert header label (the send failed to happen) -->
+    <string name="Alerts.sendFailure">Send failed</string>
+    <!-- Send success alert header label (confirmation that the send happened) -->
+    <string name="Alerts.sendSuccess">Send Confirmation</string>
+    <!-- Send success alert subheader label (e.g. the money was sent) -->
+    <string name="Alerts.sendSuccessSubheader">Money Sent!</string>
+    <string name="Alerts.sendSuccessAsset">Asset Sent!</string>
+    <string name="Alerts.sendSuccessBurn">Asset Burnt!</string>
+    <!-- Fingerprint was recognized by the scanner -->
+    <string name="Alerts.touchIdSucceeded.android">Fingerprint recognized</string>
+    <!-- JSON Serialization error message -->
+    <!-- Wallet not ready error message -->
+    <!-- API Token error message -->
+    <!-- Approve button label -->
+    <!-- <sitename> is requesting authentication using your bitcoin wallet -->
+    <!-- Deny button label -->
+    <!-- BitID error alert title -->
+    <!-- BitID error alert messaage (The payment service you are trying to use isn't working. Please contact them, as you may need to try again) -->
+    <!-- BitID success alert title -->
+    <!-- BitID Authentication Request alert view title -->
+    <!-- Cancel button label -->
+    <string name="Button.cancel">Cancel</string>
+    <!-- Ignore button label -->
+    <!-- menu button -->
+    <!-- No button -->
+    <!-- OK button label -->
+    <string name="Button.ok">OK</string>
+    <!-- receive button -->
+    <!-- send button -->
+    <!-- Settings button label -->
+    <!-- Settings button label -->
+    <string name="Button.submit">Submit</string>
+    <!-- Yes button -->
+    <!-- Camera plugin instruction -->
+    <!-- Amount to Send: ($1.00) -->
+    <string name="Confirmation.amountLabel">Amount to Send:</string>
+    <!-- Network Fee: ($1.00) -->
+    <string name="Confirmation.feeLabel">Network Fee:</string>
+    <!-- eg. Processing time: This transaction is predicted to complete in [10-60 minutes]. -->
+    <!-- Label for "send" button on final confirmation screen -->
+    <!-- Confirmation Screen title -->
+    <!-- To: (address) -->
+    <!-- Total Cost: ($5.00) -->
+    <string name="Confirmation.totalLabel">Total Cost:</string>
+    <!-- Confirm paper phrase view label. -->
+    <string name="ConfirmPaperPhrase.label">To make sure everything was written down correctly, please enter the following words from your paper key.</string>
+    <!-- Word label eg. Word #1, Word #2 -->
+    <string name="ConfirmPaperPhrase.word">Word #%1$s</string>
+    <!-- Bitcoin denomination picker label -->
+    <string name="DefaultCurrency.bitcoinLabel">Yerbas Display Unit</string>
+    <!-- Exchange rate label -->
+    <string name="DefaultCurrency.rateLabel">Exchange Rate</string>
+    <!-- Email unavailable alert title -->
+    <!-- Email unavailable alert title -->
+    <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
+    <string name="ErrorMessages.loopingLockScreen.android">Yerbas Wallet can not be authenticated due to a bug in your version of Android. [Please tap here for more information.]</string>
+    <!-- Messaging unavailable alert title -->
+    <!-- Messaging unavailable alert title -->
+    <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
+    <string name="ErrorMessages.touchIdFailed.android">Fingerprint not recognized. Please try again.</string>
+    <!-- Economy fee -->
+    <string name="FeeSelector.economy">Economy</string>
+    <!-- E.g. [This transaction is predicted to complete in] 10-30 minutes -->
+    <string name="FeeSelector.economyTime">10–30 minutes</string>
+    <!-- Warning message for economy fee -->
+    <string name="FeeSelector.economyWarning">This option is not recommended for time-sensitive transactions.</string>
+    <!-- E.g. Estimated delivery: 10-60 minutes -->
+    <string name="FeeSelector.estimatedDeliver">Estimated Delivery: %1$s</string>
+    <!-- Regular fee -->
+    <string name="FeeSelector.regular">Regular</string>
+    <!-- E.g. [This transaction is predicted to complete in] 1-6 minutes -->
+    <string name="FeeSelector.regularTime">1–6 minutes</string>
+    <!-- Fee Selector title -->
+    <string name="FeeSelector.title">Processing Speed</string>
+    <!-- Checking private key balance progress view text -->
+    <string name="Import.checking">Checking private key balance…</string>
+    <!-- Sweep private key confirmation message -->
+    <string name="Import.confirm">Send %1$s from this private key into your wallet? The Yerbas network will receive a fee of %2$s.</string>
+    <!-- Duplicate key error message -->
+    <!-- empty private key error message -->
+    <string name="Import.Error.empty">This private key is empty.</string>
+    <!-- High fees error message -->
+    <!-- Not a valid private key error message -->
+    <string name="Import.Error.notValid">Not a valid private key</string>
+    <!-- Import signing error message -->
+    <!-- Import button label -->
+    <!-- Importing wallet progress view label -->
+    <!-- Caption for graphics -->
+    <!-- Import wallet intro screen message -->
+    <string name="Import.message">Importing a wallet transfers all the money from your other wallet into your YERB Wallet using a single transaction.</string>
+    <!-- Enter password alert view title -->
+    <string name="Import.password">This private key is password protected.</string>
+    <!-- password textfield placeholder -->
+    <!-- Caption for graphics -->
+    <!-- Scan Private key button label -->
+    <string name="Import.scan">Scan Private Key</string>
+    <!-- Import wallet success alert title -->
+    <!-- Successfully imported wallet message body -->
+    <!-- Import Wallet screen title -->
+    <!-- Unlocking Private key activity view message. -->
+    <!-- Import wallet intro warning message -->
+    <string name="Import.warning">Importing a wallet does not include transaction history or other details.</string>
+
+    <!-- Import wallet intro warning message -->
+    <string name="Import.warning2">Asset will not be swept from private. If you have assets in this address, keep your private key.</string>
+    <!-- Wrong password alert message -->
+    <!-- Close app button -->
+    <string name="JailbreakWarnings.close">Close</string>
+    <!-- Ignore jailbreak warning button -->
+    <string name="JailbreakWarnings.ignore">Ignore</string>
+    <!-- Jailbreak warning message -->
+    <!-- Jailbreak warning message -->
+    <!-- Jailbreak warning title -->
+    <string name="JailbreakWarnings.title">WARNING</string>
+    <!-- Location services disabled error -->
+    <!-- No permissions for location services -->
+    <!-- Wallet creation date prefix -->
+    <!-- Manage wallet description text -->
+    <!-- Change Wallet name textfield label -->
+    <!-- Manage wallet modal title -->
+    <!-- Buy bitcoin title -->
+    <!-- Menu button title -->
+    <string name="MenuButton.lock">Lock Wallet</string>
+    <!-- Menu button title -->
+    <string name="MenuButton.security">Security Center</string>
+    <!-- Menu button title -->
+    <string name="MenuButton.createAsset">Create asset</string>
+    <!-- Menu button title -->
+    <!-- Menu button title -->
+    <string name="MenuButton.settings">Settings</string>
+    <!-- Menu button title -->
+    <string name="MenuButton.support">Support</string>
+    <!-- Menu button title -->
+    <!-- Menu button title -->
+    <string name="MenuButton.tutorial">Re-Play Tutorial</string>
+    <!-- Menu button title -->
+    <string name="MenuButton.addressBook">Address Book</string>
+    <!-- button label -->
+    <string name="MenuViewController.createButton">Create New Wallet</string>
+    <!-- Menu modal title -->
+    <string name="MenuViewController.modalTitle">Menu</string>
+    <!-- button label -->
+    <string name="MenuViewController.recoverButton">Recover Wallet</string>
+    <!-- Switch to automatic mode button label -->
+    <string name="NodeSelector.automaticButton">Switch to Automatic Mode</string>
+    <!-- Node is connected label -->
+    <string name="NodeSelector.connected">Connected</string>
+    <!-- Enter node ip address view body -->
+    <string name="NodeSelector.enterBody">Enter Node IP address</string>
+    <!-- Enter Node ip address view title -->
+    <string name="NodeSelector.enterTitle">Enter Node</string>
+    <!-- Switch to manual mode button label -->
+    <string name="NodeSelector.manualButton">Switch to Manual Mode</string>
+    <!-- Node address label -->
+    <string name="NodeSelector.nodeLabel">Current Primary Node</string>
+    <!-- Node is not connected label -->
+    <string name="NodeSelector.notConnected">Not Connected</string>
+    <!-- Node status label -->
+    <string name="NodeSelector.statusLabel">Node Connection Status</string>
+    <!-- Node Selector view title -->
+    <string name="YerbNodeSelector.title">Yerbas Nodes</string>
+    <!-- Yerbas Node Selector view title -->
+    <string name="YerbasNodeSelector.title">Yerbas Nodes</string>
+    <!-- Bad Payment request alert title -->
+    <string name="PaymentProtocol.Errors.badPaymentRequest">Bad Payment Request</string>
+    <!-- Error opening payment protocol file message -->
+    <string name="PaymentProtocol.Errors.corruptedDocument">Unsupported or corrupted document</string>
+    <!-- Missing certificate payment protocol error message -->
+    <!-- Request expired payment protocol error message -->
+    <string name="PaymentProtocol.Errors.requestExpired">request expired</string>
+    <!-- Payment too small alert title -->
+    <!-- Amount too small error message -->
+    <string name="PaymentProtocol.Errors.smallPayment">YERB payments can\'t be less than %1$s.</string>
+    <!-- Output too small error message. -->
+    <string name="PaymentProtocol.Errors.smallTransaction">YERB transaction outputs can\'t be less than %1$s.</string>
+    <!-- Unsupported signature type payment protocol error message -->
+    <!-- Untrusted certificate payment protocol error message -->
+    <string name="PaymentProtocol.Errors.untrustedCertificate">untrusted certificate</string>
+    <!-- No passcode set warning body -->
+    <!-- No Passcode set warning title -->
+    <!-- Instruction how to enable device encryption -->
+    <string name="Prompts.NoScreenLock.body.android">A device screen lock is needed to safeguard your wallet. Go to \"Settings\" &gt; \"Security\" &gt; \"Screen lock\" and enable to continue.</string>
+    <!-- Device encryption prompt title -->
+    <!-- Warning about paper key. -->
+    <string name="Prompts.PaperKey.body">Your Paper Key must be saved in case you ever lose or change your phone. Tap here to continue.</string>
+    <!-- An action is required (You must do this action). -->
+    <string name="Prompts.PaperKey.title">Action Required</string>
+    <!-- Transaction rejected prompt body -->
+    <string name="Prompts.RecommendRescan.body">Your wallet may be out of sync. This can often be fixed by rescanning the blockchain.</string>
+    <!-- Transaction rejected prompt title -->
+    <string name="Prompts.RecommendRescan.title">Transaction Rejected</string>
+    <!-- Share data prompt body -->
+    <string name="Prompts.ShareData.body">Help improve Yerbas Wallet by sharing your anonymous data with us</string>
+    <!-- Share data prompt title -->
+    <string name="Prompts.ShareData.title">Share Anonymous Data</string>
+    <!-- Enable touch ID prompt body -->
+    <!-- Enable Fingerprint prompt body -->
+    <string name="Prompts.TouchId.body.android">Tap here to enable fingerprint authentication</string>
+    <!-- Enable touch ID prompt title -->
+    <!-- Enable Fingerprint prompt title -->
+    <string name="Prompts.TouchId.title.android">Enable Fingerprint Authentication</string>
+    <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
+    <string name="Prompts.TouchId.usePin.android">PIN</string>
+    <!-- Upgrade PIN prompt body. -->
+    <string name="Prompts.UpgradePin.body">Yerbas Wallet has upgraded to using a 6-digit PIN. Tap here to upgrade.</string>
+    <!-- Upgrade PIN prompt title. -->
+    <string name="Prompts.UpgradePin.title">Upgrade PIN</string>
+    <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
+    <string name="PushNotifications.body">Turn on notifications to receive special messages from Yerbas Wallet in the future.</string>
+    <!-- Push notifications toggle switch label -->
+    <string name="PushNotifications.label">Push Notifications</string>
+    <!-- Push notifications are off label -->
+    <!-- Push notifications are on label -->
+    <!-- Push notifications settings view title label -->
+    <string name="PushNotifications.title">Notifications</string>
+    <!-- Address copied message. -->
+    <string name="Receive.copied">Copied to clipboard.</string>
+    <!-- Share via email button label -->
+    <string name="Receive.emailButton">Email</string>
+    <!-- Request button label -->
+    <string name="Receive.request">Request an Amount</string>
+    <!-- Share button label -->
+    <string name="Receive.share">Share</string>
+    <!-- Share via text message (SMS) -->
+    <string name="Receive.textButton">Text Message</string>
+    <!-- Share via CoinRequest -->
+    <string name="Receive.crButton">Share via CoinRequest</string>
+    <!-- Receive modal title -->
+    <string name="Receive.title">Receive</string>
+    <!-- Done button text -->
+    <string name="RecoverWallet.done">Done</string>
+    <!-- Recover wallet header -->
+    <string name="RecoverWallet.header">Recover Wallet</string>
+    <!-- Reset PIN with paper key: header -->
+    <string name="RecoverWallet.header_reset_pin">Reset PIN</string>
+    <!-- Enter paper key instruction -->
+    <string name="RecoverWallet.instruction">Enter Paper Key</string>
+    <!-- Recover wallet intro -->
+    <string name="RecoverWallet.intro">Recover your Yerbas Wallet with your paper key.</string>
+    <!-- Invalid paper key message -->
+    <string name="RecoverWallet.invalid">The paper key you entered is invalid. Please double-check each word and try again.</string>
+    <!-- Previous button accessibility label -->
+    <!-- Next button label -->
+    <string name="RecoverWallet.next">Next</string>
+    <!-- Reset PIN with paper key: more information button. -->
+    <!-- Next button accessibility label -->
+    <!-- Recover wallet sub-header -->
+    <string name="RecoverWallet.subheader">Enter the paper key for the wallet you want to recover.</string>
+    <!-- Reset PIN with paper key: sub-header -->
+    <string name="RecoverWallet.subheader_reset_pin">To reset your PIN, enter the words from your paper key into the boxes below.</string>
+    <!-- No amount entered error message. -->
+    <!-- Request a specific amount of yerbas -->
+    <!-- Alert action button label -->
+    <string name="ReScan.alertAction">Sync</string>
+    <!-- Alert message body -->
+    <!-- Alert message title -->
+    <string name="ReScan.alertTitle">Sync with Blockchain?</string>
+    <!-- extimated time -->
+    <string name="ReScan.body1">20-45 minutes</string>
+    <!-- Syncing explanation -->
+    <string name="ReScan.body2">If a transaction shows as completed on the yerbas network but not in your Yerbas Wallet.</string>
+    <!-- Syncing explanation -->
+    <string name="ReScan.body3">You repeatedly get an error saying your transaction was rejected.</string>
+    <!-- Start Sync button label -->
+    <string name="ReScan.buttonTitle">Start Sync</string>
+    <!-- Sync blockchain view footer -->
+    <string name="ReScan.footer">You will not be able to send money while syncing with the blockchain.</string>
+    <!-- Sync Blockchain view header -->
+    <!-- Subheader label -->
+    <string name="ReScan.subheader1">Estimated time</string>
+    <!-- Subheader label -->
+    <string name="ReScan.subheader2">When to Sync?</string>
+    <!-- Scan yerbas address camera flash toggle -->
+    <!-- Complete filter label -->
+    <string name="Search.complete">complete</string>
+    <!-- Pending filter label -->
+    <string name="Search.pending">pending</string>
+    <!-- Received filter label -->
+    <string name="Search.received">received</string>
+    <!-- Sent filter label -->
+    <string name="Search.sent">sent</string>
+    <!-- Security Center Info -->
+    <string name="SecurityCenter.info">Enable all security features for maximum protection.</string>
+    <!-- Paper Key button description -->
+    <string name="SecurityCenter.paperKeyDescription">The only way to access your bitcoin if you lose or upgrade your phone.</string>
+    <!-- Paper Key button title -->
+    <string name="SecurityCenter.paperKeyTitle">Paper Key</string>
+    <!-- PIN button description -->
+    <string name="SecurityCenter.pinDescription">Protects your Yerbas Wallet from unauthorized users.</string>
+    <!-- PIN button title -->
+    <string name="SecurityCenter.pinTitle">6-Digit PIN</string>
+    <!-- Security Center Title -->
+    <string name="SecurityCenter.title">Security Center</string>
+    <!-- Touch ID button description -->
+    <string name="SecurityCenter.touchIdDescription">Conveniently unlock your Yerbas Wallet and send money up to a set limit.</string>
+    <!-- Touch ID button title -->
+    <!-- Security center fingerprint authentication button -->
+    <string name="SecurityCenter.touchIdTitle.android">Fingerprint Authentication</string>
+    <!-- Send money amount label -->
+    <string name="Send.amountLabel">Amount</string>
+    <!-- Balance: $4.00 -->
+    <string name="Send.balance">Balance: %1$s</string>
+    <!-- Instructions how to allow the camera access for the app -->
+    <string name="Send.cameraUnavailabeMessage.android">Allow camera access in \"Settings\" &gt; \"Apps\" &gt; \"Yerbas Wallet\" &gt; \"Permissions\"</string>
+    <string name="Simplex.allowFileSystemAccess">Please allow Storage permission in \"Settings\" &gt; \"Apps\" &gt; \"Yerbas Wallet\" &gt; \"Permissions\"</string>
+
+    <!-- Permission required to access camera -->
+    <string name="Send.cameraUnavailabeTitle.android">Yerbas Wallet is not allowed to access the camera</string>
+    <!-- Camera not allowed message -->
+    <!-- Camera not allowed alert title -->
+    <!-- Warning when sending to self. -->
+    <string name="Send.containsAddress">The destination is your own address. You cannot send to yourself.</string>
+    <!-- Could not create transaction alert title -->
+    <!-- Description for sending money label -->
+    <!-- Emtpy pasteboard error message -->
+    <string name="Send.emptyPasteboard">Pasteboard is empty</string>
+    <!-- Network Fee: $0.01 -->
+    <string name="Send.fee">Network Fee: %1$s</string>
+    <!-- Payee identity not certified alert title. -->
+    <!-- Invalid address alert message -->
+    <string name="Send.invalidAddressMessage">The destination address is not a valid address.</string>
+    <string name="Send.emptyAddressMessage">Address required in Expert Mode</string>
+    <!-- Invalid address on pasteboard message -->
+    <!-- Invalid address alert title -->
+    <string name="Send.invalidAddressTitle">Invalid Address</string>
+    <!-- Is rescanning error message -->
+    <string name="Send.isRescanning">Sending is disabled during a full rescan.</string>
+    <!-- We are loading the request (now) -->
+    <!-- Empty address alert message -->
+    <string name="Send.noAddress">Please enter the recipient\'s address.</string>
+    <!-- Emtpy amount alert message -->
+    <!-- Paste button label -->
+    <!-- Could not publish transaction alert title -->
+    <!-- Could not load remote request error message -->
+    <string name="Send.remoteRequestError">Could not load payment request</string>
+    <!-- Scan button label -->
+    <!-- Send button label (the action, "press here to send") -->
+    <string name="Send.sendLabel">Send</string>
+    <!-- Send screen title (as in "this is the screen for sending money") -->
+    <string name="Send.title">Send</string>
+    <!-- Send money to label -->
+    <string name="Send.toLabel">To</string>
+    <!-- Adress already used alert message - first part -->
+    <string name="Sendyerb.UsedAddress.firstLine">Yerbas addresses are intended for single use only.</string>
+
+    <!-- Adress already used alert message - second part -->
+    <string name="Send.UsedAddress.secondLIne">Re-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn\'t directly control the address.</string>
+    <!-- Adress already used alert title -->
+    <!-- About label -->
+    <!-- Advanced Settings title -->
+    <string name="Settings.advancedTitle">Advanced</string>
+    <!-- i.e. the currency which will be displayed -->
+    <string name="Settings.currency">Display Currency</string>
+    <string name="Settings.currencySettings">Currency Settings</string>
+    <string name="Settings.ipfsgateway">IPFS Gateway</string>
+    <string name="Settings.ipfsgateway_faq">Attachments on assets, and other resources, are uploaded to the IPFS distributed network.\n\nThis option selects which centralized web-host the application should use, when displaying IPFS content.</string>
+    <string name="Settings.rescan.blockchain">Sync Blockchain</string>
+    <string name="Settings.redeem.private.key">Redeem Wallet / Private Key</string>
+    <string name="Settings.other">Other</string>
+    <string name="Settings.aboutYerbas">About</string>
+    <!-- Join Early access label -->
+    <!-- Are you enjoying bread alert message body -->
+    <!-- Import wallet label -->
+    <string name="Settings.importTitle">Import Wallet</string>
+    <!-- Preferences settings section header -->
+    <string name="Settings.preferences">Preferences</string>
+    <!-- Preferences "Update Pin" section -->
+    <string name="Settings.updatePin">Update Pin</string>
+    <!-- Notifications label -->
+    <!-- Leave review button label -->
+    <string name="Settings.review">Leave us a Review</string>
+    <!-- Share anonymous data label -->
+    <string name="Settings.shareData">Share Anonymous Data</string>
+    <!-- Sync blockchain label -->
+    <string name="Settings.sync">Sync Blockchain</string>
+    <!-- Settings title -->
+    <!-- Touch ID spending limit label -->
+    <!-- The fingerprint spending limit -->
+    <!-- Wallet Settings section header -->
+    <string name="Settings.wallet">Wallet</string>
+    <!-- Start or recover another wallet menu label. -->
+    <string name="Settings.wipe">Erase Wallet</string>
+    <!-- Share data view body -->
+    <string name="ShareData.body">Help improve Yerbas Wallet by sharing your anonymous data with us. This does not include any financial information. We respect your financial privacy.</string>
+    <!-- Share data header -->
+    <string name="ShareData.header">Share Data?</string>
+    <!-- Share data switch label. -->
+    <string name="ShareData.toggleLabel">Share Anonymous Data?</string>
+    <!-- button label -->
+    <!-- Paper key explanation text. -->
+    <string name="StartPaperPhrase.body">Your paper key is the only way to restore your Yerbas Wallet if your phone is lost, stolen, broken, or upgraded.\n\nWe will show you a list of words to write down on a piece of paper and keep safe.</string>
+    <!-- button label -->
+    <string name="StartPaperPhrase.buttonTitle">Write Down Paper Key</string>
+    <!-- Argument is date -->
+    <!-- Start view message -->
+    <string name="StartViewController.message">THE EASY AND SECURE WAY TO USE YERBAS</string>
+    <!-- Syncing view connectiong state header text -->
+    <!-- Syncing view header text -->
+    <!-- Retry button label -->
+    <!-- Syncing view syncing state header text -->
+    <!-- 6 d (6 days) -->
+    <!-- 6 h (6 hours) -->
+    <!-- 6 m (6 minutes) -->
+    <!-- 6 s (6 seconds) -->
+    <!-- You can customize your Touch ID Spending Limit from the [TouchIdSettings.linkText gets added here as a button] -->
+    <!-- Fingerprint enabling description body -->
+    <string name="TouchIdSettings.customizeText.android">You can customize your Fingerprint Authentication Spending Limit from the Fingerprint Authorization Spending Limit screen</string>
+    <!-- Instruction for the fingerprint setup -->
+    <string name="TouchIdSettings.disabledWarning.body.android">You have not enabled fingerprint authentication on this device. Go to Settings -&gt; Security to set up fingerprint authentication.</string>
+    <!-- Fingerprint Is Not Setup -->
+    <string name="TouchIdSettings.disabledWarning.title.android">Fingerprint Authentication Not Enabled</string>
+    <!-- Touch Id screen label -->
+    <string name="TouchIdSettings.label">Use your fingerprint to unlock your Yerbas Wallet and send money up to a set limit.</string>
+    <!-- Link Text (see TouchIdSettings.customizeText) -->
+    <!-- Spending Limit: b100,000 ($100) -->
+    <string name="TouchIdSettings.spendingLimit">Spending limit: %1$s (%2$s)</string>
+    <!-- Touch id switch label. -->
+    <!-- Enable fingerprint for this wallet called Yerbas Wallet -->
+    <string name="TouchIdSettings.switchLabel.android">Enable Fingerprint Authentication</string>
+    <!-- Touch ID settings view title -->
+    <!-- Fingerprint authentication label -->
+    <string name="TouchIdSettings.title.android">Fingerprint Authentication</string>
+    <!-- Touch ID unavailable alert message -->
+    <!-- Touch ID unavailable alert title -->
+    <!-- Always require passcode option -->
+    <string name="TouchIdSpendingLimit">Always require passcode</string>
+    <!-- Touch ID spending limit screen body -->
+    <string name="TouchIdSpendingLimit.body">You will be asked to enter your 6-digit PIN to send any transaction over your spending limit, and every 48 hours since the last time you entered your 6-digit PIN.</string>
+    <!-- Touch Id spending limit screen title -->
+    <!-- name of spending limit when using fingerprint authorization -->
+    <string name="TouchIdSpendingLimit.title.android">Fingerprint Authorization Spending Limit</string>
+    <!-- Availability status text -->
+    <!-- Transaction complete label -->
+    <!-- eg. Ending balance: $50.00 -->
+    <!-- Exchange rate on date header -->
+    <!-- Exchange rate on date header -->
+    <!-- (b600 fee) -->
+    <!-- Invalid transaction -->
+    <!-- Timestamp label for event that just happened -->
+    <!-- Receive status text: 'In progress: 20%' -->
+    <!-- Send status text: 'In progress: 20%' -->
+    <!-- eg. Starting balance: $50.00 -->
+    <!-- Waiting to be confirmed string -->
+    <!-- e.g. I received money from an account. -->
+    <!-- Amount section header -->
+    <!-- Block height label -->
+    <!-- Memo section header -->
+    <!-- Empty transaction list message. -->
+    <!-- "Received [$5] at [which of my addresses]" => This is the "at [which of my addresses]" part. -->
+    <!-- More button title -->
+    <!-- Moved $5.00 (as in "I moved $5 to another location") -->
+    <!-- Moved $5.00 -->
+    <!-- eg. Confirmed in Block: Not Confirmed -->
+    <!-- "Received [$5] at [which of my addresses]" => This is the "Received [$5]" part. -->
+    <string name="TransactionDetails.received">Received %1$s</string>
+    <!-- Received $5.00 -->
+    <!-- "Sent [$5] to [address]" => This is the "Sent [$5]" part. -->
+    <!-- Sent $5.00 -->
+    <!-- Status section header -->
+    <!-- Transaction Details Title -->
+    <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
+    <!-- Transaction ID header -->
+    <!-- (this transaction was) Received at this address: -->
+    <!-- (this transaction was) Sent to this address: -->
+    <!-- Disabled until date -->
+    <!-- My Address button title -->
+    <string name="UnlockScreen.myAddress">My Address</string>
+    <!-- Reset PIN with Paper Key button label. -->
+    <string name="UnlockScreen.resetPin">Reset PIN</string>
+    <!-- Scan button title -->
+    <string name="UnlockScreen.scan">Scan</string>
+    <!-- Unlock Screen sub-header -->
+    <string name="UnlockScreen.subheader">Enter PIN</string>
+    <!-- Instruction to touch the sensor for fingerprint authentication -->
+    <string name="UnlockScreen.touchIdInstructions.android">Touch Sensor</string>
+    <!-- TouchID prompt text -->
+    <!-- Device authentication body -->
+    <string name="UnlockScreen.touchIdPrompt.android">Please unlock your Android device to continue.</string>
+    <!-- Unlock with TouchID accessibility label -->
+    <!-- Device authentication title -->
+    <string name="UnlockScreen.touchIdTitle.android">Authentication required</string>
+    <!-- Wallet unlocked message -->
+    <string name="UnlockScreen.unlocked">Wallet Unlocked</string>
+    <!-- Update PIN caption text -->
+    <string name="UpdatePin.caption">Remember this PIN. If you forget it, you won\'t be able to access your yerb.</string>
+    <!-- PIN creation info. -->
+    <string name="UpdatePin.createInstruction">Your PIN will be used to unlock your Yerbas Wallet and send money.</string>
+    <!-- Update PIN title -->
+    <string name="UpdatePin.createTitle">Set PIN</string>
+    <!-- Update PIN title -->
+    <string name="UpdatePin.createTitleConfirm">Re-Enter PIN</string>
+    <!-- Enter current PIN instruction -->
+    <string name="UpdatePin.enterCurrent">Enter your current PIN.</string>
+    <!-- Enter new PIN instruction -->
+    <string name="UpdatePin.enterNew">Enter your new PIN.</string>
+    <!-- Re-Enter new PIN instruction -->
+    <string name="UpdatePin.reEnterNew">Re-Enter your new PIN.</string>
+    <!-- Update PIN failure error message. -->
+    <!-- Update PIN failure alert view title -->
+    <!-- Update PIN title -->
+    <string name="UpdatePin.updateTitle">Update PIN</string>
+    <!-- Authorize to copy wallet addresses alert message -->
+    <!-- Authorize to copy wallet address PIN view prompt. -->
+    <!-- Authorize to copy wallet address alert title -->
+    <!-- Copy wallet addresses alert button label -->
+    <!-- Verify PIN for transaction view body -->
+    <string name="VerifyPin.authorize">Please enter your PIN to authorize this transaction.</string>
+    <!-- Verify PIN view body -->
+    <string name="VerifyPin.continueBody">Please enter your PIN to continue.</string>
+    <!-- Verify PIN view title -->
+    <string name="VerifyPin.title">PIN Required</string>
+    <!-- Authorize transaction with touch id message -->
+    <!-- 'No wallet' warning for watch app -->
+    <!-- Dismiss button label -->
+    <!-- Webview loading error message -->
+    <!-- Updating webview message -->
+    <string name="Webview.updating">Updating...</string>
+    <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
+    <!-- Top title of welcome screen -->
+    <!-- Wipe wallet alert message -->
+    <string name="WipeWallet.alertMessage">Are you sure you want to delete this wallet?</string>
+    <!-- Wipe wallet alert title -->
+    <string name="WipeWallet.alertTitle">Wipe Wallet?</string>
+    <!-- Failed wipe wallet alert message -->
+    <!-- Failed wipe wallet alert title -->
+    <!-- Enter phrase to wipe wallet instruction. -->
+    <string name="WipeWallet.instruction">To start a new wallet or restore an existing wallet, you must first erase the wallet that is currently installed. To continue, enter the current wallet\'s Paper Key.</string>
+    <!-- Start wipe wallet view message -->
+    <string name="WipeWallet.startMessage">Starting or recovering another wallet allows you to access and manage a different Yerbas Wallet on this device.</string>
+    <!-- Start wipe wallet view warning -->
+    <string name="WipeWallet.startWarning">Your current wallet will be removed from this device. If you wish to restore it in the future, you will need to enter your Paper Key.</string>
+    <!-- Wipe wallet navigation item title. -->
+    <!-- Wipe wallet button title -->
+    <string name="WipeWallet.wipe">Wipe</string>
+    <!-- Wiping activity message -->
+    <!-- Paper key instructions. -->
+    <string name="WritePaperPhrase.instruction">Write down each word in order and store it in a safe place.</string>
+    <!-- button label -->
+    <!-- button label -->
+    <string name="WritePaperPhrase.previous">Previous</string>
+    <!-- 1 of 3 -->
+    <string name="WritePaperPhrase.step">%1$d of %2$d</string>
+    <!-- Currency labels -->
+    <string name="CurrencyBalance">Balance</string>
+    <string name="CurrencySend">Send</string>
+    <string name="CurrencyReceive">Receive</string>
+    <string name="TotalAssets">Total Assets</string>
+    <string name="Wallets">Wallet</string>
+    <string name="assets">Assets</string>
+    <string name="Admin">Admin</string>
+
+    <string name="Dialog.screenAlteringTitle">"Screen Altering App Detected</string>
+    <string name="Dialog.screenAlteringMessage">"Yerbas Wallet will not function properly unless screen altering apps(such as Twilight) are disabled. </string>
+
+    <string name="app_intro_skip_button">SKIP</string>
+    <string name="app_intro_done_button">DONE</string>
+
+    <!-- Address Book -->
+    <string name="no_addresses_saved">No Addresses saved yet</string>
+    <string name="add_to_address_book">Add to Address Book</string>
+    <string name="address_label_hint">Address Label</string>
+    <string name="add_new_address">Add new address</string>
+    <string name="add">Add</string>
+    <string name="name_hint">Name</string>
+    <string name="invalid_address_name">Invalid Address Name</string>
+
+    <!-- Assets -->
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="manage_assets">Asset Display Settings</string>
+    <string name="no_assets">No Assets to manage</string>
+    <string name="browse_ipfs">Browse IPFS</string>
+    <string name="transfer_asset">Transfer Asset</string>
+    <string name="transfer_ownership">Transfer Ownership</string>
+    <string name="issue_sub_asset">Issue Sub Asset</string>
+    <string name="issue_unique_asset">Issue Unique Asset</string>
+    <string name="reissue_asset">Reissue Asset</string>
+    <string name="burn_asset">Burn Asset</string>
+    <string name="get_data">Get Data</string>
+    <string name="show_more">Show More …</string>
+    <string name="asset_balance">Asset Balance: %1$s</string>
+    <string name="new_asset">Create New Asset</string>
+    <string name="create">Create</string>
+    <string name="quantity">Quantity</string>
+    <string name="units">Units</string>
+    <string name="reissuable">Reissuable</string>
+    <string name="ipfs_hash">Has IPFS</string>
+    <string name="asset_creation_fee">Creation Fee: %1$s</string>
+    <string name="sub_asset_creation_fee">Sub Asset Fee: %1$s</string>
+    <string name="unique_asset_creation_fee">Unique Asset Fee: %1$s</string>
+    <string name="manage_asset_title">Manage %1$s</string>
+    <string name="done">Done</string>
+    <string name="asset_manage_fee">Managing Fee: %1$s</string>
+    <string name="ipfs_hash_invalid">The IPFS Hash is not valid</string>
+
+    <!-- Terms & Conditions -->
+    <string name="terms_conditions_title">Almost done! Let\'s review.</string>
+    <string name="terms_conditions_sub_title">Yerbas is different - it cannot be safely held with a bank or web service.</string>
+    <string name="first_clause_text">I understand that the keys to my funds are held securely on this device and that they do not exist anywhere else.</string>
+    <string name="second_clause_text">I understand that if I lose this device, or upgrade to a new device, the keys to my funds can only be recovered with the 12 words I have written down.</string>
+    <string name="read_and_understand_terms_of_use_text">I have read, understood, and agree to the Terms of Use.</string>
+    <string name="confirm_and_finish">Confirm &amp; Finish</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_first_screen_title">Welcome to Yerbas wallet!</string>
+    <string name="tutorial_first_screen_text">You pay by scanning a QR-code, and receive payments reliably and instantly.</string>
+    <string name="tutorial_second_screen_title">12 mnemonic recovery word phrase</string>
+    <string name="tutorial_second_screen_text">Back up your funds to ensure you always have access.</string>
+    <string name="tutorial_third_screen_title">BTC/Fiat &amp; Gold/Silver</string>
+    <string name="tutorial_third_screen_text">Choose your preferred display currency: Settings/Display Currency.</string>
+    <string name="tutorial_fourth_screen_title">Wallet generates new key pair for every transaction</string>
+    <string name="tutorial_fourth_screen_text">Public address is changed with every transaction, YERB wallet still manages all keys for you, you can re-use old addresses but this is against best practices</string>
+    <string name="tutorial_fifth_screen_title">YERB Wallet doesn\'t store your money</string>
+    <string name="tutorial_fifth_screen_text">Your money is on the network, the wallet contains keys … a keychain.</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+
+    <!-- Advanced Settings -->
+    <string name="wipe_wallet_warning_title">Wipe Wallet</string>
+    <string name="wipe_wallet_warning_message">Would you like to wipe all data? \nMake sure you have your 12 words, you can\'t go back.</string>
+    <string name="cancel">Cancel</string>
+    <string name="wipe">Wipe</string>
+
+    <!-- Chart -->
+    <string name="chart_title">YERB to BTC ratio (Bittrex)</string>
+    <string name="Send.generateAddressLabel">Generate Address</string>
+    <string name="used_address">Used Addresses</string>
+    <string name="reset_title">Reset</string>
+    <string name="expert_mode">Expert Mode</string>
+    <string name="show_address_input">Show Destination Address Input</string>
+    <string name="burn_asset_warning">Are you sure you want to burn the asset? Once burned there is no way you can get it back.</string>
+    <string name="txt_btn_check_availability">Check Availability</string>
+
+    <!-- Syncing view connection state header text -->
+    <!-- The sync has failed (to complete) -->
+    <!-- Syncing view header text -->
+    <!-- Retry button label -->
+    <!-- "eg. Synced through <Jan 12, 2015> -->
+    <string name="SyncingView.syncedThrough">Synced through %1$s</string>
+    <!-- Syncing view syncing state header text -->
+    <string name="SyncingView.syncing">Syncing</string>
+
+    <string name="txt_btn_create_asset">Create Asset</string>
+    <string name="txt_checking_availability">Checking Availability...</string>
+</resources>

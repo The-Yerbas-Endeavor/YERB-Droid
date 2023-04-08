@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/extra_light_blue_background"
+    tools:context="com.yerbaswallet.presenter.activities.SetPinActivity">
+
+    <com.yerbaswallet.presenter.customviews.BRText
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/bread_margin"
+        android:layout_marginStart="@dimen/bread_margin"
+        android:layout_marginTop="50dp"
+        android:text="@string/Settings.advancedTitle"
+        android:textColor="@color/total_assets_usd_color"
+        android:layout_alignParentRight="true"
+        android:textSize="28sp"
+        app:customTFont="CircularPro-Bold.otf" />
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_chevron_left" />
+
+
+            <com.yerbaswallet.presenter.customviews.BRText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Settings"
+                android:textSize="16sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ListView
+        android:id="@+id/settings_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:layout_below="@id/title"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_below="@id/settings_list"
+        android:background="@color/pin_pad_text"/>
+
+</RelativeLayout>

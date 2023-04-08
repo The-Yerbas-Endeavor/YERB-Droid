@@ -1,0 +1,919 @@
+ninja: Entering directory `C:\Users\anno\Documents\Code\yerb-droid\app\.cxx\cmake\yerbDebug\x86'
+[1/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRBase58.c.o
+[2/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRBIP44Sequence.c.o
+[3/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRBIP38Key.c.o
+[4/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRBloomFilter.c.o
+[5/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRBIP39Mnemonic.c.o
+[6/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRCrypto.c.o
+[7/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRSet.c.o
+[8/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRMerkleBlock.c.o
+[9/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRTransaction.c.o
+In file included from ../../../../src/main/jni/core/BRTransaction.c:35:
+In file included from ../../../../src/main/jni/core/BRAssets.h:14:
+../../../../src/main/jni/core/ChainParams.h:74:19: warning: initializer-string for char array is too long
+        {      0, "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90", 1514999494, 0x1e00ffff },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:75:19: warning: initializer-string for char array is too long
+        {   2016, "0000003e7c74d91113e9f8b203673bc77474112a3811f4fc25f577e5d4228035", 1515022405, 0x1d3fffc0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:76:19: warning: initializer-string for char array is too long
+        {   4032, "0000000e7029625c8ceb5e42f2a84c15e1c4326ea91c3369d49d64655560c9c3", 1515034394, 0x1d0ffff0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:77:19: warning: initializer-string for char array is too long
+        {  20160, "00000000146e792b63f2a18db16f32d2afc9f0b332839eb502cb9c9a8f1bc033", 1515665731, 0x1c53dd22 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:78:19: warning: initializer-string for char array is too long
+        {  40320, "00000000085e7d049938d66a08d151891c0087a6b3d78d400f1ca0944991ffde", 1516664426, 0x1c0a0075 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:79:19: warning: initializer-string for char array is too long
+        {  60480, "0000000000683f2d1bb44dd545eb4fea28c0f51eb513ea32b4e813f185a1f6ab", 1517740553, 0x1c01b501 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:80:19: warning: initializer-string for char array is too long
+        {  80640, "00000000000735f443ea62266bb7799a760c8336da0c7b7a987c895e83c9ea73", 1518771490, 0x1b43e935 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:81:19: warning: initializer-string for char array is too long
+        { 100800, "00000000000bf40aa747ca97da99e1e6878efff28f709d1969f0a2d95dda1414", 1519826997, 0x1b0fabc1 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:82:19: warning: initializer-string for char array is too long
+        { 120960, "000000000000203f20f1f2fc50546b4f3d0693a53e781b499884661e6762eb05", 1520934202, 0x1b060077 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:83:19: warning: initializer-string for char array is too long
+        { 141120, "00000000000367e05ceca64ebf6b72a87510bdcb6252ff071b7f4971661e9acf", 1522092453, 0x1b03cc83 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:84:19: warning: initializer-string for char array is too long
+        { 161280, "0000000000024a1d42423dd3e1cde28c78fe34857db63f08d21f11fc13e594c3", 1523259269, 0x1b028d7d },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:85:19: warning: initializer-string for char array is too long
+        { 181440, "000000000000d202bdeb7993a1de022f82231fdce97e22f054626291eb79f4cb", 1524510281, 0x1b038153 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:86:19: warning: initializer-string for char array is too long
+        { 201600, "000000000001a16d8b86e19ac87df227458d29b5fb70dfef7e5b0203df085617", 1525709579, 0x1b0306f4 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:87:19: warning: initializer-string for char array is too long
+        { 221760, "000000000002b4a1ef811a31e58489794dba047e4e78e18d5611c94d7fc60174", 1526920402, 0x1b02ff59 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:88:19: warning: initializer-string for char array is too long
+        { 241920, "000000000001e64a356c6665afcb2871bc7f18e5609663b5b54a82fa204ee9b1", 1528150015, 0x1b037c77 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:89:19: warning: initializer-string for char array is too long
+        { 262080, "0000000000014a11d3aacdc5ee21e69fd8aefe10f0e617508dfb3e78d1ca82be", 1529359488, 0x1b037276 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:90:19: warning: initializer-string for char array is too long
+        { 282240, "00000000000182bbfada9dd47003bed09880b7a1025edcb605f9c048f2bad49e", 1530594496, 0x1b042cda },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:91:19: warning: initializer-string for char array is too long
+        { 302400, "000000000001e9862c28d3359f2b568b03811988f2db2f91ab8b412acac891ed", 1531808927, 0x1b0422c8 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:92:19: warning: initializer-string for char array is too long
+        { 322560, "000000000001d50eaf12266c6ecaefec473fecd9daa7993db05b89e6ab381388", 1533209846, 0x1b04cb9e },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:93:19: warning: initializer-string for char array is too long
+        { 338778, "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:94:19: warning: initializer-string for char array is too long
+        { 341086, "000000000001c72e3613de62be33974f69993bf16f10d117d14321afa4259a0e", 1535734416, 0x1b0203f4 }
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:98:18: warning: initializer-string for char array is too long
+        {0,      "0000006ebc14cb6777bedda407702dfbc6b273f1af956bcfd6f4f98a2eb14433", 1533751200, 0x1e00ffff },  //Yerbasized
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:99:19: warning: initializer-string for char array is too long
+        {13572,   "0000000079d39ce0974c30dfe6864afdb4fbd5a857b2c92d1fae018ce0defd3c", 1534653139, 0x1d013c98 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:100:19: warning: initializer-string for char array is too long
+        {24715,   "00000022dc6cdab73a14ba54ab0f34e6d8a6a65fab9fd3c7ca9b5342d3d96a12", 1535395316, 0x1d347780 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:101:20: warning: initializer-string for char array is too long
+        {338778,   "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a }
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:123:59: warning: incompatible integer to pointer conversion passing 'unsigned int' to parameter of type 'const BRSet *' (aka 'const struct SetStruct *') [-Wint-conversion]
+    return BRMerkleBlockVerifyDifficulty(block, previous, (b) ? b->timestamp : 0);
+                                                          ^~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRMerkleBlock.h:112:107: note: passing argument to parameter 'blocks' here
+int BRMerkleBlockVerifyDifficulty(const BRMerkleBlock *block, const BRMerkleBlock *previous, const BRSet *blocks);
+                                                                                                          ^
+../../../../src/main/jni/core/BRTransaction.c:566:2: warning: TODO: OP_EQUALVERIFY condition doesn't trigger for assets input [-W#warnings]
+#warning TODO: OP_EQUALVERIFY condition doesn't trigger for assets input
+ ^
+27 warnings generated.
+[10/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRWallet.c.o
+In file included from ../../../../src/main/jni/core/BRWallet.c:33:
+In file included from ../../../../src/main/jni/core/BRAssets.h:14:
+../../../../src/main/jni/core/ChainParams.h:74:19: warning: initializer-string for char array is too long
+        {      0, "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90", 1514999494, 0x1e00ffff },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:75:19: warning: initializer-string for char array is too long
+        {   2016, "0000003e7c74d91113e9f8b203673bc77474112a3811f4fc25f577e5d4228035", 1515022405, 0x1d3fffc0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:76:19: warning: initializer-string for char array is too long
+        {   4032, "0000000e7029625c8ceb5e42f2a84c15e1c4326ea91c3369d49d64655560c9c3", 1515034394, 0x1d0ffff0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:77:19: warning: initializer-string for char array is too long
+        {  20160, "00000000146e792b63f2a18db16f32d2afc9f0b332839eb502cb9c9a8f1bc033", 1515665731, 0x1c53dd22 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:78:19: warning: initializer-string for char array is too long
+        {  40320, "00000000085e7d049938d66a08d151891c0087a6b3d78d400f1ca0944991ffde", 1516664426, 0x1c0a0075 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:79:19: warning: initializer-string for char array is too long
+        {  60480, "0000000000683f2d1bb44dd545eb4fea28c0f51eb513ea32b4e813f185a1f6ab", 1517740553, 0x1c01b501 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:80:19: warning: initializer-string for char array is too long
+        {  80640, "00000000000735f443ea62266bb7799a760c8336da0c7b7a987c895e83c9ea73", 1518771490, 0x1b43e935 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:81:19: warning: initializer-string for char array is too long
+        { 100800, "00000000000bf40aa747ca97da99e1e6878efff28f709d1969f0a2d95dda1414", 1519826997, 0x1b0fabc1 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:82:19: warning: initializer-string for char array is too long
+        { 120960, "000000000000203f20f1f2fc50546b4f3d0693a53e781b499884661e6762eb05", 1520934202, 0x1b060077 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:83:19: warning: initializer-string for char array is too long
+        { 141120, "00000000000367e05ceca64ebf6b72a87510bdcb6252ff071b7f4971661e9acf", 1522092453, 0x1b03cc83 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:84:19: warning: initializer-string for char array is too long
+        { 161280, "0000000000024a1d42423dd3e1cde28c78fe34857db63f08d21f11fc13e594c3", 1523259269, 0x1b028d7d },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:85:19: warning: initializer-string for char array is too long
+        { 181440, "000000000000d202bdeb7993a1de022f82231fdce97e22f054626291eb79f4cb", 1524510281, 0x1b038153 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:86:19: warning: initializer-string for char array is too long
+        { 201600, "000000000001a16d8b86e19ac87df227458d29b5fb70dfef7e5b0203df085617", 1525709579, 0x1b0306f4 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:87:19: warning: initializer-string for char array is too long
+        { 221760, "000000000002b4a1ef811a31e58489794dba047e4e78e18d5611c94d7fc60174", 1526920402, 0x1b02ff59 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:88:19: warning: initializer-string for char array is too long
+        { 241920, "000000000001e64a356c6665afcb2871bc7f18e5609663b5b54a82fa204ee9b1", 1528150015, 0x1b037c77 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:89:19: warning: initializer-string for char array is too long
+        { 262080, "0000000000014a11d3aacdc5ee21e69fd8aefe10f0e617508dfb3e78d1ca82be", 1529359488, 0x1b037276 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:90:19: warning: initializer-string for char array is too long
+        { 282240, "00000000000182bbfada9dd47003bed09880b7a1025edcb605f9c048f2bad49e", 1530594496, 0x1b042cda },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:91:19: warning: initializer-string for char array is too long
+        { 302400, "000000000001e9862c28d3359f2b568b03811988f2db2f91ab8b412acac891ed", 1531808927, 0x1b0422c8 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:92:19: warning: initializer-string for char array is too long
+        { 322560, "000000000001d50eaf12266c6ecaefec473fecd9daa7993db05b89e6ab381388", 1533209846, 0x1b04cb9e },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:93:19: warning: initializer-string for char array is too long
+        { 338778, "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:94:19: warning: initializer-string for char array is too long
+        { 341086, "000000000001c72e3613de62be33974f69993bf16f10d117d14321afa4259a0e", 1535734416, 0x1b0203f4 }
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:98:18: warning: initializer-string for char array is too long
+        {0,      "0000006ebc14cb6777bedda407702dfbc6b273f1af956bcfd6f4f98a2eb14433", 1533751200, 0x1e00ffff },  //Yerbasized
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:99:19: warning: initializer-string for char array is too long
+        {13572,   "0000000079d39ce0974c30dfe6864afdb4fbd5a857b2c92d1fae018ce0defd3c", 1534653139, 0x1d013c98 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:100:19: warning: initializer-string for char array is too long
+        {24715,   "00000022dc6cdab73a14ba54ab0f34e6d8a6a65fab9fd3c7ca9b5342d3d96a12", 1535395316, 0x1d347780 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:101:20: warning: initializer-string for char array is too long
+        {338778,   "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a }
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:123:59: warning: incompatible integer to pointer conversion passing 'unsigned int' to parameter of type 'const BRSet *' (aka 'const struct SetStruct *') [-Wint-conversion]
+    return BRMerkleBlockVerifyDifficulty(block, previous, (b) ? b->timestamp : 0);
+                                                          ^~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRMerkleBlock.h:112:107: note: passing argument to parameter 'blocks' here
+int BRMerkleBlockVerifyDifficulty(const BRMerkleBlock *block, const BRMerkleBlock *previous, const BRSet *blocks);
+                                                                                                          ^
+../../../../src/main/jni/core/BRWallet.c:615:2: warning: find better way to do this. [-W#warnings]
+#warning find better way to do this.
+ ^
+../../../../src/main/jni/core/BRWallet.c:834:2: warning: TODO: change asstWithOwner to char array !! [-W#warnings]
+#warning TODO: change asstWithOwner to char array !!
+ ^
+../../../../src/main/jni/core/BRWallet.c:1083:2: warning: TODO: change asstWithOwner to char array !! [-W#warnings]
+#warning TODO: change asstWithOwner to char array !!
+ ^
+29 warnings generated.
+[11/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRScript.c.o
+[12/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRPaymentProtocol.c.o
+[13/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRAssets.c.o
+In file included from ../../../../src/main/jni/core/BRAssets.c:6:
+In file included from ../../../../src/main/jni/core/BRAssets.h:14:
+../../../../src/main/jni/core/ChainParams.h:74:19: warning: initializer-string for char array is too long
+        {      0, "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90", 1514999494, 0x1e00ffff },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:75:19: warning: initializer-string for char array is too long
+        {   2016, "0000003e7c74d91113e9f8b203673bc77474112a3811f4fc25f577e5d4228035", 1515022405, 0x1d3fffc0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:76:19: warning: initializer-string for char array is too long
+        {   4032, "0000000e7029625c8ceb5e42f2a84c15e1c4326ea91c3369d49d64655560c9c3", 1515034394, 0x1d0ffff0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:77:19: warning: initializer-string for char array is too long
+        {  20160, "00000000146e792b63f2a18db16f32d2afc9f0b332839eb502cb9c9a8f1bc033", 1515665731, 0x1c53dd22 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:78:19: warning: initializer-string for char array is too long
+        {  40320, "00000000085e7d049938d66a08d151891c0087a6b3d78d400f1ca0944991ffde", 1516664426, 0x1c0a0075 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:79:19: warning: initializer-string for char array is too long
+        {  60480, "0000000000683f2d1bb44dd545eb4fea28c0f51eb513ea32b4e813f185a1f6ab", 1517740553, 0x1c01b501 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:80:19: warning: initializer-string for char array is too long
+        {  80640, "00000000000735f443ea62266bb7799a760c8336da0c7b7a987c895e83c9ea73", 1518771490, 0x1b43e935 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:81:19: warning: initializer-string for char array is too long
+        { 100800, "00000000000bf40aa747ca97da99e1e6878efff28f709d1969f0a2d95dda1414", 1519826997, 0x1b0fabc1 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:82:19: warning: initializer-string for char array is too long
+        { 120960, "000000000000203f20f1f2fc50546b4f3d0693a53e781b499884661e6762eb05", 1520934202, 0x1b060077 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:83:19: warning: initializer-string for char array is too long
+        { 141120, "00000000000367e05ceca64ebf6b72a87510bdcb6252ff071b7f4971661e9acf", 1522092453, 0x1b03cc83 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:84:19: warning: initializer-string for char array is too long
+        { 161280, "0000000000024a1d42423dd3e1cde28c78fe34857db63f08d21f11fc13e594c3", 1523259269, 0x1b028d7d },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:85:19: warning: initializer-string for char array is too long
+        { 181440, "000000000000d202bdeb7993a1de022f82231fdce97e22f054626291eb79f4cb", 1524510281, 0x1b038153 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:86:19: warning: initializer-string for char array is too long
+        { 201600, "000000000001a16d8b86e19ac87df227458d29b5fb70dfef7e5b0203df085617", 1525709579, 0x1b0306f4 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:87:19: warning: initializer-string for char array is too long
+        { 221760, "000000000002b4a1ef811a31e58489794dba047e4e78e18d5611c94d7fc60174", 1526920402, 0x1b02ff59 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:88:19: warning: initializer-string for char array is too long
+        { 241920, "000000000001e64a356c6665afcb2871bc7f18e5609663b5b54a82fa204ee9b1", 1528150015, 0x1b037c77 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:89:19: warning: initializer-string for char array is too long
+        { 262080, "0000000000014a11d3aacdc5ee21e69fd8aefe10f0e617508dfb3e78d1ca82be", 1529359488, 0x1b037276 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:90:19: warning: initializer-string for char array is too long
+        { 282240, "00000000000182bbfada9dd47003bed09880b7a1025edcb605f9c048f2bad49e", 1530594496, 0x1b042cda },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:91:19: warning: initializer-string for char array is too long
+        { 302400, "000000000001e9862c28d3359f2b568b03811988f2db2f91ab8b412acac891ed", 1531808927, 0x1b0422c8 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:92:19: warning: initializer-string for char array is too long
+        { 322560, "000000000001d50eaf12266c6ecaefec473fecd9daa7993db05b89e6ab381388", 1533209846, 0x1b04cb9e },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:93:19: warning: initializer-string for char array is too long
+        { 338778, "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:94:19: warning: initializer-string for char array is too long
+        { 341086, "000000000001c72e3613de62be33974f69993bf16f10d117d14321afa4259a0e", 1535734416, 0x1b0203f4 }
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:98:18: warning: initializer-string for char array is too long
+        {0,      "0000006ebc14cb6777bedda407702dfbc6b273f1af956bcfd6f4f98a2eb14433", 1533751200, 0x1e00ffff },  //Yerbasized
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:99:19: warning: initializer-string for char array is too long
+        {13572,   "0000000079d39ce0974c30dfe6864afdb4fbd5a857b2c92d1fae018ce0defd3c", 1534653139, 0x1d013c98 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:100:19: warning: initializer-string for char array is too long
+        {24715,   "00000022dc6cdab73a14ba54ab0f34e6d8a6a65fab9fd3c7ca9b5342d3d96a12", 1535395316, 0x1d347780 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:101:20: warning: initializer-string for char array is too long
+        {338778,   "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a }
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:123:59: warning: incompatible integer to pointer conversion passing 'unsigned int' to parameter of type 'const BRSet *' (aka 'const struct SetStruct *') [-Wint-conversion]
+    return BRMerkleBlockVerifyDifficulty(block, previous, (b) ? b->timestamp : 0);
+                                                          ^~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRMerkleBlock.h:112:107: note: passing argument to parameter 'blocks' here
+int BRMerkleBlockVerifyDifficulty(const BRMerkleBlock *block, const BRMerkleBlock *previous, const BRSet *blocks);
+                                                                                                          ^
+../../../../src/main/jni/core/BRAssets.c:86:5: warning: 'sizeof (tx->outputs)' will return the size of the pointer, not the array itself [-Wsizeof-pointer-div]
+    foreach(BRTxOutput *out, tx->outputs)
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRAssets.c:50:23: note: expanded from macro 'foreach'
+size = sizeof (array) / sizeof *(array); \
+       ~~~~~~~~~~~~~~ ^
+../../../../src/main/jni/core/BRAssets.c:104:5: warning: 'sizeof (tx->outputs)' will return the size of the pointer, not the array itself [-Wsizeof-pointer-div]
+    foreach(BRTxOutput *out, tx->outputs)
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRAssets.c:50:23: note: expanded from macro 'foreach'
+size = sizeof (array) / sizeof *(array); \
+       ~~~~~~~~~~~~~~ ^
+../../../../src/main/jni/core/BRAssets.c:114:5: warning: 'sizeof (tx->outputs)' will return the size of the pointer, not the array itself [-Wsizeof-pointer-div]
+    foreach(BRTxOutput *out, tx->outputs)
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRAssets.c:50:23: note: expanded from macro 'foreach'
+size = sizeof (array) / sizeof *(array); \
+       ~~~~~~~~~~~~~~ ^
+29 warnings generated.
+[14/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRAddress.c.o
+../../../../src/main/jni/core/BRAddress.c:247:2: warning: TODO: doesn't support PSH count for assets tx will be >3 [-W#warnings]
+#warning TODO: doesn't support PSH count for assets tx will be >3
+ ^
+1 warning generated.
+[15/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/blake.c.o
+[16/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/jh.c.o
+[17/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRPeer.c.o
+In file included from ../../../../src/main/jni/core/BRPeer.c:47:
+In file included from ../../../../src/main/jni/core/BRAssets.h:14:
+../../../../src/main/jni/core/ChainParams.h:74:19: warning: initializer-string for char array is too long
+        {      0, "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90", 1514999494, 0x1e00ffff },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:75:19: warning: initializer-string for char array is too long
+        {   2016, "0000003e7c74d91113e9f8b203673bc77474112a3811f4fc25f577e5d4228035", 1515022405, 0x1d3fffc0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:76:19: warning: initializer-string for char array is too long
+        {   4032, "0000000e7029625c8ceb5e42f2a84c15e1c4326ea91c3369d49d64655560c9c3", 1515034394, 0x1d0ffff0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:77:19: warning: initializer-string for char array is too long
+        {  20160, "00000000146e792b63f2a18db16f32d2afc9f0b332839eb502cb9c9a8f1bc033", 1515665731, 0x1c53dd22 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:78:19: warning: initializer-string for char array is too long
+        {  40320, "00000000085e7d049938d66a08d151891c0087a6b3d78d400f1ca0944991ffde", 1516664426, 0x1c0a0075 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:79:19: warning: initializer-string for char array is too long
+        {  60480, "0000000000683f2d1bb44dd545eb4fea28c0f51eb513ea32b4e813f185a1f6ab", 1517740553, 0x1c01b501 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:80:19: warning: initializer-string for char array is too long
+        {  80640, "00000000000735f443ea62266bb7799a760c8336da0c7b7a987c895e83c9ea73", 1518771490, 0x1b43e935 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:81:19: warning: initializer-string for char array is too long
+        { 100800, "00000000000bf40aa747ca97da99e1e6878efff28f709d1969f0a2d95dda1414", 1519826997, 0x1b0fabc1 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:82:19: warning: initializer-string for char array is too long
+        { 120960, "000000000000203f20f1f2fc50546b4f3d0693a53e781b499884661e6762eb05", 1520934202, 0x1b060077 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:83:19: warning: initializer-string for char array is too long
+        { 141120, "00000000000367e05ceca64ebf6b72a87510bdcb6252ff071b7f4971661e9acf", 1522092453, 0x1b03cc83 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:84:19: warning: initializer-string for char array is too long
+        { 161280, "0000000000024a1d42423dd3e1cde28c78fe34857db63f08d21f11fc13e594c3", 1523259269, 0x1b028d7d },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:85:19: warning: initializer-string for char array is too long
+        { 181440, "000000000000d202bdeb7993a1de022f82231fdce97e22f054626291eb79f4cb", 1524510281, 0x1b038153 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:86:19: warning: initializer-string for char array is too long
+        { 201600, "000000000001a16d8b86e19ac87df227458d29b5fb70dfef7e5b0203df085617", 1525709579, 0x1b0306f4 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:87:19: warning: initializer-string for char array is too long
+        { 221760, "000000000002b4a1ef811a31e58489794dba047e4e78e18d5611c94d7fc60174", 1526920402, 0x1b02ff59 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:88:19: warning: initializer-string for char array is too long
+        { 241920, "000000000001e64a356c6665afcb2871bc7f18e5609663b5b54a82fa204ee9b1", 1528150015, 0x1b037c77 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:89:19: warning: initializer-string for char array is too long
+        { 262080, "0000000000014a11d3aacdc5ee21e69fd8aefe10f0e617508dfb3e78d1ca82be", 1529359488, 0x1b037276 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:90:19: warning: initializer-string for char array is too long
+        { 282240, "00000000000182bbfada9dd47003bed09880b7a1025edcb605f9c048f2bad49e", 1530594496, 0x1b042cda },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:91:19: warning: initializer-string for char array is too long
+        { 302400, "000000000001e9862c28d3359f2b568b03811988f2db2f91ab8b412acac891ed", 1531808927, 0x1b0422c8 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:92:19: warning: initializer-string for char array is too long
+        { 322560, "000000000001d50eaf12266c6ecaefec473fecd9daa7993db05b89e6ab381388", 1533209846, 0x1b04cb9e },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:93:19: warning: initializer-string for char array is too long
+        { 338778, "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:94:19: warning: initializer-string for char array is too long
+        { 341086, "000000000001c72e3613de62be33974f69993bf16f10d117d14321afa4259a0e", 1535734416, 0x1b0203f4 }
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:98:18: warning: initializer-string for char array is too long
+        {0,      "0000006ebc14cb6777bedda407702dfbc6b273f1af956bcfd6f4f98a2eb14433", 1533751200, 0x1e00ffff },  //Yerbasized
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:99:19: warning: initializer-string for char array is too long
+        {13572,   "0000000079d39ce0974c30dfe6864afdb4fbd5a857b2c92d1fae018ce0defd3c", 1534653139, 0x1d013c98 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:100:19: warning: initializer-string for char array is too long
+        {24715,   "00000022dc6cdab73a14ba54ab0f34e6d8a6a65fab9fd3c7ca9b5342d3d96a12", 1535395316, 0x1d347780 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:101:20: warning: initializer-string for char array is too long
+        {338778,   "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a }
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:123:59: warning: incompatible integer to pointer conversion passing 'unsigned int' to parameter of type 'const BRSet *' (aka 'const struct SetStruct *') [-Wint-conversion]
+    return BRMerkleBlockVerifyDifficulty(block, previous, (b) ? b->timestamp : 0);
+                                                          ^~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRMerkleBlock.h:112:107: note: passing argument to parameter 'blocks' here
+int BRMerkleBlockVerifyDifficulty(const BRMerkleBlock *block, const BRMerkleBlock *previous, const BRSet *blocks);
+                                                                                                          ^
+../../../../src/main/jni/core/BRPeer.c:592:21: warning: format specifies type 'long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                    tx->asset->nameLen, tx->asset->name);
+                    ^~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRPeer.h:36:62: note: expanded from macro 'peer_log'
+                                      (peer)->port, _va_rest(__VA_ARGS__, NULL))
+                                                             ^~~~~~~~~~~
+../../../../src/main/jni/core/BRPeer.h:38:30: note: expanded from macro '_va_rest'
+#define _va_rest(first, ...) __VA_ARGS__
+                             ^~~~~~~~~~~
+../../../../src/main/jni/core/BRPeer.h:45:72: note: expanded from macro '_peer_log'
+#define _peer_log(...) __android_log_print(ANDROID_LOG_INFO, "yerbas", __VA_ARGS__)
+                                                                       ^~~~~~~~~~~
+../../../../src/main/jni/core/BRPeer.c:702:17: warning: implicit declaration of function 'light_verify' is invalid in C99 [-Wimplicit-function-declaration]
+                light_verify(header_hash, mix_hash, nonce, hash_temp);
+                ^
+../../../../src/main/jni/core/BRPeer.c:765:17: warning: implicit declaration of function 'light_verify' is invalid in C99 [-Wimplicit-function-declaration]
+                light_verify(header_hash, mix_hash, nonce, hash_temp);
+                ^
+../../../../src/main/jni/core/BRPeer.c:824:21: warning: implicit declaration of function 'light_verify' is invalid in C99 [-Wimplicit-function-declaration]
+                    light_verify(header_hash, mix_hash, nonce, hash_temp);
+                    ^
+30 warnings generated.
+[18/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/cubehash.c.o
+[19/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/bmw.c.o
+[20/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/echo.c.o
+[21/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/sph_hamsi_helper.c.o
+[22/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/luffa.c.o
+[23/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRKey.c.o
+[24/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/sph_sha512.c.o
+[25/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/shavite.c.o
+[26/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/ethash/keccak.c.o
+[27/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/sph_fugue.c.o
+[28/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/simd.c.o
+[29/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/sph_sha2.c.o
+[30/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/tiger.c.o
+[31/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/sph_shabal.c.o
+[32/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/ethash/keccakf800.c.o
+[33/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCoreJniReference.c.o
+[34/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/skein.c.o
+[35/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/keccak.c.o
+[36/59] Building C object CMakeFiles/core.dir/src/main/jni/core/BRPeerManager.c.o
+In file included from ../../../../src/main/jni/core/BRPeerManager.c:1:
+In file included from ../../../../src/main/jni/core/BRPeerManager.h:32:
+../../../../src/main/jni/core/ChainParams.h:74:19: warning: initializer-string for char array is too long
+        {      0, "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90", 1514999494, 0x1e00ffff },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:75:19: warning: initializer-string for char array is too long
+        {   2016, "0000003e7c74d91113e9f8b203673bc77474112a3811f4fc25f577e5d4228035", 1515022405, 0x1d3fffc0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:76:19: warning: initializer-string for char array is too long
+        {   4032, "0000000e7029625c8ceb5e42f2a84c15e1c4326ea91c3369d49d64655560c9c3", 1515034394, 0x1d0ffff0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:77:19: warning: initializer-string for char array is too long
+        {  20160, "00000000146e792b63f2a18db16f32d2afc9f0b332839eb502cb9c9a8f1bc033", 1515665731, 0x1c53dd22 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:78:19: warning: initializer-string for char array is too long
+        {  40320, "00000000085e7d049938d66a08d151891c0087a6b3d78d400f1ca0944991ffde", 1516664426, 0x1c0a0075 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:79:19: warning: initializer-string for char array is too long
+        {  60480, "0000000000683f2d1bb44dd545eb4fea28c0f51eb513ea32b4e813f185a1f6ab", 1517740553, 0x1c01b501 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:80:19: warning: initializer-string for char array is too long
+        {  80640, "00000000000735f443ea62266bb7799a760c8336da0c7b7a987c895e83c9ea73", 1518771490, 0x1b43e935 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:81:19: warning: initializer-string for char array is too long
+        { 100800, "00000000000bf40aa747ca97da99e1e6878efff28f709d1969f0a2d95dda1414", 1519826997, 0x1b0fabc1 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:82:19: warning: initializer-string for char array is too long
+        { 120960, "000000000000203f20f1f2fc50546b4f3d0693a53e781b499884661e6762eb05", 1520934202, 0x1b060077 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:83:19: warning: initializer-string for char array is too long
+        { 141120, "00000000000367e05ceca64ebf6b72a87510bdcb6252ff071b7f4971661e9acf", 1522092453, 0x1b03cc83 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:84:19: warning: initializer-string for char array is too long
+        { 161280, "0000000000024a1d42423dd3e1cde28c78fe34857db63f08d21f11fc13e594c3", 1523259269, 0x1b028d7d },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:85:19: warning: initializer-string for char array is too long
+        { 181440, "000000000000d202bdeb7993a1de022f82231fdce97e22f054626291eb79f4cb", 1524510281, 0x1b038153 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:86:19: warning: initializer-string for char array is too long
+        { 201600, "000000000001a16d8b86e19ac87df227458d29b5fb70dfef7e5b0203df085617", 1525709579, 0x1b0306f4 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:87:19: warning: initializer-string for char array is too long
+        { 221760, "000000000002b4a1ef811a31e58489794dba047e4e78e18d5611c94d7fc60174", 1526920402, 0x1b02ff59 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:88:19: warning: initializer-string for char array is too long
+        { 241920, "000000000001e64a356c6665afcb2871bc7f18e5609663b5b54a82fa204ee9b1", 1528150015, 0x1b037c77 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:89:19: warning: initializer-string for char array is too long
+        { 262080, "0000000000014a11d3aacdc5ee21e69fd8aefe10f0e617508dfb3e78d1ca82be", 1529359488, 0x1b037276 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:90:19: warning: initializer-string for char array is too long
+        { 282240, "00000000000182bbfada9dd47003bed09880b7a1025edcb605f9c048f2bad49e", 1530594496, 0x1b042cda },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:91:19: warning: initializer-string for char array is too long
+        { 302400, "000000000001e9862c28d3359f2b568b03811988f2db2f91ab8b412acac891ed", 1531808927, 0x1b0422c8 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:92:19: warning: initializer-string for char array is too long
+        { 322560, "000000000001d50eaf12266c6ecaefec473fecd9daa7993db05b89e6ab381388", 1533209846, 0x1b04cb9e },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:93:19: warning: initializer-string for char array is too long
+        { 338778, "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:94:19: warning: initializer-string for char array is too long
+        { 341086, "000000000001c72e3613de62be33974f69993bf16f10d117d14321afa4259a0e", 1535734416, 0x1b0203f4 }
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:98:18: warning: initializer-string for char array is too long
+        {0,      "0000006ebc14cb6777bedda407702dfbc6b273f1af956bcfd6f4f98a2eb14433", 1533751200, 0x1e00ffff },  //Yerbasized
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:99:19: warning: initializer-string for char array is too long
+        {13572,   "0000000079d39ce0974c30dfe6864afdb4fbd5a857b2c92d1fae018ce0defd3c", 1534653139, 0x1d013c98 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:100:19: warning: initializer-string for char array is too long
+        {24715,   "00000022dc6cdab73a14ba54ab0f34e6d8a6a65fab9fd3c7ca9b5342d3d96a12", 1535395316, 0x1d347780 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:101:20: warning: initializer-string for char array is too long
+        {338778,   "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a }
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:123:59: warning: incompatible integer to pointer conversion passing 'unsigned int' to parameter of type 'const BRSet *' (aka 'const struct SetStruct *') [-Wint-conversion]
+    return BRMerkleBlockVerifyDifficulty(block, previous, (b) ? b->timestamp : 0);
+                                                          ^~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRMerkleBlock.h:112:107: note: passing argument to parameter 'blocks' here
+int BRMerkleBlockVerifyDifficulty(const BRMerkleBlock *block, const BRMerkleBlock *previous, const BRSet *blocks);
+                                                                                                          ^
+26 warnings generated.
+[37/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/ethash/primes.c.o
+[38/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/groestl.c.o
+[39/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/sph_whirlpool.c.o
+[40/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCoreAddress.c.o
+[41/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCoreTransactionOutput.c.o
+[42/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/ethash/keccakf1600.c.o
+[43/59] Building C object CMakeFiles/core.dir/src/main/jni/BRCoreJni.c.o
+[44/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCoreMerkleBlock.c.o
+[45/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCoreMasterPubKey.c.o
+[46/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCoreTransaction.c.o
+In file included from ../../../../src/main/jni/com_yerbas_core_BRCoreTransaction.c:23:
+In file included from ../../../../src/main/jni/core\BRAssets.h:14:
+../../../../src/main/jni/core/ChainParams.h:74:19: warning: initializer-string for char array is too long
+        {      0, "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90", 1514999494, 0x1e00ffff },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:75:19: warning: initializer-string for char array is too long
+        {   2016, "0000003e7c74d91113e9f8b203673bc77474112a3811f4fc25f577e5d4228035", 1515022405, 0x1d3fffc0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:76:19: warning: initializer-string for char array is too long
+        {   4032, "0000000e7029625c8ceb5e42f2a84c15e1c4326ea91c3369d49d64655560c9c3", 1515034394, 0x1d0ffff0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:77:19: warning: initializer-string for char array is too long
+        {  20160, "00000000146e792b63f2a18db16f32d2afc9f0b332839eb502cb9c9a8f1bc033", 1515665731, 0x1c53dd22 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:78:19: warning: initializer-string for char array is too long
+        {  40320, "00000000085e7d049938d66a08d151891c0087a6b3d78d400f1ca0944991ffde", 1516664426, 0x1c0a0075 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:79:19: warning: initializer-string for char array is too long
+        {  60480, "0000000000683f2d1bb44dd545eb4fea28c0f51eb513ea32b4e813f185a1f6ab", 1517740553, 0x1c01b501 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:80:19: warning: initializer-string for char array is too long
+        {  80640, "00000000000735f443ea62266bb7799a760c8336da0c7b7a987c895e83c9ea73", 1518771490, 0x1b43e935 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:81:19: warning: initializer-string for char array is too long
+        { 100800, "00000000000bf40aa747ca97da99e1e6878efff28f709d1969f0a2d95dda1414", 1519826997, 0x1b0fabc1 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:82:19: warning: initializer-string for char array is too long
+        { 120960, "000000000000203f20f1f2fc50546b4f3d0693a53e781b499884661e6762eb05", 1520934202, 0x1b060077 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:83:19: warning: initializer-string for char array is too long
+        { 141120, "00000000000367e05ceca64ebf6b72a87510bdcb6252ff071b7f4971661e9acf", 1522092453, 0x1b03cc83 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:84:19: warning: initializer-string for char array is too long
+        { 161280, "0000000000024a1d42423dd3e1cde28c78fe34857db63f08d21f11fc13e594c3", 1523259269, 0x1b028d7d },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:85:19: warning: initializer-string for char array is too long
+        { 181440, "000000000000d202bdeb7993a1de022f82231fdce97e22f054626291eb79f4cb", 1524510281, 0x1b038153 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:86:19: warning: initializer-string for char array is too long
+        { 201600, "000000000001a16d8b86e19ac87df227458d29b5fb70dfef7e5b0203df085617", 1525709579, 0x1b0306f4 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:87:19: warning: initializer-string for char array is too long
+        { 221760, "000000000002b4a1ef811a31e58489794dba047e4e78e18d5611c94d7fc60174", 1526920402, 0x1b02ff59 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:88:19: warning: initializer-string for char array is too long
+        { 241920, "000000000001e64a356c6665afcb2871bc7f18e5609663b5b54a82fa204ee9b1", 1528150015, 0x1b037c77 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:89:19: warning: initializer-string for char array is too long
+        { 262080, "0000000000014a11d3aacdc5ee21e69fd8aefe10f0e617508dfb3e78d1ca82be", 1529359488, 0x1b037276 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:90:19: warning: initializer-string for char array is too long
+        { 282240, "00000000000182bbfada9dd47003bed09880b7a1025edcb605f9c048f2bad49e", 1530594496, 0x1b042cda },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:91:19: warning: initializer-string for char array is too long
+        { 302400, "000000000001e9862c28d3359f2b568b03811988f2db2f91ab8b412acac891ed", 1531808927, 0x1b0422c8 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:92:19: warning: initializer-string for char array is too long
+        { 322560, "000000000001d50eaf12266c6ecaefec473fecd9daa7993db05b89e6ab381388", 1533209846, 0x1b04cb9e },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:93:19: warning: initializer-string for char array is too long
+        { 338778, "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:94:19: warning: initializer-string for char array is too long
+        { 341086, "000000000001c72e3613de62be33974f69993bf16f10d117d14321afa4259a0e", 1535734416, 0x1b0203f4 }
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:98:18: warning: initializer-string for char array is too long
+        {0,      "0000006ebc14cb6777bedda407702dfbc6b273f1af956bcfd6f4f98a2eb14433", 1533751200, 0x1e00ffff },  //Yerbasized
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:99:19: warning: initializer-string for char array is too long
+        {13572,   "0000000079d39ce0974c30dfe6864afdb4fbd5a857b2c92d1fae018ce0defd3c", 1534653139, 0x1d013c98 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:100:19: warning: initializer-string for char array is too long
+        {24715,   "00000022dc6cdab73a14ba54ab0f34e6d8a6a65fab9fd3c7ca9b5342d3d96a12", 1535395316, 0x1d347780 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:101:20: warning: initializer-string for char array is too long
+        {338778,   "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a }
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:123:59: warning: incompatible integer to pointer conversion passing 'unsigned int' to parameter of type 'const BRSet *' (aka 'const struct SetStruct *') [-Wint-conversion]
+    return BRMerkleBlockVerifyDifficulty(block, previous, (b) ? b->timestamp : 0);
+                                                          ^~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRMerkleBlock.h:112:107: note: passing argument to parameter 'blocks' here
+int BRMerkleBlockVerifyDifficulty(const BRMerkleBlock *block, const BRMerkleBlock *previous, const BRSet *blocks);
+                                                                                                          ^
+26 warnings generated.
+[47/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCoreKey.c.o
+[48/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCoreTransactionInput.c.o
+[49/59] Building C object CMakeFiles/core.dir/src/main/jni/core/crypto/sph_hamsi.c.o
+[50/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCorePeer.c.o
+[51/59] Building CXX object CMakeFiles/core.dir/src/main/jni/core/crypto/ethash/ethash.cpp.o
+[52/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCoreChainParams.c.o
+In file included from ../../../../src/main/jni/com_yerbas_core_BRCoreChainParams.c:26:
+../../../../src/main/jni/core\BRChainParams.h:121:59: warning: incompatible integer to pointer conversion passing 'unsigned int' to parameter of type 'const BRSet *' (aka 'const struct SetStruct *') [-Wint-conversion]
+    return BRMerkleBlockVerifyDifficulty(block, previous, (b) ? b->timestamp : 0);
+                                                          ^~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRMerkleBlock.h:112:107: note: passing argument to parameter 'blocks' here
+int BRMerkleBlockVerifyDifficulty(const BRMerkleBlock *block, const BRMerkleBlock *previous, const BRSet *blocks);
+                                                                                                          ^
+1 warning generated.
+[53/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCoreWallet.c.o
+In file included from ../../../../src/main/jni/com_yerbas_core_BRCoreWallet.c:30:
+In file included from ../../../../src/main/jni/core\BRPeerManager.h:32:
+../../../../src/main/jni/core/ChainParams.h:74:19: warning: initializer-string for char array is too long
+        {      0, "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90", 1514999494, 0x1e00ffff },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:75:19: warning: initializer-string for char array is too long
+        {   2016, "0000003e7c74d91113e9f8b203673bc77474112a3811f4fc25f577e5d4228035", 1515022405, 0x1d3fffc0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:76:19: warning: initializer-string for char array is too long
+        {   4032, "0000000e7029625c8ceb5e42f2a84c15e1c4326ea91c3369d49d64655560c9c3", 1515034394, 0x1d0ffff0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:77:19: warning: initializer-string for char array is too long
+        {  20160, "00000000146e792b63f2a18db16f32d2afc9f0b332839eb502cb9c9a8f1bc033", 1515665731, 0x1c53dd22 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:78:19: warning: initializer-string for char array is too long
+        {  40320, "00000000085e7d049938d66a08d151891c0087a6b3d78d400f1ca0944991ffde", 1516664426, 0x1c0a0075 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:79:19: warning: initializer-string for char array is too long
+        {  60480, "0000000000683f2d1bb44dd545eb4fea28c0f51eb513ea32b4e813f185a1f6ab", 1517740553, 0x1c01b501 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:80:19: warning: initializer-string for char array is too long
+        {  80640, "00000000000735f443ea62266bb7799a760c8336da0c7b7a987c895e83c9ea73", 1518771490, 0x1b43e935 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:81:19: warning: initializer-string for char array is too long
+        { 100800, "00000000000bf40aa747ca97da99e1e6878efff28f709d1969f0a2d95dda1414", 1519826997, 0x1b0fabc1 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:82:19: warning: initializer-string for char array is too long
+        { 120960, "000000000000203f20f1f2fc50546b4f3d0693a53e781b499884661e6762eb05", 1520934202, 0x1b060077 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:83:19: warning: initializer-string for char array is too long
+        { 141120, "00000000000367e05ceca64ebf6b72a87510bdcb6252ff071b7f4971661e9acf", 1522092453, 0x1b03cc83 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:84:19: warning: initializer-string for char array is too long
+        { 161280, "0000000000024a1d42423dd3e1cde28c78fe34857db63f08d21f11fc13e594c3", 1523259269, 0x1b028d7d },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:85:19: warning: initializer-string for char array is too long
+        { 181440, "000000000000d202bdeb7993a1de022f82231fdce97e22f054626291eb79f4cb", 1524510281, 0x1b038153 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:86:19: warning: initializer-string for char array is too long
+        { 201600, "000000000001a16d8b86e19ac87df227458d29b5fb70dfef7e5b0203df085617", 1525709579, 0x1b0306f4 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:87:19: warning: initializer-string for char array is too long
+        { 221760, "000000000002b4a1ef811a31e58489794dba047e4e78e18d5611c94d7fc60174", 1526920402, 0x1b02ff59 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:88:19: warning: initializer-string for char array is too long
+        { 241920, "000000000001e64a356c6665afcb2871bc7f18e5609663b5b54a82fa204ee9b1", 1528150015, 0x1b037c77 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:89:19: warning: initializer-string for char array is too long
+        { 262080, "0000000000014a11d3aacdc5ee21e69fd8aefe10f0e617508dfb3e78d1ca82be", 1529359488, 0x1b037276 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:90:19: warning: initializer-string for char array is too long
+        { 282240, "00000000000182bbfada9dd47003bed09880b7a1025edcb605f9c048f2bad49e", 1530594496, 0x1b042cda },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:91:19: warning: initializer-string for char array is too long
+        { 302400, "000000000001e9862c28d3359f2b568b03811988f2db2f91ab8b412acac891ed", 1531808927, 0x1b0422c8 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:92:19: warning: initializer-string for char array is too long
+        { 322560, "000000000001d50eaf12266c6ecaefec473fecd9daa7993db05b89e6ab381388", 1533209846, 0x1b04cb9e },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:93:19: warning: initializer-string for char array is too long
+        { 338778, "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:94:19: warning: initializer-string for char array is too long
+        { 341086, "000000000001c72e3613de62be33974f69993bf16f10d117d14321afa4259a0e", 1535734416, 0x1b0203f4 }
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:98:18: warning: initializer-string for char array is too long
+        {0,      "0000006ebc14cb6777bedda407702dfbc6b273f1af956bcfd6f4f98a2eb14433", 1533751200, 0x1e00ffff },  //Yerbasized
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:99:19: warning: initializer-string for char array is too long
+        {13572,   "0000000079d39ce0974c30dfe6864afdb4fbd5a857b2c92d1fae018ce0defd3c", 1534653139, 0x1d013c98 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:100:19: warning: initializer-string for char array is too long
+        {24715,   "00000022dc6cdab73a14ba54ab0f34e6d8a6a65fab9fd3c7ca9b5342d3d96a12", 1535395316, 0x1d347780 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:101:20: warning: initializer-string for char array is too long
+        {338778,   "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a }
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:123:59: warning: incompatible integer to pointer conversion passing 'unsigned int' to parameter of type 'const BRSet *' (aka 'const struct SetStruct *') [-Wint-conversion]
+    return BRMerkleBlockVerifyDifficulty(block, previous, (b) ? b->timestamp : 0);
+                                                          ^~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRMerkleBlock.h:112:107: note: passing argument to parameter 'blocks' here
+int BRMerkleBlockVerifyDifficulty(const BRMerkleBlock *block, const BRMerkleBlock *previous, const BRSet *blocks);
+                                                                                                          ^
+../../../../src/main/jni/com_yerbas_core_BRCoreWallet.c:427:52: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    PeerManagerGetAssetData(peerManager, listener, assetName, assetNameLen, isAssetNameAvailable);
+                                                   ^~~~~~~~~
+../../../../src/main/jni/core\BRPeerManager.h:124:79: note: passing argument to parameter 'assetName' here
+void PeerManagerGetAssetData(BRPeerManager *manager, void *infoManager, char *assetName, size_t nameLen,
+                                                                              ^
+../../../../src/main/jni/com_yerbas_core_BRCoreWallet.c:437:52: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    PeerManagerGetAssetData(peerManager, listener, assetName, assetNameLen, getAssetData);
+                                                   ^~~~~~~~~
+../../../../src/main/jni/core\BRPeerManager.h:124:79: note: passing argument to parameter 'assetName' here
+void PeerManagerGetAssetData(BRPeerManager *manager, void *infoManager, char *assetName, size_t nameLen,
+                                                                              ^
+28 warnings generated.
+[54/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCorePeerManager.c.o
+In file included from ../../../../src/main/jni/com_yerbas_core_BRCorePeerManager.c:25:
+../../../../src/main/jni/core\BRChainParams.h:121:59: warning: incompatible integer to pointer conversion passing 'unsigned int' to parameter of type 'const BRSet *' (aka 'const struct SetStruct *') [-Wint-conversion]
+    return BRMerkleBlockVerifyDifficulty(block, previous, (b) ? b->timestamp : 0);
+                                                          ^~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRMerkleBlock.h:112:107: note: passing argument to parameter 'blocks' here
+int BRMerkleBlockVerifyDifficulty(const BRMerkleBlock *block, const BRMerkleBlock *previous, const BRSet *blocks);
+                                                                                                          ^
+In file included from ../../../../src/main/jni/com_yerbas_core_BRCorePeerManager.c:26:
+In file included from ../../../../src/main/jni/core\BRPeerManager.h:32:
+../../../../src/main/jni/core/ChainParams.h:74:19: warning: initializer-string for char array is too long
+        {      0, "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90", 1514999494, 0x1e00ffff },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:75:19: warning: initializer-string for char array is too long
+        {   2016, "0000003e7c74d91113e9f8b203673bc77474112a3811f4fc25f577e5d4228035", 1515022405, 0x1d3fffc0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:76:19: warning: initializer-string for char array is too long
+        {   4032, "0000000e7029625c8ceb5e42f2a84c15e1c4326ea91c3369d49d64655560c9c3", 1515034394, 0x1d0ffff0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:77:19: warning: initializer-string for char array is too long
+        {  20160, "00000000146e792b63f2a18db16f32d2afc9f0b332839eb502cb9c9a8f1bc033", 1515665731, 0x1c53dd22 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:78:19: warning: initializer-string for char array is too long
+        {  40320, "00000000085e7d049938d66a08d151891c0087a6b3d78d400f1ca0944991ffde", 1516664426, 0x1c0a0075 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:79:19: warning: initializer-string for char array is too long
+        {  60480, "0000000000683f2d1bb44dd545eb4fea28c0f51eb513ea32b4e813f185a1f6ab", 1517740553, 0x1c01b501 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:80:19: warning: initializer-string for char array is too long
+        {  80640, "00000000000735f443ea62266bb7799a760c8336da0c7b7a987c895e83c9ea73", 1518771490, 0x1b43e935 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:81:19: warning: initializer-string for char array is too long
+        { 100800, "00000000000bf40aa747ca97da99e1e6878efff28f709d1969f0a2d95dda1414", 1519826997, 0x1b0fabc1 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:82:19: warning: initializer-string for char array is too long
+        { 120960, "000000000000203f20f1f2fc50546b4f3d0693a53e781b499884661e6762eb05", 1520934202, 0x1b060077 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:83:19: warning: initializer-string for char array is too long
+        { 141120, "00000000000367e05ceca64ebf6b72a87510bdcb6252ff071b7f4971661e9acf", 1522092453, 0x1b03cc83 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:84:19: warning: initializer-string for char array is too long
+        { 161280, "0000000000024a1d42423dd3e1cde28c78fe34857db63f08d21f11fc13e594c3", 1523259269, 0x1b028d7d },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:85:19: warning: initializer-string for char array is too long
+        { 181440, "000000000000d202bdeb7993a1de022f82231fdce97e22f054626291eb79f4cb", 1524510281, 0x1b038153 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:86:19: warning: initializer-string for char array is too long
+        { 201600, "000000000001a16d8b86e19ac87df227458d29b5fb70dfef7e5b0203df085617", 1525709579, 0x1b0306f4 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:87:19: warning: initializer-string for char array is too long
+        { 221760, "000000000002b4a1ef811a31e58489794dba047e4e78e18d5611c94d7fc60174", 1526920402, 0x1b02ff59 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:88:19: warning: initializer-string for char array is too long
+        { 241920, "000000000001e64a356c6665afcb2871bc7f18e5609663b5b54a82fa204ee9b1", 1528150015, 0x1b037c77 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:89:19: warning: initializer-string for char array is too long
+        { 262080, "0000000000014a11d3aacdc5ee21e69fd8aefe10f0e617508dfb3e78d1ca82be", 1529359488, 0x1b037276 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:90:19: warning: initializer-string for char array is too long
+        { 282240, "00000000000182bbfada9dd47003bed09880b7a1025edcb605f9c048f2bad49e", 1530594496, 0x1b042cda },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:91:19: warning: initializer-string for char array is too long
+        { 302400, "000000000001e9862c28d3359f2b568b03811988f2db2f91ab8b412acac891ed", 1531808927, 0x1b0422c8 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:92:19: warning: initializer-string for char array is too long
+        { 322560, "000000000001d50eaf12266c6ecaefec473fecd9daa7993db05b89e6ab381388", 1533209846, 0x1b04cb9e },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:93:19: warning: initializer-string for char array is too long
+        { 338778, "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:94:19: warning: initializer-string for char array is too long
+        { 341086, "000000000001c72e3613de62be33974f69993bf16f10d117d14321afa4259a0e", 1535734416, 0x1b0203f4 }
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:98:18: warning: initializer-string for char array is too long
+        {0,      "0000006ebc14cb6777bedda407702dfbc6b273f1af956bcfd6f4f98a2eb14433", 1533751200, 0x1e00ffff },  //Yerbasized
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:99:19: warning: initializer-string for char array is too long
+        {13572,   "0000000079d39ce0974c30dfe6864afdb4fbd5a857b2c92d1fae018ce0defd3c", 1534653139, 0x1d013c98 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:100:19: warning: initializer-string for char array is too long
+        {24715,   "00000022dc6cdab73a14ba54ab0f34e6d8a6a65fab9fd3c7ca9b5342d3d96a12", 1535395316, 0x1d347780 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:101:20: warning: initializer-string for char array is too long
+        {338778,   "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a }
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:123:59: warning: incompatible integer to pointer conversion passing 'unsigned int' to parameter of type 'const BRSet *' (aka 'const struct SetStruct *') [-Wint-conversion]
+    return BRMerkleBlockVerifyDifficulty(block, previous, (b) ? b->timestamp : 0);
+                                                          ^~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRMerkleBlock.h:112:107: note: passing argument to parameter 'blocks' here
+int BRMerkleBlockVerifyDifficulty(const BRMerkleBlock *block, const BRMerkleBlock *previous, const BRSet *blocks);
+                                                                                                          ^
+../../../../src/main/jni/com_yerbas_core_BRCorePeerManager.c:100:26: warning: incompatible pointer types initializing 'const BRChainParams *' with an expression of type 'const ChainParams *' [-Wincompatible-pointer-types]
+    const BRChainParams *chainParams = BRPeerManagerChainParams(peerManager);
+                         ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+28 warnings generated.
+[55/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCorePaymentProtocol.c.o
+[56/59] Building C object CMakeFiles/core.dir/src/main/jni/com_yerbas_core_BRCoreTransactionAsset.c.o
+In file included from ../../../../src/main/jni/com_yerbas_core_BRCoreTransactionAsset.c:28:
+In file included from ../../../../src/main/jni/core\BRAssets.h:14:
+../../../../src/main/jni/core/ChainParams.h:74:19: warning: initializer-string for char array is too long
+        {      0, "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90", 1514999494, 0x1e00ffff },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:75:19: warning: initializer-string for char array is too long
+        {   2016, "0000003e7c74d91113e9f8b203673bc77474112a3811f4fc25f577e5d4228035", 1515022405, 0x1d3fffc0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:76:19: warning: initializer-string for char array is too long
+        {   4032, "0000000e7029625c8ceb5e42f2a84c15e1c4326ea91c3369d49d64655560c9c3", 1515034394, 0x1d0ffff0 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:77:19: warning: initializer-string for char array is too long
+        {  20160, "00000000146e792b63f2a18db16f32d2afc9f0b332839eb502cb9c9a8f1bc033", 1515665731, 0x1c53dd22 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:78:19: warning: initializer-string for char array is too long
+        {  40320, "00000000085e7d049938d66a08d151891c0087a6b3d78d400f1ca0944991ffde", 1516664426, 0x1c0a0075 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:79:19: warning: initializer-string for char array is too long
+        {  60480, "0000000000683f2d1bb44dd545eb4fea28c0f51eb513ea32b4e813f185a1f6ab", 1517740553, 0x1c01b501 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:80:19: warning: initializer-string for char array is too long
+        {  80640, "00000000000735f443ea62266bb7799a760c8336da0c7b7a987c895e83c9ea73", 1518771490, 0x1b43e935 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:81:19: warning: initializer-string for char array is too long
+        { 100800, "00000000000bf40aa747ca97da99e1e6878efff28f709d1969f0a2d95dda1414", 1519826997, 0x1b0fabc1 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:82:19: warning: initializer-string for char array is too long
+        { 120960, "000000000000203f20f1f2fc50546b4f3d0693a53e781b499884661e6762eb05", 1520934202, 0x1b060077 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:83:19: warning: initializer-string for char array is too long
+        { 141120, "00000000000367e05ceca64ebf6b72a87510bdcb6252ff071b7f4971661e9acf", 1522092453, 0x1b03cc83 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:84:19: warning: initializer-string for char array is too long
+        { 161280, "0000000000024a1d42423dd3e1cde28c78fe34857db63f08d21f11fc13e594c3", 1523259269, 0x1b028d7d },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:85:19: warning: initializer-string for char array is too long
+        { 181440, "000000000000d202bdeb7993a1de022f82231fdce97e22f054626291eb79f4cb", 1524510281, 0x1b038153 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:86:19: warning: initializer-string for char array is too long
+        { 201600, "000000000001a16d8b86e19ac87df227458d29b5fb70dfef7e5b0203df085617", 1525709579, 0x1b0306f4 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:87:19: warning: initializer-string for char array is too long
+        { 221760, "000000000002b4a1ef811a31e58489794dba047e4e78e18d5611c94d7fc60174", 1526920402, 0x1b02ff59 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:88:19: warning: initializer-string for char array is too long
+        { 241920, "000000000001e64a356c6665afcb2871bc7f18e5609663b5b54a82fa204ee9b1", 1528150015, 0x1b037c77 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:89:19: warning: initializer-string for char array is too long
+        { 262080, "0000000000014a11d3aacdc5ee21e69fd8aefe10f0e617508dfb3e78d1ca82be", 1529359488, 0x1b037276 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:90:19: warning: initializer-string for char array is too long
+        { 282240, "00000000000182bbfada9dd47003bed09880b7a1025edcb605f9c048f2bad49e", 1530594496, 0x1b042cda },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:91:19: warning: initializer-string for char array is too long
+        { 302400, "000000000001e9862c28d3359f2b568b03811988f2db2f91ab8b412acac891ed", 1531808927, 0x1b0422c8 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:92:19: warning: initializer-string for char array is too long
+        { 322560, "000000000001d50eaf12266c6ecaefec473fecd9daa7993db05b89e6ab381388", 1533209846, 0x1b04cb9e },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:93:19: warning: initializer-string for char array is too long
+        { 338778, "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:94:19: warning: initializer-string for char array is too long
+        { 341086, "000000000001c72e3613de62be33974f69993bf16f10d117d14321afa4259a0e", 1535734416, 0x1b0203f4 }
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:98:18: warning: initializer-string for char array is too long
+        {0,      "0000006ebc14cb6777bedda407702dfbc6b273f1af956bcfd6f4f98a2eb14433", 1533751200, 0x1e00ffff },  //Yerbasized
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:99:19: warning: initializer-string for char array is too long
+        {13572,   "0000000079d39ce0974c30dfe6864afdb4fbd5a857b2c92d1fae018ce0defd3c", 1534653139, 0x1d013c98 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:100:19: warning: initializer-string for char array is too long
+        {24715,   "00000022dc6cdab73a14ba54ab0f34e6d8a6a65fab9fd3c7ca9b5342d3d96a12", 1535395316, 0x1d347780 },
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:101:20: warning: initializer-string for char array is too long
+        {338778,   "000000000003198106731cb28fc24e9ace995a37709b026b25dfa905aea54517", 1535599185, 0x1b07cf3a }
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/ChainParams.h:123:59: warning: incompatible integer to pointer conversion passing 'unsigned int' to parameter of type 'const BRSet *' (aka 'const struct SetStruct *') [-Wint-conversion]
+    return BRMerkleBlockVerifyDifficulty(block, previous, (b) ? b->timestamp : 0);
+                                                          ^~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/core/BRMerkleBlock.h:112:107: note: passing argument to parameter 'blocks' here
+int BRMerkleBlockVerifyDifficulty(const BRMerkleBlock *block, const BRMerkleBlock *previous, const BRSet *blocks);
+                                                                                                          ^
+../../../../src/main/jni/com_yerbas_core_BRCoreTransactionAsset.c:64:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *type = GetAssetScriptType(asset->type);
+          ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/com_yerbas_core_BRCoreTransactionAsset.c:100:27: warning: implicit conversion from enumeration type 'BRAssetType' to different enumeration type 'BRAssetScriptType' [-Wenum-conversion]
+            asset->type = SUB;
+                        ~ ^~~
+../../../../src/main/jni/com_yerbas_core_BRCoreTransactionAsset.c:103:27: warning: implicit conversion from enumeration type 'BRAssetType' to different enumeration type 'BRAssetScriptType' [-Wenum-conversion]
+            asset->type = UNIQUE;
+                        ~ ^~~~~~
+../../../../src/main/jni/com_yerbas_core_BRCoreTransactionAsset.c:109:27: warning: implicit conversion from enumeration type 'BRAssetType' to different enumeration type 'BRAssetScriptType' [-Wenum-conversion]
+            asset->type = CHANNEL;
+                        ~ ^~~~~~~
+../../../../src/main/jni/com_yerbas_core_BRCoreTransactionAsset.c:112:27: warning: implicit conversion from enumeration type 'BRAssetType' to different enumeration type 'BRAssetScriptType' [-Wenum-conversion]
+            asset->type = ROOT;
+                        ~ ^~~~
+../../../../src/main/jni/com_yerbas_core_BRCoreTransactionAsset.c:163:17: warning: assigning to 'char *' from 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    asset->name = (*env)->GetStringUTFChars(env, nameObject, 0);
+                ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+32 warnings generated.
+[57/59] Building CXX object CMakeFiles/core.dir/src/main/jni/core/crypto/ethash/managed.cpp.o
+[58/59] Building CXX object CMakeFiles/core.dir/src/main/jni/core/crypto/ethash/progpow.cpp.o
+[59/59] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\yerbDebug\obj\x86\libcore.so

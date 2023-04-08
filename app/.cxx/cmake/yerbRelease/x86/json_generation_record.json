@@ -1,0 +1,457 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 24 min SDK version: x86",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\.cxx\\cmake\\yerbRelease\\x86\\android_gradle_build.json due to:",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\.cxx\\cmake\\yerbRelease\\x86\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\.cxx\\cmake\\yerbRelease\\x86\\build_command.txt, will remove stale json folder",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\.cxx\\cmake\\yerbRelease\\x86\u0027",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : C:\\Users\\anno\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe\narguments : \n-HC:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\n-DCMAKE_FIND_ROOT_PATH\u003dC:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\.cxx\\cmake\\yerbRelease\\prefab\\x86\\prefab\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\anno\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003dC:\\Users\\anno\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\n-DANDROID_PLATFORM\u003dandroid-24\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\anno\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\build\\intermediates\\cmake\\yerbRelease\\obj\\x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\build\\intermediates\\cmake\\yerbRelease\\obj\\x86\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\anno\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d24\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_STL\u003dc++_shared\n-BC:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\.cxx\\cmake\\yerbRelease\\x86\n-GNinja\njvmArgs : \n\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"C:/Users/anno/Documents/Code/yerb-droid/app\",\n  \"buildDirectory\": \"C:/Users/anno/Documents/Code/yerb-droid/app/.cxx/cmake/yerbRelease/x86\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003dC:\\\\Users\\\\anno\\\\Documents\\\\Code\\\\yerb-droid\\\\app\\\\.cxx\\\\cmake\\\\yerbRelease\\\\prefab\\\\x86\\\\prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelease\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003dC:\\\\Users\\\\anno\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.0.6113669\\\\build\\\\cmake\\\\android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003dx86\",\n    \"-DANDROID_NDK\\u003dC:\\\\Users\\\\anno\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.0.6113669\",\n    \"-DANDROID_PLATFORM\\u003dandroid-24\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86\",\n    \"-DCMAKE_ANDROID_NDK\\u003dC:\\\\Users\\\\anno\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.0.6113669\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003dC:\\\\Users\\\\anno\\\\Documents\\\\Code\\\\yerb-droid\\\\app\\\\build\\\\intermediates\\\\cmake\\\\yerbRelease\\\\obj\\\\x86\",\n    \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\\u003dC:\\\\Users\\\\anno\\\\Documents\\\\Code\\\\yerb-droid\\\\app\\\\build\\\\intermediates\\\\cmake\\\\yerbRelease\\\\obj\\\\x86\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003dC:\\\\Users\\\\anno\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.10.2.4988404\\\\bin\\\\ninja.exe\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d24\",\n    \"-DANDROID_TOOLCHAIN\\u003dclang\",\n    \"-DANDROID_STL\\u003dc++_shared\"\n  ]\n}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: C:/Users/anno/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: C:/Users/anno/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: C:/Users/anno/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: C:/Users/anno/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: C:/Users/anno/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: C:/Users/anno/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: C:/Users/anno/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: C:/Users/anno/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"../../../../AppData/Local/Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake\",\"../../../../AppData/Local/Android/Sdk/ndk/21.0.6113669/build/cmake/platforms.cmake\",\"../../../../AppData/Local/Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\".cxx/cmake/yerbRelease/x86/CMakeFiles/3.10.2/CMakeSystem.cmake\",\".cxx/cmake/yerbRelease/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/yerbRelease/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\".cxx/cmake/yerbRelease/x86/CMakeFiles/feature_tests.c\",\".cxx/cmake/yerbRelease/x86/CMakeFiles/feature_tests.c\",\".cxx/cmake/yerbRelease/x86/CMakeFiles/feature_tests.c\",\".cxx/cmake/yerbRelease/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/yerbRelease/x86/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/yerbRelease/x86/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/yerbRelease/x86/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/yerbRelease/x86/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/yerbRelease/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"C:/Users/anno/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"C:/Users/anno/Documents/Code/yerb-droid/app\",\"type\":\"reply\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Release\",\"projects\":[{\"buildDirectory\":\"C:/Users/anno/Documents/Code/yerb-droid/app/.cxx/cmake/yerbRelease/x86\",\"name\":\"Project\",\"sourceDirectory\":\"C:/Users/anno/Documents/Code/yerb-droid/app\",\"targets\":[{\"artifacts\":[\"C:/Users/anno/Documents/Code/yerb-droid/app/build/intermediates/cmake/yerbRelease/obj/x86/libcore.so\"],\"buildDirectory\":\"C:/Users/anno/Documents/Code/yerb-droid/app/.cxx/cmake/yerbRelease/x86\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -O2 -DNDEBUG  -fPIC  \",\"defines\":[\"core_EXPORTS\"],\"includePath\":[{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/jni\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/jni/core\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/jni/core/secp256k1/include\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/jni/core/secp256k1/src\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/jni/core/secp256k1\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/jni/core/crypto/ethash\"},{\"path\":\"/System/Library/Frameworks/JavaVM.framework/Headers\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/secp/secp256k1/include\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/secp/secp256k1/src\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/secp/secp256k1\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/secp\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/jni/core/BRAddress.c\",\"src/main/jni/core/BRBase58.c\",\"src/main/jni/core/BRBIP44Sequence.c\",\"src/main/jni/core/BRBIP38Key.c\",\"src/main/jni/core/BRBIP39Mnemonic.c\",\"src/main/jni/core/BRBloomFilter.c\",\"src/main/jni/core/BRCrypto.c\",\"src/main/jni/core/BRKey.c\",\"src/main/jni/core/BRMerkleBlock.c\",\"src/main/jni/core/BRPaymentProtocol.c\",\"src/main/jni/core/BRPeer.c\",\"src/main/jni/core/BRPeerManager.c\",\"src/main/jni/core/BRSet.c\",\"src/main/jni/core/BRTransaction.c\",\"src/main/jni/core/BRWallet.c\",\"src/main/jni/core/BRAssets.c\",\"src/main/jni/core/BRScript.c\",\"src/main/jni/core/crypto/blake.c\",\"src/main/jni/core/crypto/bmw.c\",\"src/main/jni/core/crypto/cubehash.c\",\"src/main/jni/core/crypto/echo.c\",\"src/main/jni/core/crypto/groestl.c\",\"src/main/jni/core/crypto/jh.c\",\"src/main/jni/core/crypto/keccak.c\",\"src/main/jni/core/crypto/luffa.c\",\"src/main/jni/core/crypto/shavite.c\",\"src/main/jni/core/crypto/simd.c\",\"src/main/jni/core/crypto/skein.c\",\"src/main/jni/core/crypto/sph_fugue.c\",\"src/main/jni/core/crypto/sph_hamsi.c\",\"src/main/jni/core/crypto/sph_hamsi_helper.c\",\"src/main/jni/core/crypto/sph_sha2.c\",\"src/main/jni/core/crypto/sph_sha512.c\",\"src/main/jni/core/crypto/sph_shabal.c\",\"src/main/jni/core/crypto/sph_whirlpool.c\",\"src/main/jni/core/crypto/tiger.c\",\"src/main/jni/core/crypto/ethash/keccak.c\",\"src/main/jni/core/crypto/ethash/keccakf800.c\",\"src/main/jni/core/crypto/ethash/keccakf1600.c\",\"src/main/jni/core/crypto/ethash/primes.c\",\"src/main/jni/BRCoreJni.c\",\"src/main/jni/com_yerbas_core_BRCoreJniReference.c\",\"src/main/jni/com_yerbas_core_BRCoreAddress.c\",\"src/main/jni/com_yerbas_core_BRCoreChainParams.c\",\"src/main/jni/com_yerbas_core_BRCorePeer.c\",\"src/main/jni/com_yerbas_core_BRCoreMasterPubKey.c\",\"src/main/jni/com_yerbas_core_BRCoreKey.c\",\"src/main/jni/com_yerbas_core_BRCoreMerkleBlock.c\",\"src/main/jni/com_yerbas_core_BRCorePeerManager.c\",\"src/main/jni/com_yerbas_core_BRCoreTransaction.c\",\"src/main/jni/com_yerbas_core_BRCoreTransactionInput.c\",\"src/main/jni/com_yerbas_core_BRCoreTransactionOutput.c\",\"src/main/jni/com_yerbas_core_BRCorePaymentProtocol.c\",\"src/main/jni/com_yerbas_core_BRCoreWallet.c\",\"src/main/jni/com_yerbas_core_BRCoreTransactionAsset.c\"]},{\"isGenerated\":false,\"sources\":[\"src/main/jni/core/BRAddress.h\",\"src/main/jni/core/BRArray.h\",\"src/main/jni/core/BRBase58.h\",\"src/main/jni/core/BRBIP44Sequence.h\",\"src/main/jni/core/BRBIP38Key.h\",\"src/main/jni/core/BRBIP39Mnemonic.h\",\"src/main/jni/core/BRBIP39WordsEn.h\",\"src/main/jni/core/BRBloomFilter.h\",\"src/main/jni/core/BRChainParams.h\",\"src/main/jni/core/BRCrypto.h\",\"src/main/jni/core/BRInt.h\",\"src/main/jni/core/BRKey.h\",\"src/main/jni/core/BRMerkleBlock.h\",\"src/main/jni/core/BRPaymentProtocol.h\",\"src/main/jni/core/BRPeer.h\",\"src/main/jni/core/BRPeerManager.h\",\"src/main/jni/core/BRSet.h\",\"src/main/jni/core/BRTransaction.h\",\"src/main/jni/core/BRWallet.h\",\"src/main/jni/core/BRAssets.h\",\"src/main/jni/core/BRScript.h\",\"src/main/jni/core/crypto/sph_blake.h\",\"src/main/jni/core/crypto/sph_bmw.h\",\"src/main/jni/core/crypto/sph_cubehash.h\",\"src/main/jni/core/crypto/sph_echo.h\",\"src/main/jni/core/crypto/sph_fugue.h\",\"src/main/jni/core/crypto/sph_groestl.h\",\"src/main/jni/core/crypto/sph_hamsi.h\",\"src/main/jni/core/crypto/sph_jh.h\",\"src/main/jni/core/crypto/sph_keccak.h\",\"src/main/jni/core/crypto/sph_luffa.h\",\"src/main/jni/core/crypto/sph_sha2.h\",\"src/main/jni/core/crypto/sph_shabal.h\",\"src/main/jni/core/crypto/sph_shavite.h\",\"src/main/jni/core/crypto/sph_simd.h\",\"src/main/jni/core/crypto/sph_skein.h\",\"src/main/jni/core/crypto/sph_tiger.h\",\"src/main/jni/core/crypto/sph_types.h\",\"src/main/jni/core/crypto/sph_whirlpool.h\",\"src/main/jni/core/crypto/ethash/attributes.h\",\"src/main/jni/core/crypto/ethash/bit_manipulation.h\",\"src/main/jni/core/crypto/ethash/builtins.h\",\"src/main/jni/core/crypto/ethash/endianness.hpp\",\"src/main/jni/core/crypto/ethash/ethash.h\",\"src/main/jni/core/crypto/ethash/ethash.hpp\",\"src/main/jni/core/crypto/ethash/ethash-internal.hpp\",\"src/main/jni/core/crypto/ethash/hash_types.h\",\"src/main/jni/core/crypto/ethash/hash_types.hpp\",\"src/main/jni/core/crypto/ethash/helpers.hpp\",\"src/main/jni/core/crypto/ethash/keccak.h\",\"src/main/jni/core/crypto/ethash/keccak.hpp\",\"src/main/jni/core/crypto/ethash/kiss99.hpp\",\"src/main/jni/core/crypto/ethash/primes.h\",\"src/main/jni/core/crypto/ethash/progpow.hpp\",\"src/main/jni/core/crypto/ethash/version.h\",\"src/main/jni/core/crypto/ethash/progpow_test_vectors.hpp\",\"src/main/jni/core/crypto/ethash/portable_endian.h\",\"src/main/jni/BRCoreJni.h\",\"src/main/jni/com_yerbas_core_BRCoreJniReference.h\",\"src/main/jni/com_yerbas_core_BRCoreAddress.h\",\"src/main/jni/com_yerbas_core_BRCoreChainParams.h\",\"src/main/jni/com_yerbas_core_BRCorePeer.h\",\"src/main/jni/com_yerbas_core_BRCoreMasterPubKey.h\",\"src/main/jni/com_yerbas_core_BRCoreKey.h\",\"src/main/jni/com_yerbas_core_BRCoreMerkleBlock.h\",\"src/main/jni/com_yerbas_core_BRCorePeerManager.h\",\"src/main/jni/com_yerbas_core_BRCoreTransaction.h\",\"src/main/jni/com_yerbas_core_BRCoreTransactionInput.h\",\"src/main/jni/com_yerbas_core_BRCoreTransactionOutput.h\",\"src/main/jni/com_yerbas_core_BRCorePaymentProtocol.h\",\"src/main/jni/com_yerbas_core_BRCoreWallet.h\",\"src/main/jni/com_yerbas_core_BRCoreTransactionAsset.h\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security   -O2 -DNDEBUG  -fPIC   -std\u003dgnu++14\",\"defines\":[\"core_EXPORTS\"],\"includePath\":[{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/jni\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/jni/core\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/jni/core/secp256k1/include\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/jni/core/secp256k1/src\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/jni/core/secp256k1\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/jni/core/crypto/ethash\"},{\"path\":\"/System/Library/Frameworks/JavaVM.framework/Headers\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/secp/secp256k1/include\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/secp/secp256k1/src\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/secp/secp256k1\"},{\"path\":\"C:/Users/anno/Documents/Code/yerb-droid/app/src/main/secp\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"src/main/jni/core/crypto/ethash/managed.cpp\",\"src/main/jni/core/crypto/ethash/ethash.cpp\",\"src/main/jni/core/crypto/ethash/progpow.cpp\"]}],\"fullName\":\"libcore.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-landroid -llog -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"core\",\"sourceDirectory\":\"C:/Users/anno/Documents/Code/yerb-droid/app\",\"sysroot\":\"C:/Users/anno/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\.cxx\\cmake\\yerbRelease\\x86\\build_command.txt",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "C:\\Users\\anno\\Documents\\Code\\yerb-droid\\app\\CMakeLists.txt",
+    "tag": "yerbRelease|x86",
+    "diagnosticCode": "UNKNOWN"
+  }
+]

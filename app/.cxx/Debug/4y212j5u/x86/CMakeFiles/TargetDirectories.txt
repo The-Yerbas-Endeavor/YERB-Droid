@@ -1,0 +1,3 @@
+C:/Users/anno/Documents/Code/YERB-Droid/app/.cxx/Debug/4y212j5u/x86/CMakeFiles/core.dir
+C:/Users/anno/Documents/Code/YERB-Droid/app/.cxx/Debug/4y212j5u/x86/CMakeFiles/edit_cache.dir
+C:/Users/anno/Documents/Code/YERB-Droid/app/.cxx/Debug/4y212j5u/x86/CMakeFiles/rebuild_cache.dir
