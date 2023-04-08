@@ -187,9 +187,9 @@ public class BRApiManager {
         JSONArray jsonArray = null;
 
         if ("YERB".equals(walletManager.getIso(app))) {
-            String yerb_btc_MultiplierURL = "https://api.bittrex.com/v3/markets/YERB-BTC/ticker";
+            String yerb_btc_MultiplierURL = "https://xeggex.com/api/v2/market/getbysymbol/YERB_USD";
             String yerb_btc_jsonString = urlGET(app, yerb_btc_MultiplierURL);
-            String yerb_usd_MultiplierURL = "https://api.bittrex.com/v3/markets/YERB-USD/ticker";
+            String yerb_usd_MultiplierURL = "https://xeggex.com/api/v2/market/getbysymbol/YERB_USD";
             String yerb_usd_jsonString = urlGET(app, yerb_usd_MultiplierURL);
             try {
                 jsonArray = new JSONArray();
