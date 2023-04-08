@@ -1,4 +1,4 @@
-![ƀ](./images/header.png) 
+
 YERB Wallet for Android
 ----------------------------------
 
