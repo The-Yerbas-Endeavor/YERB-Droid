@@ -41,6 +41,15 @@ Yerbas serializes a standard 80-byte block header. The block ID and block locato
 
 The inherited 120-byte KAWPOW header parser is therefore invalid for Yerbas and must be removed from `BRMerkleBlock.c` and `BRPeer.c`.
 
+## Six-workstream status
+
+1. **Peer protocol:** constants and reusable framing/header primitives are implemented; direct `BRPeer.c` integration remains.
+2. **Merkle/header validation:** fixed 80-byte parsing and target checks are implemented; direct `BRMerkleBlock.c` replacement remains.
+3. **GhostRider and DGW:** exact DGW is implemented; GhostRider dependency port remains.
+4. **Transactions:** safe special-transaction envelope/payload parsing is implemented; ownership and round-trip serialization in `BRTransaction` remain.
+5. **Android modernization:** repository cleanup and native CI checks are implemented; Gradle/AGP/SDK/NDK upgrades remain after native integration.
+6. **Testing:** protocol syntax/constant CI and native test scaffolding are implemented; known mainnet block, PoW, DGW, transaction and live-peer vectors remain.
+
 ## Work still requiring integration
 
 1. Replace `BRPeer.c` protocol constants and Ravencoin header locator code with `BRYerbasProtocol` calls.
