@@ -15,7 +15,7 @@ public final class HeaderMessages {
         if (stopHash.length != 32) throw new IllegalArgumentException("stop hash must be 32 bytes");
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         writeInt32(out, protocol);
-        write(out, CompactSize.encode(locators.size()));
+        write(out, CompactSize.write(locators.size()));
         for (byte[] locator : locators) {
             if (locator.length != 32) throw new IllegalArgumentException("locator must be 32 bytes");
             write(out, locator);
@@ -25,17 +25,17 @@ public final class HeaderMessages {
     }
 
     public static List<BlockHeader> decodeHeaders(byte[] payload) {
-        CompactSize.Decoded count = CompactSize.decode(payload, 0);
+        CompactSize.Decoded count = CompactSize.read(payload, 0);
         if (count.value() > 2000) throw new IllegalArgumentException("too many headers");
-        int offset = count.bytesRead();
+        int offset = count.encodedLength();
         List<BlockHeader> headers = new ArrayList<>((int) count.value());
         for (int i = 0; i < count.value(); i++) {
             if (offset + BlockHeader.SERIALIZED_SIZE > payload.length) throw new IllegalArgumentException("truncated header");
             byte[] raw = java.util.Arrays.copyOfRange(payload, offset, offset + BlockHeader.SERIALIZED_SIZE);
             offset += BlockHeader.SERIALIZED_SIZE;
-            CompactSize.Decoded txCount = CompactSize.decode(payload, offset);
+            CompactSize.Decoded txCount = CompactSize.read(payload, offset);
             if (txCount.value() != 0) throw new IllegalArgumentException("headers entry transaction count must be zero");
-            offset += txCount.bytesRead();
+            offset += txCount.encodedLength();
             headers.add(BlockHeader.parse(raw));
         }
         if (offset != payload.length) throw new IllegalArgumentException("trailing bytes in headers payload");
