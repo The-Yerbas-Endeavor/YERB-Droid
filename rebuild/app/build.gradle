@@ -1,0 +1,33 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "org.yerbas.wallet"
+    compileSdk 37
+
+    defaultConfig {
+        applicationId "org.yerbas.wallet"
+        minSdk 26
+        targetSdk 37
+        versionCode 1
+        versionName "0.1.0-test"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+}
+
+dependencies {
+    implementation project(":core")
+}
