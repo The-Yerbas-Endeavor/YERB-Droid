@@ -1,41 +1,62 @@
-# Yerbas Core compatibility
+# Yerbas Core compatibility repair
 
-This branch begins the migration of YERB-Droid from its inherited Bitcoin/Ravencoin network assumptions to the current Yerbas Core network.
+This branch is the staging area for restoring YERB-Droid compatibility with current Yerbas Core.
 
-## Confirmed current mainnet values
+## Implemented
 
-- P2P port: `15420`
-- Message-start bytes: `79 65 72 62` (`yerb`)
-- Genesis hash: `eff0bbe5c1bbe1ef8da54822a18f528d6dc58232990bdb86e0a77ab2814ed12c`
-- Genesis time: `1652138420`
-- Genesis compact target: `0x20001fff`
-- Pubkey address prefix: `140`
-- Script address prefix: `19`
-- Private-key prefix: `128`
-- BIP44 coin type: `200`
-- Current Core protocol version: `70223`
+- Current Yerbas mainnet seeds, port, magic, genesis data, and checkpoints.
+- Yerbas protocol constants for protocol `70223`, mainnet magic `yerb`, port `15420`, 80-byte headers, DGW window 60, and 120-second spacing.
+- Exact 80-byte header parsing and serialization.
+- Double-SHA256 block identifier/locator hashing.
+- Compact target expansion and hash-to-target comparison helpers.
+- Dash/Yerbas special-transaction base-version and type extraction from the packed 32-bit version.
+- Native regression-test source for these primitives.
+- Repository ignore rules for Android, Gradle, CMake, NDK, Ninja, object, APK, and AAB output.
 
-## Critical inherited code still requiring replacement
+## Confirmed current Yerbas behavior
 
-`BRPeer.c` contains Ravencoin message magic, protocol versions, X16R/X16Rv2/KAWPOW header parsing, and Ravencoin-specific assumptions. These must be replaced with Yerbas Core-compatible message framing and Yerbas proof-of-work/header parsing before the wallet is safe to release.
+Yerbas uses two distinct header hashes:
 
-The prior `BRChainParams.h` contained Bitcoin DNS seeds, ports, message magic and checkpoints. This branch replaces those values with Yerbas data and removes the Bitcoin 2016-block retarget verifier, which is incompatible with Yerbas Dark Gravity Wave.
+1. `GetHash()` is the double-SHA256 hash of the serialized 80-byte block header. This is the block ID used by locators, inventory, previous-block references, checkpoints, and explorer/RPC identifiers.
+2. `GetPOWHash()` is GhostRider over the same serialized header, with algorithm selection derived from the previous block hash. This is compared with the target encoded by `nBits`.
 
-## Release gate
+Yerbas does not use Ravencoin's 120-byte KAWPOW header format. The inherited X16R, X16Rv2, Ethash, ProgPoW, and KAWPOW paths in YERB-Droid must therefore be removed.
 
-Do not publish or merge a production APK until all of the following pass:
+## Remaining implementation work
 
-1. Native and Java builds on a clean runner.
-2. Handshake with multiple Yerbas Core `70223` peers.
-3. Header synchronization from genesis and from the newest checkpoint.
-4. Wallet restore and deterministic address-vector tests.
-5. Incoming and outgoing standard YERB transaction tests.
-6. Fee calculation and rejected-transaction tests.
-7. Asset issue, transfer, reissue and metadata parsing tests.
-8. Reorg and invalid-header rejection tests.
-9. Removal of committed `.cxx`, object files and generated build output.
-10. Signed release build tested on currently supported Android versions.
+### Peer and header path
 
-## Security note
+- Replace `BRPeer.c` constants with the shared Yerbas protocol constants.
+- Replace variable 80/120-byte Ravencoin header handling with fixed 80-byte Yerbas headers.
+- Replace X16R/X16Rv2/KAWPOW locator generation with double-SHA256 block IDs.
+- Remove KAWPOW activation-time assumptions and 120-byte offsets.
 
-The temporary mainnet difficulty callback accepts headers after normal header/PoW validation and checkpoint enforcement because the inherited callback only understands Bitcoin's 2016-block retarget. A native Yerbas DGW verifier remains a mandatory production release gate.
+### GhostRider proof of work
+
+- Port `HashSelection`, `coreHash`, `cnHash`, and the required CryptoNight variants from Yerbas Core.
+- Add `BRYerbasGhostRiderHash(header80, prevHash)`.
+- Validate the GhostRider result against the expanded compact target.
+- Add known-block GhostRider vectors from Yerbas Core.
+
+### Dark Gravity Wave
+
+- Port the exact 60-block DGW arithmetic from `src/pow.cpp`.
+- Use 120-second target spacing and mainnet `powLimit`.
+- Verify expected `nBits` for known consecutive mainnet headers.
+
+### Special transactions
+
+- Parse the packed transaction version into base version and type.
+- For non-zero transaction type, parse and preserve the CompactSize-prefixed extra payload after `nLockTime`.
+- Include extra payload bytes in transaction serialization and txid calculation.
+- Treat unsupported special transaction types as opaque payloads rather than rejecting or truncating them.
+
+### Build and release gates
+
+- Add the new protocol source to CMake.
+- Remove obsolete X16R/KAWPOW source entries after GhostRider is integrated.
+- Modernize Gradle/SDK/NDK dependencies.
+- Build all supported Android ABIs in CI.
+- Test clean sync, restore, receive, send, fee handling, assets, and special transactions against live Yerbas peers.
+
+This branch remains a draft until the native GhostRider/DGW implementation compiles and known-chain vectors pass.
