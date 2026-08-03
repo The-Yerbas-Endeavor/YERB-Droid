@@ -1,7 +1,3 @@
-plugins {
-    id "java-library" apply false
-}
-
 allprojects {
     group = "org.yerbas.wallet"
     version = "0.1.0-SNAPSHOT"
