@@ -10,8 +10,6 @@ typedef struct { uint64_t limb[4]; } YerbUInt256;
 
 static void y512_zero(YerbUInt512 *v) { memset(v, 0, sizeof(*v)); }
 
-static Y erbUInt256_placeholder;
-
 static YerbUInt256 y256_from_compact(uint32_t compact)
 {
     YerbUInt256 out = {{0, 0, 0, 0}};
@@ -134,8 +132,6 @@ uint32_t BRYerbasDGWNextTarget(const BRYerbasDGWBlock *blocks, size_t count)
         if (n == 1) {
             average = y512_from_256(target);
         } else {
-            // Mirrors Yerbas Core exactly:
-            // average = (average * n + target) / (n + 1)
             y512_mul_small(&average, n);
             y512_add_256(&average, target);
             y512_div_small(&average, n + 1);
