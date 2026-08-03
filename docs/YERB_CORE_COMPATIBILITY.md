@@ -1,80 +1,62 @@
-# Yerbas Core compatibility
+# Yerbas Android wallet rebuild status
 
-This branch migrates YERB-Droid from inherited Bitcoin/Ravencoin assumptions toward the current Yerbas Core network.
+The repository now contains a clean implementation under `rebuild/`. The inherited Breadwallet/Ravencoin application remains reference-only and is not a production foundation.
 
-## Confirmed current mainnet values
+## Confirmed Yerbas mainnet values
 
 - P2P port: `15420`
 - Message-start bytes: `79 65 72 62` (`yerb`)
+- Protocol version: `70223`
 - Genesis hash: `eff0bbe5c1bbe1ef8da54822a18f528d6dc58232990bdb86e0a77ab2814ed12c`
 - Genesis time: `1652138420`
 - Genesis compact target: `0x20001fff`
-- Pubkey address prefix: `140`
-- Script address prefix: `19`
+- Pubkey prefix: `140`
+- Script prefix: `19`
 - Private-key prefix: `128`
 - BIP44 coin type: `200`
-- Current Core protocol version: `70223`
+- Target spacing: `120` seconds
+- DGW history: `60` blocks
 
-## Implemented native compatibility modules
+## Implemented clean-core components
 
-- `BRYerbasProtocol.[ch]`
-  - current protocol, port and message magic constants
-  - fixed 80-byte block-header parsing and serialization
-  - double-SHA256 block IDs/locators
-  - compact target expansion and PoW target comparison
-  - special-transaction version/type helpers
-- `BRYerbasDGW.[ch]`
-  - exact 60-block DarkGravityWave arithmetic
-  - 120-second target spacing
-  - 512-bit averaging and timespan retarget math matching `yerbas/src/pow.cpp`
-- `BRYerbasSpecialTx.[ch]`
-  - bounds-checked transaction envelope parsing
-  - extraction and preservation of CompactSize-prefixed special-transaction payloads
-- `.github/workflows/native-protocol-checks.yml`
-  - Clang syntax checks
-  - current-network constant checks
-  - rejection of inherited Ravencoin protocol constants
+- Strict Yerbas wire-message framing and checksums
+- Incremental fragmented-TCP frame decoder
+- Socket peer transport with timeouts and serialized writes
+- DNS seed resolution and peer deduplication
+- Version/verack handshake controller with protocol enforcement
+- Ping/pong handling
+- Version payload codec
+- Getheaders and headers codecs
+- Header parsing and block-ID calculation
+- Checkpoint validation
+- Header persistence boundary and in-memory implementation
+- Chain-work tracking and best-tip selection
+- Block locator generation
+- Java and native DarkGravityWave implementations
+- Special-transaction envelope parsing
+- Reorganization event contracts
+- Native and Java regression-test scaffolding
 
-## Confirmed header and proof-of-work architecture
+## Mandatory release-candidate gates
 
-Yerbas serializes a standard 80-byte block header. The block ID and block locator hash are double-SHA256 of that serialized header. Proof of work is a separate GhostRider hash over the header, with algorithm selection derived from the previous block hash.
+The project must remain a draft until every gate below passes on an actual build runner and Android device:
 
-The inherited 120-byte KAWPOW header parser is therefore invalid for Yerbas and must be removed from `BRMerkleBlock.c` and `BRPeer.c`.
+1. `./gradlew :core:test` passes from a clean checkout.
+2. Native C/C++ sources compile for all supported Android ABIs.
+3. DNS bootstrap resolves at least two independent Yerbas peers.
+4. Version/verack handshakes succeed with protocol `70223` peers.
+5. Header synchronization reaches the current network tip.
+6. Checkpoints and exact DGW targets validate across known historical ranges.
+7. GhostRider proof-of-work is verified using known Core block vectors.
+8. Header synchronization resumes correctly after process restart.
+9. BIP39/BIP32/BIP44 vectors match Yerbas Core-derived addresses.
+10. Seed material is encrypted using Android Keystore and never logged.
+11. Standard YERB transactions can be constructed, signed, broadcast and confirmed.
+12. Special transactions and asset payloads round-trip without data loss.
+13. Reorganizations correctly roll wallet and UTXO state backward and forward.
+14. Release APK/AAB builds with reproducible versioning and no debug keys.
+15. Restore, receive, send, offline restart and upgrade tests pass on physical devices.
 
-## Six-workstream status
+## Current validation boundary
 
-1. **Peer protocol:** constants and reusable framing/header primitives are implemented; direct `BRPeer.c` integration remains.
-2. **Merkle/header validation:** fixed 80-byte parsing and target checks are implemented; direct `BRMerkleBlock.c` replacement remains.
-3. **GhostRider and DGW:** exact DGW is implemented; GhostRider dependency port remains.
-4. **Transactions:** safe special-transaction envelope/payload parsing is implemented; ownership and round-trip serialization in `BRTransaction` remain.
-5. **Android modernization:** repository cleanup and native CI checks are implemented; Gradle/AGP/SDK/NDK upgrades remain after native integration.
-6. **Testing:** protocol syntax/constant CI and native test scaffolding are implemented; known mainnet block, PoW, DGW, transaction and live-peer vectors remain.
-
-## Work still requiring integration
-
-1. Replace `BRPeer.c` protocol constants and Ravencoin header locator code with `BRYerbasProtocol` calls.
-2. Replace `BRMerkleBlock.c` X16R/X16Rv2/KAWPOW parsing with fixed 80-byte Yerbas parsing.
-3. Port GhostRider's `HashSelection`, chained core hashes and CryptoNight variants into the Android native build.
-4. Connect `BRYerbasDGWNextTarget()` to the SPV header-chain verifier.
-5. Extend the main `BRTransaction` object to own and reserialize special-transaction extra payload bytes.
-6. Modernize Gradle, AGP, SDK, NDK and dependencies after the native protocol migration compiles.
-7. Add known-block, known-PoW, DGW, special-transaction and live-peer test vectors.
-
-## Release gate
-
-Do not publish or merge a production APK until all of the following pass:
-
-1. Native and Java builds on a clean runner.
-2. Handshake with multiple Yerbas Core `70223` peers.
-3. Header synchronization from genesis and from the newest checkpoint.
-4. GhostRider verification against known mainnet block vectors.
-5. Exact DGW target verification across real mainnet history.
-6. Wallet restore and deterministic address-vector tests.
-7. Incoming and outgoing standard YERB transaction tests.
-8. Special transaction and asset payload round-trip tests.
-9. Reorg and invalid-header rejection tests.
-10. Signed release build tested on currently supported Android versions.
-
-## Security note
-
-The existing production peer and merkle-block files still contain inherited Ravencoin logic. The new modules are isolated and reviewable, but the wallet remains non-release-ready until those modules are integrated, GhostRider is ported, and clean Android builds plus live-network tests pass.
+The connected GitHub environment can safely create and review source files, but it cannot run the Android SDK/NDK build, connect to Yerbas peers, or install an APK on a physical device. Therefore the source is progressing toward a release candidate, but it is not honestly production-ready until the mandatory gates above are executed and their failures are corrected.
