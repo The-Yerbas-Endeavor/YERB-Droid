@@ -1,0 +1,45 @@
+name: Yerbas Native Protocol Checks
+
+on:
+  push:
+    branches:
+      - main
+      - agent/repair-yerbas-compatibility
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  native-protocol:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Clang
+        run: sudo apt-get update && sudo apt-get install -y clang
+
+      - name: Syntax-check Yerbas protocol modules
+        run: |
+          clang -std=c11 -Wall -Wextra -Werror \
+            -Iapp/src/main/jni/core \
+            -fsyntax-only \
+            app/src/main/jni/core/BRYerbasProtocol.c \
+            app/src/main/jni/core/BRYerbasDGW.c \
+            app/src/main/jni/core/BRYerbasSpecialTx.c
+
+      - name: Reject inherited Ravencoin protocol constants
+        shell: bash
+        run: |
+          set -euo pipefail
+          ! grep -R "PROTOCOL_VERSION[[:space:]]*70027" app/src/main/jni/core
+          ! grep -R "0x4e564152" app/src/main/jni/core
+
+      - name: Verify current Yerbas constants exist
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -R "70223" app/src/main/jni/core/BRYerbasProtocol.h
+          grep -R "15420" app/src/main/jni/core/BRYerbasProtocol.h
+          grep -R "YERBAS_DGW_BLOCKS 60" app/src/main/jni/core/BRYerbasDGW.h
+          grep -R "YERBAS_TARGET_SPACING 120" app/src/main/jni/core/BRYerbasDGW.h
