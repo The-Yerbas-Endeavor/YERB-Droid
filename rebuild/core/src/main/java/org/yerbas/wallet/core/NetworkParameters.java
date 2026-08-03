@@ -33,8 +33,11 @@ public record NetworkParameters(
                 60,
                 "eff0bbe5c1bbe1ef8da54822a18f528d6dc58232990bdb86e0a77ab2814ed12c",
                 List.of(
-                        "seed1.yerbas.org",
-                        "seed2.yerbas.org",
-                        "seed3.yerbas.org"));
+                        "weednode00.yerbas.org",
+                        "weednode01.yerbas.org",
+                        "weednode02.yerbas.org",
+                        "weednode03.yerbas.org",
+                        "weednode420.yerbas.org",
+                        "weednode05.yerbas.org"));
     }
 }
